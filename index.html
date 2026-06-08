@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#FF3B7F">
+  <title>PUSH Closer Map</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="assets/push-icon.svg">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <div class="push-logo">PUSH</div>
+      <span class="header-title">Closer Map</span>
+    </div>
+    <div class="header-right">
+      <span class="lead-count" id="leadCount">340</span>
+      <button class="btn-icon" id="btnStats" aria-label="Stats">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="12" width="4" height="9" rx="1"/><rect x="10" y="7" width="4" height="14" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Filter bar -->
+  <div class="filter-bar" id="filterBar">
+    <div class="filter-scroll">
+      <button class="filter-pill active" data-filter="all">Tous</button>
+      <!-- Niche pills injected by JS -->
+      <div id="nichePills"></div>
+    </div>
+    <div class="filter-row" id="filterRow2">
+      <select class="filter-select" id="zoneFilter">
+        <option value="all">Tous les quartiers</option>
+      </select>
+      <select class="filter-select" id="statusFilter">
+        <option value="all">Tous statuts</option>
+        <option value="not_visited">Pas visité</option>
+        <option value="contacted">Contacté</option>
+        <option value="demo_done">Démo faite</option>
+        <option value="rdv_planned">RDV planifié</option>
+        <option value="closed">Closé</option>
+        <option value="not_interested">Pas intéressé</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Bottom sheet overlay -->
+  <div class="sheet-overlay" id="sheetOverlay"></div>
+
+  <!-- Bottom sheet -->
+  <div class="bottom-sheet" id="bottomSheet">
+    <div class="sheet-handle"><div class="handle-bar"></div></div>
+    <div class="sheet-content" id="sheetContent">
+      <!-- Filled by sidebar.js -->
+    </div>
+  </div>
+
+  <!-- Stats modal -->
+  <div class="modal-overlay" id="statsOverlay">
+    <div class="modal" id="statsModal">
+      <div class="modal-header">
+        <h2>Stats Terrain</h2>
+        <button class="btn-close" id="closeStats">&times;</button>
+      </div>
+      <div class="modal-body" id="statsBody"></div>
+    </div>
+  </div>
+
+  <!-- Niche guide modal -->
+  <div class="modal-overlay" id="nicheOverlay">
+    <div class="modal modal-large" id="nicheModal">
+      <div class="modal-header">
+        <h2 id="nicheModalTitle">Guide Niche</h2>
+        <button class="btn-close" id="closeNiche">&times;</button>
+      </div>
+      <div class="modal-body" id="nicheBody"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

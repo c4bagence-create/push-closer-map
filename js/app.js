@@ -2,6 +2,10 @@
 
 import { LEADS } from './data.js';
 import { NICHES } from './niches.js';
+
+// Expose for search (module scope not accessible from inline handlers)
+window.__LEADS = LEADS;
+window.__NICHES = NICHES;
 import { CASA_CENTER, CASA_ZOOM } from './zones.js';
 import { initFilters, onFilterChange, matchesFilter } from './filters.js';
 import { openSheet, closeSheet } from './sidebar.js';
@@ -183,6 +187,57 @@ function openStats() {
 
   document.getElementById('statsOverlay').classList.add('active');
 }
+
+// ===== SEARCH =====
+function initSearch() {
+  const si = document.getElementById('searchInput');
+  const sr = document.getElementById('searchResults');
+  const sc = document.getElementById('searchClear');
+  if (!si) return;
+
+  function doSearch() {
+    const q = si.value.trim().toLowerCase();
+    sc.classList.toggle('visible', q.length > 0);
+    if (q.length < 2) { sr.classList.remove('visible'); return; }
+
+    const matches = LEADS.filter(l =>
+      l.name.toLowerCase().includes(q) ||
+      l.niche.toLowerCase().includes(q) ||
+      (l.quartier && l.quartier.toLowerCase().includes(q))
+    ).slice(0, 8);
+
+    if (!matches.length) { sr.classList.remove('visible'); return; }
+
+    sr.innerHTML = matches.map(l => {
+      const n = NICHES[l.niche] || {};
+      return `<div class="search-result-item" data-id="${l.id}">
+        <span class="search-result-icon">${n.icon || '📍'}</span>
+        <div><div class="search-result-name">${l.name}</div>
+        <div class="search-result-sub">${l.niche} · ${l.quartier}</div></div>
+      </div>`;
+    }).join('');
+    sr.classList.add('visible');
+
+    sr.querySelectorAll('.search-result-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const lead = LEADS.find(l => l.id === parseInt(item.dataset.id));
+        if (lead) {
+          map.setView([lead.lat, lead.lng], 17);
+          openSheet(lead);
+          sr.classList.remove('visible');
+          si.value = '';
+          sc.classList.remove('visible');
+        }
+      });
+    });
+  }
+
+  si.addEventListener('input', doSearch);
+  si.addEventListener('keyup', doSearch);
+  sc.addEventListener('click', () => { si.value = ''; sr.classList.remove('visible'); sc.classList.remove('visible'); });
+  document.addEventListener('click', e => { if (!e.target.closest('.header-center')) sr.classList.remove('visible'); });
+}
+initSearch();
 
 // ===== INIT =====
 buildMarkers();

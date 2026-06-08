@@ -23,15 +23,40 @@ export function openSheet(lead) {
       <div class="lead-icon" style="background:${niche.color}20">${niche.icon || '📍'}</div>
       <div class="lead-header-text">
         <div class="lead-name">${lead.name}</div>
-        <div class="lead-niche">${lead.niche} · ${lead.quartier} · Score ${lead.score}</div>
+        <div class="lead-niche">${lead.niche} · ${lead.quartier}</div>
       </div>
     </div>
 
-    <!-- INFO RAPIDES -->
-    <div class="lead-meta">
-      ${lead.rating > 0 ? `<span class="meta-badge meta-rating">⭐ ${lead.rating}${lead.reviews > 0 ? ` (${lead.reviews})` : ''}</span>` : ''}
-      ${lead.address ? `<span class="meta-badge">📍 ${lead.address}</span>` : ''}
-      <span class="meta-badge"><span class="status-dot status-${status.status}"></span>${STATUSES[status.status]?.label || 'Pas visite'}</span>
+    <!-- FICHE COMMERCE -->
+    <div class="biz-card">
+      <div class="biz-row">
+        <span class="biz-label">Note Google</span>
+        <span class="biz-value">${lead.rating > 0 ? `⭐ ${lead.rating}/5` : '<span class="biz-missing">Pas de note</span>'}</span>
+      </div>
+      <div class="biz-row">
+        <span class="biz-label">Avis Google</span>
+        <span class="biz-value">${lead.reviews > 0 ? `💬 ${lead.reviews} avis` : '<span class="biz-missing">Aucun avis</span>'}</span>
+      </div>
+      <div class="biz-row">
+        <span class="biz-label">Telephone</span>
+        <span class="biz-value">${lead.phone ? `<a href="tel:${lead.phone}" class="biz-link biz-phone">📞 ${lead.phone}</a>` : '<span class="biz-missing">Pas de tel</span>'}</span>
+      </div>
+      <div class="biz-row">
+        <span class="biz-label">Adresse</span>
+        <span class="biz-value">${lead.address ? `📍 ${lead.address}` : '<span class="biz-missing">Pas d\'adresse</span>'}</span>
+      </div>
+      <div class="biz-row">
+        <span class="biz-label">Site web</span>
+        <span class="biz-value">${lead.website ? `<a href="${lead.website}" target="_blank" class="biz-link">🌐 ${lead.website.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}</a>` : '<span class="biz-missing">Pas de site</span>'}</span>
+      </div>
+      <div class="biz-row">
+        <span class="biz-label">Score PUSH</span>
+        <span class="biz-value"><span class="biz-score">${lead.score}</span>/100 · Tier ${lead.tier}</span>
+      </div>
+      <div class="biz-row">
+        <span class="biz-label">Statut</span>
+        <span class="biz-value"><span class="status-dot status-${status.status}"></span>${STATUSES[status.status]?.label || 'Pas visite'}</span>
+      </div>
     </div>
 
     <!-- BOUTONS ACTIONS -->
@@ -40,12 +65,11 @@ export function openSheet(lead) {
         <a href="tel:${lead.phone}" class="action-card action-call">
           <div class="action-icon">📞</div>
           <div class="action-label">Appeler</div>
-          <div class="action-detail">${lead.phone}</div>
         </a>
       ` : ''}
       <a href="${mapsUrl}" target="_blank" class="action-card action-nav">
         <div class="action-icon">🗺️</div>
-        <div class="action-label">Google Maps</div>
+        <div class="action-label">Y aller</div>
       </a>
       <a href="${wazeUrl}" target="_blank" class="action-card action-nav">
         <div class="action-icon">🚗</div>

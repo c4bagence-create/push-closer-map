@@ -713,16 +713,345 @@ export const NICHES = {
       "Rester simple : pas de jargon, montrer le bouton, montrer la notification",
       "L'argument 'le concurrent d'à côté' : concrétiser la compétition"
     ]
+  },
+
+  "Patisseries": {
+    color: "#E91E63",
+    icon: "🎂",
+    frequency: "1-3 fois/semaine pour les habitues",
+    whyPush: [
+      "Les clients de pâtisserie sont des habitués — ils ont LEUR pâtisserie, il faut juste les garder",
+      "Notification 'viennoiseries chaudes' le matin = trafic garanti avant 9h",
+      "Le programme fidélité digital évite les cartes papier tachées de crème"
+    ],
+    notifications: [
+      "🎂 Viennoiseries tout juste sorties du four ! Passez avant 9h",
+      "🍰 Nouveau : notre tarte aux fruits de saison, disponible ce weekend",
+      "⭐ 8/10 ! Encore 2 achats et un gâteau offert",
+      "🎉 -15% sur toutes les pâtisseries aujourd'hui !",
+      "📍 Vous passez devant ? Nos éclairs au chocolat sont prêts"
+    ],
+    closingArgs: [
+      "Vos clients viennent TOUS les jours — c'est le business parfait pour la fidélité",
+      "1 notification le matin = vos clients passent CHEZ VOUS au lieu du concurrent",
+      "Zéro commission, pas comme les apps de livraison"
+    ],
+    demoTips: [
+      "Montrer la notif 'viennoiseries chaudes' — c'est le plus parlant",
+      "Calculer : 50 clients fidèles × 1 visite de plus/semaine = combien ?"
+    ]
+  },
+
+  "Chocolatiers": {
+    color: "#5D4037",
+    icon: "🍫",
+    frequency: "1-2 fois/semaine, pics aux fêtes",
+    whyPush: [
+      "Le chocolat c'est l'achat plaisir par excellence — une notif au bon moment = vente assurée",
+      "Les fêtes (Aïd, Saint-Valentin, Noël) = pics de vente, la notif touche TOUS vos clients d'un coup",
+      "Programme fidélité = le client revient chez vous au lieu d'aller au supermarché"
+    ],
+    notifications: [
+      "🍫 Nouveauté : nos pralinés artisanaux sont arrivés !",
+      "🎁 Coffret cadeau spécial fêtes — commandez maintenant",
+      "⭐ 8/10 tampons ! Encore 2 et un ballotin offert",
+      "📍 Envie de douceur ? On est à 2 min de vous",
+      "🔥 -20% sur les tablettes aujourd'hui seulement"
+    ],
+    closingArgs: [
+      "Le chocolat c'est de l'émotion — la notif push crée l'envie au bon moment",
+      "Pendant les fêtes, 1 notif = des dizaines de commandes",
+      "Vos clients achètent déjà chez vous — gardez-les avec la fidélité digitale"
+    ],
+    demoTips: [
+      "Montrer le programme de fidélité stamps — concret et simple",
+      "Insister sur les pics saisonniers (Aïd, fêtes)"
+    ]
+  },
+
+  "Traiteurs": {
+    color: "#FF7043",
+    icon: "🍱",
+    frequency: "Events reguliers, commandes recurrentes",
+    whyPush: [
+      "Les clients traiteur commandent pour des événements réguliers — fidélisez-les et ils ne chercheront plus jamais ailleurs",
+      "La notification push rappelle votre existence au moment où ils planifient un event",
+      "0 commission vs les plateformes de livraison"
+    ],
+    notifications: [
+      "🍱 Menu spécial entreprise : plateaux repas à partir de 150 DH",
+      "🎉 Vous organisez un event ? Commandez avant vendredi, livraison offerte",
+      "⭐ Client fidèle ! -10% sur votre prochaine commande traiteur",
+      "📍 Nouveau menu printemps disponible — consultez notre carte",
+      "🔥 Brunch d'entreprise : formule tout compris à 80 DH/personne"
+    ],
+    closingArgs: [
+      "Vos clients commandent pour des events RÉCURRENTS — la fidélité est naturelle",
+      "1 rappel push avant le weekend = commandes de dernière minute",
+      "Le programme fidélité incite à commander chez vous plutôt que de chercher ailleurs"
+    ],
+    demoTips: [
+      "Parler des commandes récurrentes (entreprises, familles)",
+      "Montrer la notif promo weekend"
+    ]
+  },
+
+  "Pharmacies": {
+    color: "#4CAF50",
+    icon: "💊",
+    frequency: "Quotidien a hebdomadaire",
+    whyPush: [
+      "La pharmacie c'est un commerce de PROXIMITÉ — vos clients habitent à côté et reviennent TOUJOURS",
+      "Notification de rappel de traitement = service + fidélité",
+      "Programme fidélité sur la parapharmacie = marge et rétention"
+    ],
+    notifications: [
+      "💊 Rappel : votre ordonnance est peut-être à renouveler",
+      "🌿 Nouveautés parapharmacie : -20% cette semaine",
+      "⭐ 10 achats = 1 produit parapharmacie offert",
+      "📍 Pharmacie de garde ce weekend — on est ouverts !",
+      "🔥 Solaires, crèmes, vitamines : préparez l'été avec nos promos"
+    ],
+    closingArgs: [
+      "Vos clients viennent DÉJÀ régulièrement — captez cette fidélité naturelle",
+      "La parapharmacie a des marges élevées — la fidélité booste ce segment",
+      "Aucun concurrent local n'utilise les notifications push — soyez le premier"
+    ],
+    demoTips: [
+      "Insister sur la parapharmacie (cosmétique, vitamines) pas les médicaments",
+      "Montrer le rappel d'ordonnance comme service à valeur ajoutée"
+    ]
+  },
+
+  "Pressing": {
+    color: "#607D8B",
+    icon: "👔",
+    frequency: "Hebdomadaire pour les professionnels",
+    whyPush: [
+      "Le pressing c'est un RITUEL — les clients y vont chaque semaine, c'est la fidélité la plus facile à capter",
+      "Notification de rappel 'vos vêtements sont prêts' = service premium",
+      "Les pros (chemises, costumes) sont des clients à vie si vous les fidélisez"
+    ],
+    notifications: [
+      "👔 Vos vêtements sont prêts ! Passez les récupérer",
+      "🔥 -20% sur le nettoyage de couettes cette semaine",
+      "⭐ 10 pressings = 1 chemise offerte",
+      "📍 Besoin d'un pressing express ? On fait ça en 2h",
+      "🌟 Nouveau : service de ramassage à domicile !"
+    ],
+    closingArgs: [
+      "Les clients pressing reviennent CHAQUE SEMAINE — c'est le business parfait pour PUSH",
+      "Le rappel 'vêtements prêts' c'est un service que vos clients vont adorer",
+      "Les professionnels ont besoin d'un pressing fiable — devenez leur réflexe"
+    ],
+    demoTips: [
+      "Montrer la notif 'vêtements prêts' — ça parle immédiatement",
+      "Cibler les quartiers d'affaires (Gauthier, Racine)"
+    ]
+  },
+
+  "Fleuristes": {
+    color: "#E91E63",
+    icon: "💐",
+    frequency: "Occasionnel mais recurrent (fetes, anniversaires)",
+    whyPush: [
+      "Les fleurs c'est un achat d'IMPULSION — la notification au bon moment = vente directe",
+      "Rappels automatiques avant les fêtes (Aïd, Saint-Valentin, fête des mères) = pic de ventes",
+      "Le client fidèle commande pour CHAQUE occasion — anniversaires, mariages, events"
+    ],
+    notifications: [
+      "💐 Fête des mères dimanche ! Commandez votre bouquet maintenant",
+      "🌹 Roses fraîches arrivées ce matin — passez les voir",
+      "⭐ 5 bouquets achetés = 1 composition offerte",
+      "📍 Vous cherchez un cadeau ? On est tout près !",
+      "🎉 -15% sur les compositions florales ce weekend"
+    ],
+    closingArgs: [
+      "Les fleurs c'est un achat d'émotion — la notif crée l'envie au bon moment",
+      "Les rappels avant les fêtes sont AUTOMATIQUES — vous ne ratez plus aucune occasion",
+      "La fidélité transforme l'achat ponctuel en habitude"
+    ],
+    demoTips: [
+      "Montrer le rappel avant fête des mères — c'est concret",
+      "Insister sur les occasions récurrentes"
+    ]
+  },
+
+  "Boutiques mode": {
+    color: "#9C27B0",
+    icon: "👗",
+    frequency: "1-2 fois/mois",
+    whyPush: [
+      "La mode c'est du FOMO — la notification 'nouvelle collection' crée l'urgence d'acheter",
+      "Ventes privées exclusives pour vos clients fidèles = ils reviennent en premier",
+      "Programme fidélité = le client accumule et revient au lieu d'aller chez Zara"
+    ],
+    notifications: [
+      "👗 Nouvelle collection ! Découvrez-la avant tout le monde",
+      "🔥 Vente privée -30% ce weekend — réservée à nos fidèles",
+      "⭐ 500 DH d'achats = bon de 50 DH offert",
+      "📍 Passez nous voir ! Nouvelles pièces en vitrine",
+      "🎉 Soldes : jusqu'à -50% sur la collection précédente"
+    ],
+    closingArgs: [
+      "La mode c'est de l'émotion et de l'urgence — la notif push est l'outil parfait",
+      "Les ventes privées fidélisent vos meilleurs clients",
+      "Vos clientes suivent déjà votre Instagram — mettez-les dans votre Wallet aussi"
+    ],
+    demoTips: [
+      "Montrer la notif 'nouvelle collection' + 'vente privée'",
+      "Insister sur l'exclusivité pour les clients fidèles"
+    ]
+  },
+
+  "Opticiens": {
+    color: "#00BCD4",
+    icon: "👓",
+    frequency: "1-2 fois/an mais panier eleve",
+    whyPush: [
+      "Le panier moyen opticien est ÉLEVÉ — chaque client fidélisé vaut des milliers de DH",
+      "Rappel annuel 'contrôle de vue' = le client revient automatiquement",
+      "Les lentilles sont un achat RÉCURRENT mensuel — fidélité naturelle"
+    ],
+    notifications: [
+      "👓 Il est temps de contrôler votre vue ! Prenez RDV",
+      "🔥 -20% sur les solaires cette semaine",
+      "⭐ 2 paires achetées = nettoyage offert à vie",
+      "📍 Nouvelles montures tendance en boutique !",
+      "💡 Vos lentilles mensuelles sont bientôt finies — recommandez"
+    ],
+    closingArgs: [
+      "Le panier moyen est > 2000 DH — 1 client fidélisé = des milliers de DH/an",
+      "Le rappel annuel de contrôle est un SERVICE — le client vous remercie",
+      "Les lentilles = achat récurrent = fidélité automatique"
+    ],
+    demoTips: [
+      "Insister sur le rappel de contrôle annuel — c'est un vrai service",
+      "Parler du panier moyen élevé pour justifier l'investissement"
+    ]
+  },
+
+  "Bijouteries": {
+    color: "#FFC107",
+    icon: "💎",
+    frequency: "Occasionnel mais panier tres eleve",
+    whyPush: [
+      "La bijouterie c'est un achat d'OCCASION — rappels anniversaires/fêtes = vente assurée",
+      "Le panier moyen est très élevé — chaque rappel a un ROI énorme",
+      "La fidélité crée une relation de confiance sur le long terme"
+    ],
+    notifications: [
+      "💎 Nouvelle collection or 18 carats — découvrez-la en boutique",
+      "🎁 L'anniversaire de votre moitié approche ? On a des idées...",
+      "⭐ Client fidèle : gravure offerte sur votre prochain achat",
+      "🔥 Vente privée ce weekend — pièces exclusives",
+      "📍 Passez nous voir — arrivage de pièces uniques"
+    ],
+    closingArgs: [
+      "1 vente = 1000-10000 DH — l'abonnement PUSH est rentabilisé en 1 client",
+      "Les rappels avant occasions (anniversaires, Aïd) déclenchent l'achat",
+      "La confiance est TOUT dans la bijouterie — la fidélité digitale la renforce"
+    ],
+    demoTips: [
+      "Parler du ROI : 1 vente rembourse 1 an d'abonnement",
+      "Montrer les rappels d'occasions personnalisés"
+    ]
+  },
+
+  "Animaleries": {
+    color: "#795548",
+    icon: "🐾",
+    frequency: "Mensuel (croquettes, soins)",
+    whyPush: [
+      "Les propriétaires d'animaux achètent de la nourriture CHAQUE MOIS — fidélité naturelle",
+      "Rappel 'croquettes bientôt finies' = le client ne va jamais chez le concurrent",
+      "Les soins vétérinaires sont récurrents — vaccins, vermifuges, check-ups"
+    ],
+    notifications: [
+      "🐾 Croquettes premium en promo : -15% cette semaine",
+      "💉 Rappel : vaccin annuel de votre animal — prenez RDV",
+      "⭐ 10 achats = 1 paquet de croquettes offert",
+      "📍 Nouveau jouet ? Passez voir nos nouveautés !",
+      "🔥 Toilettage : -20% pour nos clients fidèles"
+    ],
+    closingArgs: [
+      "Les propriétaires d'animaux dépensent 200-500 DH/mois — ils reviennent TOUJOURS",
+      "Le rappel de croquettes et de vaccins est un SERVICE que le client adore",
+      "Le lien émotionnel avec l'animal = le client reste fidèle"
+    ],
+    demoTips: [
+      "Montrer le rappel de croquettes — ultra concret",
+      "Parler du budget animal mensuel pour montrer le potentiel"
+    ]
+  },
+
+  "Lavage auto": {
+    color: "#37474F",
+    icon: "🚗",
+    frequency: "1-2 fois/mois",
+    whyPush: [
+      "Le lavage auto c'est un RITUEL — les clients y vont régulièrement au même endroit",
+      "Notification 'votre voiture a besoin d'un lavage' après 2 semaines = rappel intelligent",
+      "Le programme fidélité stamps est PARFAIT pour le lavage — simple et efficace"
+    ],
+    notifications: [
+      "🚗 Ça fait 2 semaines ! Votre voiture a besoin d'un petit coup de propre",
+      "🔥 -20% sur le lavage intérieur/extérieur cette semaine",
+      "⭐ 8/10 lavages ! Encore 2 et le prochain est gratuit",
+      "📍 Passez sans RDV — pas d'attente en ce moment",
+      "🌟 Nouveau : service de detailing premium disponible"
+    ],
+    closingArgs: [
+      "Les clients lavent leur voiture au MÊME endroit — captez cette habitude",
+      "Le rappel automatique après 2 semaines remplit votre planning",
+      "Le stamps (10 lavages = 1 gratuit) est ultra simple à comprendre"
+    ],
+    demoTips: [
+      "Le stamps est l'argument #1 — montrer le tampon digital",
+      "Insister sur le rappel automatique après X jours"
+    ]
+  },
+
+  "Yoga & Pilates": {
+    color: "#009688",
+    icon: "🧘",
+    frequency: "2-4 fois/semaine pour les reguliers",
+    whyPush: [
+      "Le yoga c'est une communauté — la notification push renforce le lien avec vos élèves",
+      "Rappel de cours + places restantes = meilleur taux de remplissage",
+      "Le programme fidélité incite les débutants à devenir des réguliers"
+    ],
+    notifications: [
+      "🧘 Cours de yoga ce soir à 19h — il reste 3 places !",
+      "🌅 Nouveau : cours de sunrise yoga samedi 7h, inscrivez-vous",
+      "⭐ 10 cours = 1 cours offert, vous en êtes à 7 !",
+      "📍 Passez décompresser — session de 30 min à la pause déj",
+      "🔥 Workshop spécial méditation ce dimanche — places limitées"
+    ],
+    closingArgs: [
+      "Vos élèves ont leur téléphone en permanence — le rappel de cours est naturel",
+      "Le remplissage des cours est votre enjeu #1 — la notif le résout",
+      "La communauté yoga est fidèle — le programme stamps les ancre chez vous"
+    ],
+    demoTips: [
+      "Montrer la notif 'il reste 3 places' — crée l'urgence",
+      "Parler du remplissage des cours en heures creuses"
+    ]
   }
 };
 
 // Niche order for display (by tier)
 export const NICHE_ORDER = [
-  // Tier 1
-  "Restaurants", "Cafes", "Boulangeries", "Pizzerias", "Burgers", "Fast-food",
-  "Sushi", "Glaciers", "Salons de the", "Juice bars", "Coffee shops",
-  // Tier 2
+  // Tier 1 — Food daily
+  "Restaurants", "Cafes", "Boulangeries", "Patisseries", "Pizzerias", "Burgers",
+  "Fast-food", "Sushi", "Glaciers", "Salons de the", "Juice bars", "Coffee shops",
+  // Tier 2 — Beauty & services
   "Coiffeurs", "Barbershops", "Esthetique", "Ongleries", "Spas", "Fitness",
-  // Tier 3
-  "Matcha", "Bubble tea", "Cookies", "Brunch", "Healthy", "Acai", "Creperies", "Snacks"
+  "Pharmacies", "Pressing", "Opticiens",
+  // Tier 3 — Trendy food
+  "Matcha", "Bubble tea", "Cookies", "Brunch", "Healthy", "Acai", "Creperies",
+  "Snacks", "Chocolatiers", "Traiteurs",
+  // Tier 3 — Retail & services
+  "Boutiques mode", "Bijouteries", "Fleuristes", "Animaleries", "Lavage auto",
+  "Yoga & Pilates"
 ];

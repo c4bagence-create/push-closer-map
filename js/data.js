@@ -1,4 +1,4 @@
-// PUSH Closer Map — Lead data (677 leads)
+// PUSH Closer Map — 643 leads across 37 niches
 
 export const LEADS = [
   {
@@ -11,10 +11,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 75,
+    "id": 1,
     "quartier": "Racine",
     "lat": 33.5933217,
-    "lng": -7.6276159,
-    "id": 1
+    "lng": -7.6276159
   },
   {
     "name": "Euro-Snack",
@@ -26,10 +26,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 75,
-    "quartier": "Centre-ville",
-    "lat": 33.5961706,
-    "lng": -7.6050116,
-    "id": 2
+    "id": 2,
+    "quartier": "Racine",
+    "lat": 33.5901779,
+    "lng": -7.6258337
   },
   {
     "name": "Oliveri – Maître Glacier",
@@ -41,10 +41,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 75,
-    "quartier": "Anfa",
-    "lat": 33.5809183,
-    "lng": -7.6544019,
-    "id": 3
+    "id": 3,
+    "quartier": "Hay Hassani",
+    "lat": 33.567102,
+    "lng": -7.6656823
   },
   {
     "name": "Découvrez nos délicieux burgers, frais, généreux,",
@@ -56,10 +56,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 74,
+    "id": 4,
     "quartier": "Maarif",
     "lat": 33.5768008,
-    "lng": -7.6297291,
-    "id": 4
+    "lng": -7.6297291
   },
   {
     "name": "Fast Food",
@@ -71,10 +71,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 74,
-    "quartier": "Oulfa",
-    "lat": 33.5602084,
-    "lng": -7.5891235,
-    "id": 5
+    "id": 5,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.54825,
+    "lng": -7.6519482
   },
   {
     "name": "مطعم السقالة في كازا",
@@ -86,10 +86,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 71,
+    "id": 6,
     "quartier": "Racine",
     "lat": 33.5880516,
-    "lng": -7.634954,
-    "id": 6
+    "lng": -7.634954
   },
   {
     "name": "0Ochef.ma",
@@ -101,10 +101,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 71,
+    "id": 7,
     "quartier": "Ain Diab",
     "lat": 33.5852924,
-    "lng": -7.6748417,
-    "id": 7
+    "lng": -7.6748417
   },
   {
     "name": "Café Gauthier",
@@ -116,10 +116,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 71,
+    "id": 8,
     "quartier": "Maarif",
     "lat": 33.5733184,
-    "lng": -7.6361432,
-    "id": 8
+    "lng": -7.6361432
   },
   {
     "name": "patisserie.casabianca",
@@ -131,10 +131,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 71,
-    "quartier": "CIL",
-    "lat": 33.5628951,
-    "lng": -7.6166947,
-    "id": 9
+    "id": 9,
+    "quartier": "Corniche",
+    "lat": 33.5958951,
+    "lng": -7.6586947
   },
   {
     "name": "Fleur De Blé",
@@ -146,10 +146,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 71,
-    "quartier": "Palmier",
-    "lat": 33.571194,
-    "lng": -7.6326109,
-    "id": 10
+    "id": 10,
+    "quartier": "Ain Diab",
+    "lat": 33.5983234,
+    "lng": -7.6660182
   },
   {
     "name": "Ôdelices Pâtisserie maarif",
@@ -161,10 +161,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 71,
-    "quartier": "Palmier",
-    "lat": 33.5707671,
-    "lng": -7.6389375,
-    "id": 11
+    "id": 11,
+    "quartier": "Ain Diab",
+    "lat": 33.5976118,
+    "lng": -7.6765625
   },
   {
     "name": "PAIN - boulangerie au levain",
@@ -176,10 +176,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 71,
-    "quartier": "Bourgogne",
-    "lat": 33.5796184,
-    "lng": -7.6234426,
-    "id": 12
+    "id": 12,
+    "quartier": "Maarif",
+    "lat": 33.5723245,
+    "lng": -7.6382568
   },
   {
     "name": "BEN'S COFFEE SHOP",
@@ -191,10 +191,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 69,
+    "id": 13,
     "quartier": "California",
     "lat": 33.5742462,
-    "lng": -7.6677072,
-    "id": 13
+    "lng": -7.6677072
   },
   {
     "name": "boost coffee ghandi",
@@ -206,10 +206,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 69,
+    "id": 14,
     "quartier": "Anfa",
     "lat": 33.5674241,
-    "lng": -7.6620022,
-    "id": 14
+    "lng": -7.6620022
   },
   {
     "name": "Katia",
@@ -221,25 +221,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 69,
+    "id": 15,
     "quartier": "Maarif",
     "lat": 33.5693241,
-    "lng": -7.6382557,
-    "id": 15
-  },
-  {
-    "name": "LIVRAISON A DOMICILE 24/24 Commandez maintenant ..",
-    "address": "",
-    "phone": "0650525596",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.facebook.com/chezrobio1/posts/livraison-a-domicile-2424commandez-maintenant-sur-0650-525596356-bd-abdelmoumen-/1588625065361507/",
-    "niche": "Pizzerias",
-    "tier": 1,
-    "score": 69,
-    "quartier": "Maarif",
-    "lat": 33.5777111,
-    "lng": -7.6381201,
-    "id": 16
+    "lng": -7.6382557
   },
   {
     "name": "BURGER BROS",
@@ -251,10 +236,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 69,
-    "quartier": "Corniche",
-    "lat": 33.5968532,
-    "lng": -7.6555424,
-    "id": 17
+    "id": 16,
+    "quartier": "Gauthier",
+    "lat": 33.5912583,
+    "lng": -7.6278401
   },
   {
     "name": "Snack Snip taste",
@@ -266,10 +251,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 69,
-    "quartier": "Hay Hassani",
-    "lat": 33.5640558,
-    "lng": -7.6633672,
-    "id": 18
+    "id": 17,
+    "quartier": "Corniche",
+    "lat": 33.5968532,
+    "lng": -7.6555424
   },
   {
     "name": "Cafe Maarif Casablan",
@@ -281,10 +266,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 68,
+    "id": 18,
     "quartier": "Bourgogne",
-    "lat": 33.5786873,
-    "lng": -7.6237434,
-    "id": 19
+    "lat": 33.5822279,
+    "lng": -7.6155836
   },
   {
     "name": "Pâtisserie Les Jumeaux",
@@ -296,10 +281,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 68,
-    "quartier": "Bourgogne",
-    "lat": 33.5778594,
-    "lng": -7.6208149,
-    "id": 20
+    "id": 19,
+    "quartier": "Anfa",
+    "lat": 33.5724788,
+    "lng": -7.6660724
   },
   {
     "name": "O delices pâtisserie maarif",
@@ -311,10 +296,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 68,
-    "quartier": "Hay Hassani",
-    "lat": 33.560281,
-    "lng": -7.6613843,
-    "id": 21
+    "id": 20,
+    "quartier": "Gauthier",
+    "lat": 33.5854594,
+    "lng": -7.6253149
   },
   {
     "name": "Pâtisserie La Prunelle",
@@ -326,10 +311,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 68,
-    "quartier": "Palmier",
-    "lat": 33.5729225,
-    "lng": -7.6353245,
-    "id": 22
+    "id": 21,
+    "quartier": "Racine",
+    "lat": 33.5913638,
+    "lng": -7.627589
   },
   {
     "name": "Boulangerie Pâtisserie Asni, Maarif",
@@ -341,10 +326,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 68,
-    "quartier": "Oulfa",
-    "lat": 33.5561878,
-    "lng": -7.5838539,
-    "id": 23
+    "id": 22,
+    "quartier": "Hay Hassani",
+    "lat": 33.5614254,
+    "lng": -7.6626247
   },
   {
     "name": "Il Ferrarino",
@@ -356,10 +341,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 66,
+    "id": 23,
     "quartier": "2 Mars",
     "lat": 33.5825399,
-    "lng": -7.6312756,
-    "id": 24
+    "lng": -7.6312756
   },
   {
     "name": "Poissons et Fruits de mer",
@@ -371,10 +356,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 66,
+    "id": 24,
     "quartier": "Maarif",
     "lat": 33.5749415,
-    "lng": -7.6373104,
-    "id": 25
+    "lng": -7.6373104
   },
   {
     "name": "Le Rossignol",
@@ -386,10 +371,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 66,
+    "id": 25,
     "quartier": "Maarif",
     "lat": 33.5749911,
-    "lng": -7.6246412,
-    "id": 26
+    "lng": -7.6246412
   },
   {
     "name": "Lora Anfa",
@@ -401,25 +386,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 66,
+    "id": 26,
     "quartier": "Racine",
     "lat": 33.58733,
-    "lng": -7.6264223,
-    "id": 27
-  },
-  {
-    "name": "Meilleur Café à Maarif : CaffeineMaarif",
-    "address": "Rue Aziz Bellal, en face de l'entrée parking Twin Center, Maârif, Casablanca",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.tiktok.com/@delph_inmorocco/video/7569209557852130581",
-    "niche": "Coffee shops",
-    "tier": 1,
-    "score": 66,
-    "quartier": "California",
-    "lat": 33.5749346,
-    "lng": -7.6743679,
-    "id": 28
+    "lng": -7.6264223
   },
   {
     "name": "Café d'Anfa",
@@ -431,10 +401,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 66,
-    "quartier": "Gauthier",
-    "lat": 33.5874822,
-    "lng": -7.6200104,
-    "id": 29
+    "id": 27,
+    "quartier": "California",
+    "lat": 33.5749346,
+    "lng": -7.6743679
   },
   {
     "name": "PIZZA DI PAPI",
@@ -446,10 +416,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 66,
-    "quartier": "Oulfa",
-    "lat": 33.5464741,
-    "lng": -7.5921308,
-    "id": 30
+    "id": 28,
+    "quartier": "Bourgogne",
+    "lat": 33.5798822,
+    "lng": -7.6155104
   },
   {
     "name": "Blend",
@@ -461,10 +431,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 66,
-    "quartier": "Corniche",
-    "lat": 33.602343,
-    "lng": -7.6652471,
-    "id": 31
+    "id": 29,
+    "quartier": "Hay Hassani",
+    "lat": 33.5497689,
+    "lng": -7.6725569
   },
   {
     "name": "🔥 Burger King",
@@ -476,10 +446,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 66,
-    "quartier": "2 Mars",
-    "lat": 33.5848425,
-    "lng": -7.6280478,
-    "id": 32
+    "id": 30,
+    "quartier": "Corniche",
+    "lat": 33.602343,
+    "lng": -7.6652471
   },
   {
     "name": "MENU MAARIF",
@@ -491,25 +461,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 66,
-    "quartier": "Derb Sultan",
-    "lat": 33.5895397,
-    "lng": -7.6033678,
-    "id": 33
-  },
-  {
-    "name": "BÔ SUSHI – Livraison de Sushis à domicile sur Bous",
-    "address": "N3, Imm I, Résidence Diar Al Andalouss, Bouskoura",
-    "phone": "0522781313",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://bosushi.ma/",
-    "niche": "Sushi",
-    "tier": 1,
-    "score": 66,
-    "quartier": "Maarif",
-    "lat": 33.5753652,
-    "lng": -7.6289622,
-    "id": 34
+    "id": 31,
+    "quartier": "Racine",
+    "lat": 33.5921425,
+    "lng": -7.6310478
   },
   {
     "name": "DS Artisan Glacier",
@@ -521,10 +476,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 66,
-    "quartier": "2 Mars",
-    "lat": 33.5787049,
-    "lng": -7.6302823,
-    "id": 35
+    "id": 32,
+    "quartier": "Centre-ville",
+    "lat": 33.5975397,
+    "lng": -7.6102678
   },
   {
     "name": "Marina Juice",
@@ -536,10 +491,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 66,
-    "quartier": "Bourgogne",
-    "lat": 33.5847531,
-    "lng": -7.619011,
-    "id": 36
+    "id": 33,
+    "quartier": "Gauthier",
+    "lat": 33.5894989,
+    "lng": -7.6209716
   },
   {
     "name": "The BARBER SHOP",
@@ -551,10 +506,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 66,
-    "quartier": "Hay Hassani",
-    "lat": 33.5625558,
-    "lng": -7.6730588,
-    "id": 37
+    "id": 34,
+    "quartier": "Derb Sultan",
+    "lat": 33.5826065,
+    "lng": -7.608043
   },
   {
     "name": "Barber Star Club Barber Star Club",
@@ -566,10 +521,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 66,
-    "quartier": "Maarif",
-    "lat": 33.5705581,
-    "lng": -7.6377559,
-    "id": 38
+    "id": 35,
+    "quartier": "Hay Hassani",
+    "lat": 33.5691063,
+    "lng": -7.670222
   },
   {
     "name": "La Grande Pharmacie",
@@ -581,10 +536,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 66,
-    "quartier": "Bourgogne",
-    "lat": 33.5806458,
-    "lng": -7.6226978,
-    "id": 39
+    "id": 36,
+    "quartier": "Hay Hassani",
+    "lat": 33.5625558,
+    "lng": -7.6730588
   },
   {
     "name": "Bondi Coffee Kitchen",
@@ -596,10 +551,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
-    "quartier": "Bourgogne",
-    "lat": 33.5762764,
-    "lng": -7.6171952,
-    "id": 40
+    "id": 37,
+    "quartier": "Maarif",
+    "lat": 33.5705581,
+    "lng": -7.6377559
   },
   {
     "name": "Kiki's Café Zerktouni",
@@ -611,10 +566,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
+    "id": 38,
     "quartier": "Bourgogne",
-    "lat": 33.5854359,
-    "lng": -7.6198346,
-    "id": 41
+    "lat": 33.5806458,
+    "lng": -7.6226978
   },
   {
     "name": "Café de la Fontaine",
@@ -626,10 +581,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
-    "quartier": "Palmier",
-    "lat": 33.5728109,
-    "lng": -7.6379428,
-    "id": 42
+    "id": 39,
+    "quartier": "Bourgogne",
+    "lat": 33.5762764,
+    "lng": -7.6171952
   },
   {
     "name": "Madre Mia",
@@ -641,10 +596,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
+    "id": 40,
     "quartier": "Bourgogne",
-    "lat": 33.5826387,
-    "lng": -7.6226551,
-    "id": 43
+    "lat": 33.5854359,
+    "lng": -7.6198346
   },
   {
     "name": "Le Doge Café",
@@ -656,10 +611,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
-    "quartier": "Gauthier",
-    "lat": 33.5908499,
-    "lng": -7.6190407,
-    "id": 44
+    "id": 41,
+    "quartier": "Palmier",
+    "lat": 33.5728109,
+    "lng": -7.6379428
   },
   {
     "name": "Terrasse Jasmin",
@@ -671,10 +626,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
-    "quartier": "Palmier",
-    "lat": 33.5735415,
-    "lng": -7.6366668,
-    "id": 45
+    "id": 42,
+    "quartier": "Bourgogne",
+    "lat": 33.5826387,
+    "lng": -7.6226551
   },
   {
     "name": "THE CLOUD COFFEE LAB",
@@ -686,10 +641,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 65,
-    "quartier": "Maarif",
-    "lat": 33.5683223,
-    "lng": -7.635623,
-    "id": 46
+    "id": 43,
+    "quartier": "Gauthier",
+    "lat": 33.5908499,
+    "lng": -7.6190407
   },
   {
     "name": "Boulangerie Pâtisserie Al Barakata",
@@ -701,10 +656,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "Bourgogne",
-    "lat": 33.5853104,
-    "lng": -7.6213402,
-    "id": 47
+    "id": 44,
+    "quartier": "Hay Hassani",
+    "lat": 33.5710831,
+    "lng": -7.6733335
   },
   {
     "name": "Aux Petit Gateaux",
@@ -716,10 +671,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "Palmier",
-    "lat": 33.5682236,
-    "lng": -7.6316304,
-    "id": 48
+    "id": 45,
+    "quartier": "Maarif",
+    "lat": 33.5683223,
+    "lng": -7.635623
   },
   {
     "name": "Boulangerie Patisserie Serraj",
@@ -731,10 +686,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "Oulfa",
-    "lat": 33.5589766,
-    "lng": -7.5913769,
-    "id": 49
+    "id": 46,
+    "quartier": "Gauthier",
+    "lat": 33.5929104,
+    "lng": -7.6258402
   },
   {
     "name": "Petits Beurres",
@@ -746,10 +701,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "CIL",
-    "lat": 33.5681922,
-    "lng": -7.6272486,
-    "id": 50
+    "id": 47,
+    "quartier": "Anfa",
+    "lat": 33.5753727,
+    "lng": -7.652384
   },
   {
     "name": "La Calidad",
@@ -761,10 +716,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "Oulfa",
-    "lat": 33.5554611,
-    "lng": -7.5946198,
-    "id": 51
+    "id": 48,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5467719,
+    "lng": -7.6546522
   },
   {
     "name": "L'Artisan Maison Gourmande",
@@ -776,10 +731,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "CIL",
-    "lat": 33.5687685,
-    "lng": -7.6213075,
-    "id": 52
+    "id": 49,
+    "quartier": "Centre-ville",
+    "lat": 33.5981922,
+    "lng": -7.6191486
   },
   {
     "name": "Cécile Artisan Boulanger Pâtissier",
@@ -791,10 +746,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 65,
-    "quartier": "Oulfa",
-    "lat": 33.5598235,
-    "lng": -7.5949816,
-    "id": 53
+    "id": 50,
+    "quartier": "Hay Hassani",
+    "lat": 33.5605534,
+    "lng": -7.6755438
   },
   {
     "name": "Miami Fitness Club & Spa",
@@ -806,10 +761,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 64,
-    "quartier": "Anfa",
-    "lat": 33.582964,
-    "lng": -7.6618142,
-    "id": 54
+    "id": 51,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5476528,
+    "lng": -7.6549613
   },
   {
     "name": "Les Villes",
@@ -821,25 +776,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 64,
-    "quartier": "Bourgogne",
-    "lat": 33.5792621,
-    "lng": -7.6228557,
-    "id": 55
-  },
-  {
-    "name": "Les 10 Meilleurs Restaurants avec Vue Panoramique",
-    "address": "Restaurant emblématique face à l'océan Atlantique, idéal pour dîner",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.nomadscasablanca.com/les-10-meilleurs-restaurants-avec-vue-panoramique-a-casablanca/",
-    "niche": "Restaurants",
-    "tier": 1,
-    "score": 63,
-    "quartier": "Racine",
-    "lat": 33.5868179,
-    "lng": -7.6344108,
-    "id": 56
+    "id": 52,
+    "quartier": "Palmier",
+    "lat": 33.5708941,
+    "lng": -7.637989
   },
   {
     "name": "CHEZ MASSIMO – Votre restaurant italien",
@@ -851,10 +791,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Corniche",
-    "lat": 33.5936622,
-    "lng": -7.6606352,
-    "id": 57
+    "id": 53,
+    "quartier": "Gauthier",
+    "lat": 33.5925784,
+    "lng": -7.6256885
   },
   {
     "name": "découvrez la sélection restaurant Italien",
@@ -866,10 +806,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5697637,
-    "lng": -7.6268004,
-    "id": 58
+    "id": 54,
+    "quartier": "Racine",
+    "lat": 33.5904183,
+    "lng": -7.6274717
   },
   {
     "name": "La Taverne Du Dauphin",
@@ -881,25 +821,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Gauthier",
-    "lat": 33.5861368,
-    "lng": -7.6244328,
-    "id": 59
-  },
-  {
-    "name": "Le top 5 des restaurants à Maârif, juin 2026",
-    "address": "Restaurant Maarif Casablanca · 4",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://fr.restaurantguru.com/Maarif",
-    "niche": "Restaurants",
-    "tier": 1,
-    "score": 63,
+    "id": 55,
     "quartier": "Racine",
-    "lat": 33.5870446,
-    "lng": -7.6334353,
-    "id": 60
+    "lat": 33.5868179,
+    "lng": -7.6344108
   },
   {
     "name": "Top 12 Restaurants Soiree Romantique a Gauthier, C",
@@ -911,10 +836,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5751579,
-    "lng": -7.6346993,
-    "id": 61
+    "id": 56,
+    "quartier": "Corniche",
+    "lat": 33.5936622,
+    "lng": -7.6606352
   },
   {
     "name": "Boutique Hotel Gauthier Restaurant Terrasse, Casab",
@@ -926,10 +851,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Gauthier",
-    "lat": 33.5870176,
-    "lng": -7.6190739,
-    "id": 62
+    "id": 57,
+    "quartier": "Maarif",
+    "lat": 33.5697637,
+    "lng": -7.6268004
   },
   {
     "name": "Restaurant Anfa",
@@ -941,10 +866,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Corniche",
-    "lat": 33.6032323,
-    "lng": -7.6562634,
-    "id": 63
+    "id": 58,
+    "quartier": "Gauthier",
+    "lat": 33.5861368,
+    "lng": -7.6244328
   },
   {
     "name": "Le Palace D'anfa Hotel",
@@ -956,10 +881,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Corniche",
-    "lat": 33.5939917,
-    "lng": -7.6640809,
-    "id": 64
+    "id": 59,
+    "quartier": "Racine",
+    "lat": 33.5870446,
+    "lng": -7.6334353
   },
   {
     "name": "Bourgogne Restaurant chinois",
@@ -971,10 +896,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 63,
-    "quartier": "Ain Diab",
-    "lat": 33.5948413,
-    "lng": -7.6748731,
-    "id": 65
+    "id": 60,
+    "quartier": "Maarif",
+    "lat": 33.5751579,
+    "lng": -7.6346993
   },
   {
     "name": "Coffee shop",
@@ -986,25 +911,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5702978,
-    "lng": -7.6365538,
-    "id": 66
-  },
-  {
-    "name": "Le top 5 cafés à Maârif, juin 2026",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://fr.restaurantguru.com/cafe-Maarif-t6",
-    "niche": "Cafes",
-    "tier": 1,
-    "score": 63,
-    "quartier": "Belvedere",
-    "lat": 33.5728941,
-    "lng": -7.6089267,
-    "id": 67
+    "id": 61,
+    "quartier": "Gauthier",
+    "lat": 33.5870176,
+    "lng": -7.6190739
   },
   {
     "name": "Cafe de la Fontaine",
@@ -1016,25 +926,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5795549,
-    "lng": -7.6296155,
-    "id": 68
-  },
-  {
-    "name": "Les terrasses les plus déco à tester cet été sur C",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.decoactuelle.ma/les-terrasses-les-plus-deco-a-tester-cet-ete-sur-casa/",
-    "niche": "Cafes",
-    "tier": 1,
-    "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5731352,
-    "lng": -7.6280341,
-    "id": 69
+    "id": 62,
+    "quartier": "Palmier",
+    "lat": 33.5719242,
+    "lng": -7.6306976
   },
   {
     "name": "La Terrasse Jasmin",
@@ -1046,10 +941,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 63,
-    "quartier": "Belvedere",
-    "lat": 33.5799666,
-    "lng": -7.6076172,
-    "id": 70
+    "id": 63,
+    "quartier": "Palmier",
+    "lat": 33.5649938,
+    "lng": -7.6365607
   },
   {
     "name": "1951- Maison Alexis",
@@ -1061,10 +956,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 63,
+    "id": 64,
     "quartier": "Belvedere",
-    "lat": 33.578007,
-    "lng": -7.6042109,
-    "id": 71
+    "lat": 33.5791048,
+    "lng": -7.6129238
   },
   {
     "name": "Une merveilleuse terrasse au café Gapi à casablanc",
@@ -1076,10 +971,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 63,
-    "quartier": "Belvedere",
-    "lat": 33.5799958,
-    "lng": -7.6152297,
-    "id": 72
+    "id": 65,
+    "quartier": "Maarif",
+    "lat": 33.5702978,
+    "lng": -7.6365538
   },
   {
     "name": "Bonjour je cherche un bon café dans le centre où j",
@@ -1091,10 +986,10 @@ export const LEADS = [
     "niche": "Cafes",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5806968,
-    "lng": -7.6297006,
-    "id": 73
+    "id": 66,
+    "quartier": "Belvedere",
+    "lat": 33.5728941,
+    "lng": -7.6089267
   },
   {
     "name": "Brew Brothers Coffee House",
@@ -1106,10 +1001,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
+    "id": 67,
     "quartier": "Maarif",
-    "lat": 33.5806842,
-    "lng": -7.6336964,
-    "id": 74
+    "lat": 33.5795549,
+    "lng": -7.6296155
   },
   {
     "name": "Coffy ® Abdelmoumen - Specialty coffee",
@@ -1121,10 +1016,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "Gauthier",
-    "lat": 33.5900071,
-    "lng": -7.6195969,
-    "id": 75
+    "id": 68,
+    "quartier": "Maarif",
+    "lat": 33.5731352,
+    "lng": -7.6280341
   },
   {
     "name": "EspressoLab",
@@ -1136,10 +1031,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "Gauthier",
-    "lat": 33.5915802,
-    "lng": -7.6277069,
-    "id": 76
+    "id": 69,
+    "quartier": "California",
+    "lat": 33.5726221,
+    "lng": -7.666823
   },
   {
     "name": "MUGY COFFEE CLUB",
@@ -1151,10 +1046,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "Gauthier",
-    "lat": 33.5834816,
-    "lng": -7.619292,
-    "id": 77
+    "id": 70,
+    "quartier": "California",
+    "lat": 33.5700094,
+    "lng": -7.6622812
   },
   {
     "name": "Sinya coffee shop",
@@ -1166,10 +1061,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "Anfa",
-    "lat": 33.5830408,
-    "lng": -7.6620009,
-    "id": 78
+    "id": 71,
+    "quartier": "California",
+    "lat": 33.5726611,
+    "lng": -7.676973
   },
   {
     "name": "Oné Là Coffee Shop",
@@ -1181,10 +1076,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "Anfa",
-    "lat": 33.5663192,
-    "lng": -7.6534391,
-    "id": 79
+    "id": 72,
+    "quartier": "Maarif",
+    "lat": 33.5806968,
+    "lng": -7.6297006
   },
   {
     "name": "Coco palm",
@@ -1196,10 +1091,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "California",
-    "lat": 33.5727294,
-    "lng": -7.6659949,
-    "id": 80
+    "id": 73,
+    "quartier": "Maarif",
+    "lat": 33.5806842,
+    "lng": -7.6336964
   },
   {
     "name": "LES 3H COFFEE",
@@ -1211,10 +1106,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5677093,
-    "lng": -7.6351275,
-    "id": 81
+    "id": 74,
+    "quartier": "Gauthier",
+    "lat": 33.5900071,
+    "lng": -7.6195969
   },
   {
     "name": "Pâtisserie Bennis Habous",
@@ -1226,10 +1121,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 63,
-    "quartier": "Hay Hassani",
-    "lat": 33.5582213,
-    "lng": -7.6657887,
-    "id": 82
+    "id": 75,
+    "quartier": "Racine",
+    "lat": 33.5930802,
+    "lng": -7.6353069
   },
   {
     "name": "Top 3 des adresses où tremper son croissant à Casa",
@@ -1241,10 +1136,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 63,
-    "quartier": "CIL",
-    "lat": 33.5575502,
-    "lng": -7.6201334,
-    "id": 83
+    "id": 76,
+    "quartier": "Bourgogne",
+    "lat": 33.5758816,
+    "lng": -7.614792
   },
   {
     "name": "Boulangerie Pâtisserie Sandwicherie",
@@ -1256,10 +1151,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5786936,
-    "lng": -7.6301112,
-    "id": 84
+    "id": 77,
+    "quartier": "Anfa",
+    "lat": 33.5830408,
+    "lng": -7.6620009
   },
   {
     "name": "PÂTISSERIE LA COLOMBE D'OR",
@@ -1271,10 +1166,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5760185,
-    "lng": -7.6308596,
-    "id": 85
+    "id": 78,
+    "quartier": "Anfa",
+    "lat": 33.5663192,
+    "lng": -7.6534391
   },
   {
     "name": "Anniversaire...... pâtisserie/boulangerie",
@@ -1286,10 +1181,10 @@ export const LEADS = [
     "niche": "Boulangeries",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5666935,
-    "lng": -7.6277737,
-    "id": 86
+    "id": 79,
+    "quartier": "Hay Hassani",
+    "lat": 33.5553714,
+    "lng": -7.6774866
   },
   {
     "name": "Mon Ami Californie - Boulangerie Pâtisserie",
@@ -1301,10 +1196,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 63,
-    "quartier": "Bourgogne",
-    "lat": 33.5803137,
-    "lng": -7.6141199,
-    "id": 87
+    "id": 80,
+    "quartier": "Gauthier",
+    "lat": 33.5860889,
+    "lng": -7.617738
   },
   {
     "name": "L'atelier Rayan Néhmé",
@@ -1316,10 +1211,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 63,
+    "id": 81,
     "quartier": "Bourgogne",
-    "lat": 33.5845424,
-    "lng": -7.6164418,
-    "id": 88
+    "lat": 33.5799887,
+    "lng": -7.6212517
   },
   {
     "name": "Lahlou & Co",
@@ -1331,10 +1226,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 63,
-    "quartier": "Bourgogne",
-    "lat": 33.5744385,
-    "lng": -7.6197304,
-    "id": 89
+    "id": 82,
+    "quartier": "Anfa",
+    "lat": 33.5824057,
+    "lng": -7.6552194
   },
   {
     "name": "Cake Time",
@@ -1346,10 +1241,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 63,
-    "quartier": "Gauthier",
-    "lat": 33.5860061,
-    "lng": -7.6266498,
-    "id": 90
+    "id": 83,
+    "quartier": "Bourgogne",
+    "lat": 33.5841889,
+    "lng": -7.621113
   },
   {
     "name": "Eskal",
@@ -1361,10 +1256,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 63,
-    "quartier": "Anfa",
-    "lat": 33.5683425,
-    "lng": -7.6528883,
-    "id": 91
+    "id": 84,
+    "quartier": "Maarif",
+    "lat": 33.5763185,
+    "lng": -7.6330096
   },
   {
     "name": "OTTO Pizza Napoletana",
@@ -1376,10 +1271,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 63,
-    "quartier": "Ain Diab",
-    "lat": 33.583672,
-    "lng": -7.6674308,
-    "id": 92
+    "id": 85,
+    "quartier": "Bourgogne",
+    "lat": 33.5823889,
+    "lng": -7.6178947
   },
   {
     "name": "Au Four A Bois",
@@ -1391,10 +1286,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 63,
-    "quartier": "Maarif",
-    "lat": 33.5795834,
-    "lng": -7.6318201,
-    "id": 93
+    "id": 86,
+    "quartier": "Racine",
+    "lat": 33.5844951,
+    "lng": -7.6276803
   },
   {
     "name": "Solo Pizzeria Napoletana",
@@ -1406,10 +1301,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 63,
-    "quartier": "Oulfa",
-    "lat": 33.5590723,
-    "lng": -7.5900999,
-    "id": 94
+    "id": 87,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5422274,
+    "lng": -7.6434398
   },
   {
     "name": "CUCINA NAPOLI - MAARIF",
@@ -1421,10 +1316,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5791927,
-    "lng": -7.6281038,
-    "id": 95
+    "id": 88,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5506847,
+    "lng": -7.6480836
   },
   {
     "name": "The Box Maitre Pizzaiolo",
@@ -1436,10 +1331,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 63,
-    "quartier": "Ain Diab",
-    "lat": 33.5999173,
-    "lng": -7.6764254,
-    "id": 96
+    "id": 89,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.530477,
+    "lng": -7.6546609
   },
   {
     "name": "Zee Pizza",
@@ -1451,10 +1346,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 63,
-    "quartier": "Ain Diab",
-    "lat": 33.5914668,
-    "lng": -7.6631381,
-    "id": 97
+    "id": 90,
+    "quartier": "Racine",
+    "lat": 33.5875061,
+    "lng": -7.6342498
   },
   {
     "name": "Berger",
@@ -1466,10 +1361,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 63,
-    "quartier": "Hay Hassani",
-    "lat": 33.5572146,
-    "lng": -7.679269,
-    "id": 98
+    "id": 91,
+    "quartier": "Anfa",
+    "lat": 33.5683425,
+    "lng": -7.6528883
   },
   {
     "name": "MIGA BURGER - Street food gourmet",
@@ -1481,10 +1376,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 63,
-    "quartier": "Hay Hassani",
-    "lat": 33.5709547,
-    "lng": -7.6694611,
-    "id": 99
+    "id": 92,
+    "quartier": "Anfa",
+    "lat": 33.565672,
+    "lng": -7.6554308
   },
   {
     "name": "BloomBurger (Dark kitchen)",
@@ -1496,10 +1391,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 63,
-    "quartier": "Ain Diab",
-    "lat": 33.5969978,
-    "lng": -7.6718276,
-    "id": 100
+    "id": 93,
+    "quartier": "Gauthier",
+    "lat": 33.5926625,
+    "lng": -7.6231151
   },
   {
     "name": "Burger Glory",
@@ -1511,10 +1406,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5814831,
-    "lng": -7.6223291,
-    "id": 101
+    "id": 94,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5468867,
+    "lng": -7.6531199
   },
   {
     "name": "Thami Burger",
@@ -1526,10 +1421,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 63,
-    "quartier": "Hay Hassani",
-    "lat": 33.5639941,
-    "lng": -7.6640871,
-    "id": 102
+    "id": 95,
+    "quartier": "Racine",
+    "lat": 33.5864927,
+    "lng": -7.6311038
   },
   {
     "name": "LADOZE STREET BURGER - OASIS",
@@ -1541,10 +1436,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5813547,
-    "lng": -7.6311273,
-    "id": 103
+    "id": 96,
+    "quartier": "Ain Diab",
+    "lat": 33.5999173,
+    "lng": -7.6764254
   },
   {
     "name": "Super Crunchy • Marina",
@@ -1556,10 +1451,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "Hay Hassani",
-    "lat": 33.5531523,
-    "lng": -7.6702328,
-    "id": 104
+    "id": 97,
+    "quartier": "Ain Diab",
+    "lat": 33.5914668,
+    "lng": -7.6631381
   },
   {
     "name": "Street food 2 mars",
@@ -1571,10 +1466,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5854817,
-    "lng": -7.6257193,
-    "id": 105
+    "id": 98,
+    "quartier": "Hay Hassani",
+    "lat": 33.5572146,
+    "lng": -7.679269
   },
   {
     "name": "King Tacos Sidimaarouf",
@@ -1586,10 +1481,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
+    "id": 99,
     "quartier": "Hay Hassani",
-    "lat": 33.567302,
-    "lng": -7.6679239,
-    "id": 106
+    "lat": 33.5709547,
+    "lng": -7.6694611
   },
   {
     "name": "O'Tacos Al Qods",
@@ -1601,10 +1496,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "Centre-ville",
-    "lat": 33.5919809,
-    "lng": -7.6154176,
-    "id": 107
+    "id": 100,
+    "quartier": "Anfa",
+    "lat": 33.5789978,
+    "lng": -7.6598276
   },
   {
     "name": "tacos de paris maarif",
@@ -1616,10 +1511,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "Derb Sultan",
-    "lat": 33.5817202,
-    "lng": -7.6067773,
-    "id": 108
+    "id": 101,
+    "quartier": "Bourgogne",
+    "lat": 33.5796831,
+    "lng": -7.6132291
   },
   {
     "name": "Shawarma Lma3louma - Jnane Californie",
@@ -1631,10 +1526,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5864631,
-    "lng": -7.6242184,
-    "id": 109
+    "id": 102,
+    "quartier": "Hay Hassani",
+    "lat": 33.5639941,
+    "lng": -7.6640871
   },
   {
     "name": "Chawarma Canaan",
@@ -1646,10 +1541,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "Centre-ville",
-    "lat": 33.5879202,
-    "lng": -7.6139854,
-    "id": 110
+    "id": 103,
+    "quartier": "Racine",
+    "lat": 33.5886547,
+    "lng": -7.6341273
   },
   {
     "name": "Snack Orange",
@@ -1661,10 +1556,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "Oulfa",
-    "lat": 33.5483994,
-    "lng": -7.5922611,
-    "id": 111
+    "id": 104,
+    "quartier": "Anfa",
+    "lat": 33.5692936,
+    "lng": -7.658194
   },
   {
     "name": "Le Maître Du Sandwich Selouane Oulfa",
@@ -1676,10 +1571,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5799524,
-    "lng": -7.6226583,
-    "id": 112
+    "id": 105,
+    "quartier": "Maarif",
+    "lat": 33.5777422,
+    "lng": -7.629159
   },
   {
     "name": "Chef Said",
@@ -1691,10 +1586,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 63,
-    "quartier": "2 Mars",
-    "lat": 33.5845969,
-    "lng": -7.6299137,
-    "id": 113
+    "id": 106,
+    "quartier": "Anfa",
+    "lat": 33.581085,
+    "lng": -7.6562699
   },
   {
     "name": "Douceurs d'été: 5 adresses pour savourer les meill",
@@ -1706,10 +1601,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 63,
-    "quartier": "Ain Diab",
-    "lat": 33.5897755,
-    "lng": -7.6756066,
-    "id": 114
+    "id": 107,
+    "quartier": "Bourgogne",
+    "lat": 33.5779357,
+    "lng": -7.6215382
   },
   {
     "name": "Маршруты праезду да Oliveri : Maître Glacier, Bd .",
@@ -1721,10 +1616,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 63,
-    "quartier": "Anfa",
-    "lat": 33.5800945,
-    "lng": -7.6625409,
-    "id": 115
+    "id": 108,
+    "quartier": "Centre-ville",
+    "lat": 33.5897202,
+    "lng": -7.6136773
   },
   {
     "name": "Glacier à El Maarif, MA",
@@ -1736,10 +1631,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 63,
-    "quartier": "Anfa",
-    "lat": 33.5749683,
-    "lng": -7.6676601,
-    "id": 116
+    "id": 109,
+    "quartier": "Maarif",
+    "lat": 33.5790508,
+    "lng": -7.6271579
   },
   {
     "name": "Mulin'o Coffee Shop",
@@ -1751,10 +1646,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
+    "id": 110,
     "quartier": "Gauthier",
-    "lat": 33.5917141,
-    "lng": -7.6278619,
-    "id": 117
+    "lat": 33.5824901,
+    "lng": -7.624964
   },
   {
     "name": "BIVOUAC",
@@ -1766,10 +1661,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
+    "id": 111,
     "quartier": "Gauthier",
-    "lat": 33.5893424,
-    "lng": -7.6248228,
-    "id": 118
+    "lat": 33.5857871,
+    "lng": -7.6224495
   },
   {
     "name": "CAFÉ ESPRESSO",
@@ -1781,10 +1676,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
+    "id": 112,
     "quartier": "Anfa",
-    "lat": 33.5763863,
-    "lng": -7.6647181,
-    "id": 119
+    "lat": 33.5822762,
+    "lng": -7.663358
   },
   {
     "name": "Coffee Shop 📍 Quartier : Maarif, Ain Diab 💯Spécial",
@@ -1796,10 +1691,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "Gauthier",
-    "lat": 33.5872313,
-    "lng": -7.6180346,
-    "id": 120
+    "id": 113,
+    "quartier": "Maarif",
+    "lat": 33.5765626,
+    "lng": -7.6347516
   },
   {
     "name": "Sinyacoffee",
@@ -1811,10 +1706,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "Maarif",
-    "lat": 33.5709266,
-    "lng": -7.6302234,
-    "id": 121
+    "id": 114,
+    "quartier": "Gauthier",
+    "lat": 33.5858653,
+    "lng": -7.626764
   },
   {
     "name": "COCO PALM - Café & Restaurant",
@@ -1826,10 +1721,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
+    "id": 115,
     "quartier": "California",
-    "lat": 33.5712598,
-    "lng": -7.6627994,
-    "id": 122
+    "lat": 33.5769457,
+    "lng": -7.6711522
   },
   {
     "name": "Restauration",
@@ -1841,10 +1736,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "California",
-    "lat": 33.5657069,
-    "lng": -7.6640643,
-    "id": 123
+    "id": 116,
+    "quartier": "Gauthier",
+    "lat": 33.5917141,
+    "lng": -7.6278619
   },
   {
     "name": "Arabica",
@@ -1856,10 +1751,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
+    "id": 117,
     "quartier": "Gauthier",
-    "lat": 33.5886463,
-    "lng": -7.6184737,
-    "id": 124
+    "lat": 33.5893424,
+    "lng": -7.6248228
   },
   {
     "name": "Anfa place mall :Where you can take a coffee with",
@@ -1871,10 +1766,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "California",
-    "lat": 33.5664608,
-    "lng": -7.6633924,
-    "id": 125
+    "id": 118,
+    "quartier": "Anfa",
+    "lat": 33.5763863,
+    "lng": -7.6647181
   },
   {
     "name": "ESPRESSOLAB, LE NOUVEAU BON PLAN CAFÉ À ...",
@@ -1886,10 +1781,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.570564,
-    "lng": -7.651986,
-    "id": 126
+    "id": 119,
+    "quartier": "Gauthier",
+    "lat": 33.5872313,
+    "lng": -7.6180346
   },
   {
     "name": "Maps of speciality coffee shops around the world (",
@@ -1901,25 +1796,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.5791895,
-    "lng": -7.659682,
-    "id": 127
-  },
-  {
-    "name": "Third Wave Coffee Roasters: Best coffee brand in I",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://stores.thirdwavecoffeeroasters.com/",
-    "niche": "Coffee shops",
-    "tier": 1,
-    "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.5792653,
-    "lng": -7.6491436,
-    "id": 128
+    "id": 120,
+    "quartier": "Maarif",
+    "lat": 33.5709266,
+    "lng": -7.6302234
   },
   {
     "name": "What is Third Wave Coffee? The Specialty Coffee Jo",
@@ -1931,10 +1811,10 @@ export const LEADS = [
     "niche": "Coffee shops",
     "tier": 1,
     "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.5827512,
-    "lng": -7.6561,
-    "id": 129
+    "id": 121,
+    "quartier": "California",
+    "lat": 33.5712598,
+    "lng": -7.6627994
   },
   {
     "name": "Notre Plaisir Pâtisserie gâteaux sur mesure Casabl",
@@ -1946,10 +1826,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.574169,
-    "lng": -7.664127,
-    "id": 130
+    "id": 122,
+    "quartier": "Racine",
+    "lat": 33.5860802,
+    "lng": -7.6265482
   },
   {
     "name": "Mehdi Tahri Patisserie",
@@ -1961,25 +1841,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
-    "quartier": "Bourgogne",
-    "lat": 33.5828972,
-    "lng": -7.619168,
-    "id": 131
-  },
-  {
-    "name": "Les 19 meilleures pâtisseries et salons de thé à C",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://wanderlog.com/fr/list/geoCategory/69980/les-meilleures-p%C3%A2tisseries-et-salons-de-th%C3%A9-%C3%A0-casablanca",
-    "niche": "Patisseries",
-    "tier": 1,
-    "score": 61,
-    "quartier": "Bourgogne",
-    "lat": 33.5810253,
-    "lng": -7.6168126,
-    "id": 132
+    "id": 123,
+    "quartier": "Gauthier",
+    "lat": 33.5886463,
+    "lng": -7.6184737
   },
   {
     "name": "Pâtisseries Fines",
@@ -1991,10 +1856,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
+    "id": 124,
     "quartier": "Racine",
-    "lat": 33.5950952,
-    "lng": -7.6309384,
-    "id": 133
+    "lat": 33.5866456,
+    "lng": -7.6260443
   },
   {
     "name": "Bloomy Cakes",
@@ -2006,10 +1871,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
-    "quartier": "Bourgogne",
-    "lat": 33.5779447,
-    "lng": -7.6242831,
-    "id": 134
+    "id": 125,
+    "quartier": "Anfa",
+    "lat": 33.570564,
+    "lng": -7.651986
   },
   {
     "name": "DOUNA'S CAKE",
@@ -2021,10 +1886,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
-    "quartier": "Gauthier",
-    "lat": 33.5862071,
-    "lng": -7.6215753,
-    "id": 135
+    "id": 126,
+    "quartier": "Bourgogne",
+    "lat": 33.5791653,
+    "lng": -7.6170497
   },
   {
     "name": "Cake Bakery",
@@ -2036,10 +1901,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
+    "id": 127,
     "quartier": "Anfa",
-    "lat": 33.5690284,
-    "lng": -7.6638348,
-    "id": 136
+    "lat": 33.5792653,
+    "lng": -7.6491436
   },
   {
     "name": "Jadore Cake Boutique",
@@ -2051,10 +1916,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
-    "quartier": "Maarif",
-    "lat": 33.5721804,
-    "lng": -7.6369805,
-    "id": 137
+    "id": 128,
+    "quartier": "Anfa",
+    "lat": 33.5827512,
+    "lng": -7.6561
   },
   {
     "name": "Cake & Cookies by RS",
@@ -2066,25 +1931,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
+    "id": 129,
     "quartier": "Anfa",
-    "lat": 33.571871,
-    "lng": -7.6634374,
-    "id": 138
-  },
-  {
-    "name": "Les 19 meilleures pâtisseries et boulangeries à gâ",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://wanderlog.com/fr/list/geoCategory/20000/les-meilleures-p%C3%A2tisseries-et-boulangeries-%C3%A0-g%C3%A2teaux-dans-casablanca",
-    "niche": "Patisseries",
-    "tier": 1,
-    "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.5700806,
-    "lng": -7.6597506,
-    "id": 139
+    "lat": 33.574169,
+    "lng": -7.664127
   },
   {
     "name": "d'Antan : Pâtisserie Boulangerie",
@@ -2096,10 +1946,10 @@ export const LEADS = [
     "niche": "Patisseries",
     "tier": 1,
     "score": 61,
-    "quartier": "Racine",
-    "lat": 33.5867726,
-    "lng": -7.6361442,
-    "id": 140
+    "id": 130,
+    "quartier": "Bourgogne",
+    "lat": 33.5828972,
+    "lng": -7.619168
   },
   {
     "name": "Street Pizzeria Napoletana",
@@ -2111,10 +1961,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "Oulfa",
-    "lat": 33.5488106,
-    "lng": -7.5928701,
-    "id": 141
+    "id": 131,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5436505,
+    "lng": -7.6488253
   },
   {
     "name": "Menu Solo Pizzeria Napoletana",
@@ -2126,10 +1976,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "Maarif",
-    "lat": 33.5716714,
-    "lng": -7.6281422,
-    "id": 142
+    "id": 132,
+    "quartier": "Corniche",
+    "lat": 33.605727,
+    "lng": -7.6619179
   },
   {
     "name": "Chrono Pizza",
@@ -2141,10 +1991,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "Oulfa",
-    "lat": 33.5501056,
-    "lng": -7.593879,
-    "id": 143
+    "id": 133,
+    "quartier": "Hay Hassani",
+    "lat": 33.5554894,
+    "lng": -7.6807663
   },
   {
     "name": "Stagione By Ayoub Ayache on Instagram",
@@ -2156,10 +2006,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "Gauthier",
-    "lat": 33.5847678,
-    "lng": -7.6222468,
-    "id": 144
+    "id": 134,
+    "quartier": "Racine",
+    "lat": 33.5877071,
+    "lng": -7.6291753
   },
   {
     "name": "Restaurant italien et pizzeria (3)",
@@ -2171,10 +2021,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "Gauthier",
-    "lat": 33.5893984,
-    "lng": -7.6290695,
-    "id": 145
+    "id": 135,
+    "quartier": "Ain Diab",
+    "lat": 33.5870284,
+    "lng": -7.6758348
   },
   {
     "name": "Pizzas – Restaurant Luigi Maarif",
@@ -2186,10 +2036,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.5800616,
-    "lng": -7.6310062,
-    "id": 146
+    "id": 136,
+    "quartier": "Gauthier",
+    "lat": 33.5871103,
+    "lng": -7.6269854
   },
   {
     "name": "Pizza en livraison près de vous",
@@ -2201,10 +2051,10 @@ export const LEADS = [
     "niche": "Pizzerias",
     "tier": 1,
     "score": 61,
-    "quartier": "Oulfa",
-    "lat": 33.5503348,
-    "lng": -7.5821328,
-    "id": 147
+    "id": 137,
+    "quartier": "Anfa",
+    "lat": 33.571871,
+    "lng": -7.6634374
   },
   {
     "name": "LA TABLE DU BURGER",
@@ -2216,10 +2066,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.5804621,
-    "lng": -7.6309177,
-    "id": 148
+    "id": 138,
+    "quartier": "Anfa",
+    "lat": 33.5700806,
+    "lng": -7.6597506
   },
   {
     "name": "Just Burger",
@@ -2231,25 +2081,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.5833572,
-    "lng": -7.6261958,
-    "id": 149
-  },
-  {
-    "name": "212 SMASH BURGER",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://sela.ma/sela-park-casablanca/restaurants/212-smash-burger/",
-    "niche": "Burgers",
-    "tier": 1,
-    "score": 61,
+    "id": 139,
     "quartier": "Corniche",
-    "lat": 33.592552,
-    "lng": -7.6665809,
-    "id": 150
+    "lat": 33.5946301,
+    "lng": -7.668859
   },
   {
     "name": "Livraison 212 Smash Burger à Bouskoura",
@@ -2261,10 +2096,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 61,
-    "quartier": "Corniche",
-    "lat": 33.5923889,
-    "lng": -7.6586549,
-    "id": 151
+    "id": 140,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5345727,
+    "lng": -7.6564442
   },
   {
     "name": "Blend Gourmet Burger",
@@ -2276,10 +2111,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.5812087,
-    "lng": -7.6319262,
-    "id": 152
+    "id": 141,
+    "quartier": "Maarif",
+    "lat": 33.5716714,
+    "lng": -7.6281422
   },
   {
     "name": "Experience Ftour at Blend Gourmet Burger in Casabl",
@@ -2291,10 +2126,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 61,
-    "quartier": "Corniche",
-    "lat": 33.5982512,
-    "lng": -7.6553573,
-    "id": 153
+    "id": 142,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5361267,
+    "lng": -7.6576548
   },
   {
     "name": "Street",
@@ -2306,10 +2141,10 @@ export const LEADS = [
     "niche": "Burgers",
     "tier": 1,
     "score": 61,
-    "quartier": "Maarif",
-    "lat": 33.5789429,
-    "lng": -7.6368714,
-    "id": 154
+    "id": 143,
+    "quartier": "Centre-ville",
+    "lat": 33.5909571,
+    "lng": -7.6103624
   },
   {
     "name": "So'Bnin",
@@ -2321,10 +2156,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.5825808,
-    "lng": -7.6312176,
-    "id": 155
+    "id": 144,
+    "quartier": "Centre-ville",
+    "lat": 33.5971312,
+    "lng": -7.6194594
   },
   {
     "name": "Belhaj Fast Food",
@@ -2336,10 +2171,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "Oulfa",
-    "lat": 33.5474349,
-    "lng": -7.5882865,
-    "id": 156
+    "id": 145,
+    "quartier": "Bourgogne",
+    "lat": 33.5782616,
+    "lng": -7.6219062
   },
   {
     "name": "Tacos",
@@ -2351,10 +2186,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.5767647,
-    "lng": -7.626531,
-    "id": 157
+    "id": 146,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5364017,
+    "lng": -7.6435593
   },
   {
     "name": "Shawarma Taouk",
@@ -2366,10 +2201,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "Oulfa",
-    "lat": 33.5629513,
-    "lng": -7.5906061,
-    "id": 158
+    "id": 147,
+    "quartier": "Racine",
+    "lat": 33.5877621,
+    "lng": -7.6339177
   },
   {
     "name": "Shawarma Avenue",
@@ -2381,10 +2216,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "Derb Sultan",
-    "lat": 33.5817454,
-    "lng": -7.6094966,
-    "id": 159
+    "id": 148,
+    "quartier": "Racine",
+    "lat": 33.5906572,
+    "lng": -7.6291958
   },
   {
     "name": "Le Maitre du Sandwich",
@@ -2396,10 +2231,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "Oulfa",
-    "lat": 33.5464246,
-    "lng": -7.5857481,
-    "id": 160
+    "id": 149,
+    "quartier": "Centre-ville",
+    "lat": 33.589552,
+    "lng": -7.6164809
   },
   {
     "name": "sandwichs",
@@ -2411,10 +2246,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "Derb Sultan",
-    "lat": 33.5926034,
-    "lng": -7.6092233,
-    "id": 161
+    "id": 150,
+    "quartier": "Centre-ville",
+    "lat": 33.5893889,
+    "lng": -7.6085549
   },
   {
     "name": "Foodoir Sandwich",
@@ -2426,10 +2261,10 @@ export const LEADS = [
     "niche": "Fast-food",
     "tier": 1,
     "score": 61,
-    "quartier": "Derb Sultan",
-    "lat": 33.5802941,
-    "lng": -7.6028244,
-    "id": 162
+    "id": 151,
+    "quartier": "Racine",
+    "lat": 33.5885087,
+    "lng": -7.6349262
   },
   {
     "name": "Le Sushi Casa",
@@ -2441,10 +2276,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 61,
-    "quartier": "Gauthier",
-    "lat": 33.588249,
-    "lng": -7.6279043,
-    "id": 163
+    "id": 152,
+    "quartier": "Corniche",
+    "lat": 33.5982512,
+    "lng": -7.6553573
   },
   {
     "name": "Nori Restaurant Japonais",
@@ -2456,10 +2291,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.5743658,
-    "lng": -7.6539292,
-    "id": 164
+    "id": 153,
+    "quartier": "Maarif",
+    "lat": 33.5789429,
+    "lng": -7.6368714
   },
   {
     "name": "Le Petit Salon",
@@ -2471,10 +2306,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 61,
-    "quartier": "Racine",
-    "lat": 33.5896702,
-    "lng": -7.6272126,
-    "id": 165
+    "id": 154,
+    "quartier": "Gauthier",
+    "lat": 33.5883808,
+    "lng": -7.6266176
   },
   {
     "name": "Salon Mariline Gauthier",
@@ -2486,10 +2321,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 61,
-    "quartier": "Maarif",
-    "lat": 33.5759655,
-    "lng": -7.6288074,
-    "id": 166
+    "id": 155,
+    "quartier": "Hay Hassani",
+    "lat": 33.5509219,
+    "lng": -7.6679438
   },
   {
     "name": "Marina Juice Restaurants",
@@ -2501,10 +2336,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 61,
-    "quartier": "Anfa",
-    "lat": 33.5739258,
-    "lng": -7.6618245,
-    "id": 167
+    "id": 156,
+    "quartier": "Gauthier",
+    "lat": 33.5825647,
+    "lng": -7.621931
   },
   {
     "name": "Organic Kitchen",
@@ -2516,10 +2351,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 61,
-    "quartier": "2 Mars",
-    "lat": 33.579896,
-    "lng": -7.6242225,
-    "id": 168
+    "id": 157,
+    "quartier": "Hay Hassani",
+    "lat": 33.5695416,
+    "lng": -7.6707273
   },
   {
     "name": "🍉 Natural Juice Ghandi 🍉 (@naturaljuice. ...",
@@ -2531,10 +2366,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 61,
-    "quartier": "Maarif",
-    "lat": 33.574582,
-    "lng": -7.6268705,
-    "id": 169
+    "id": 158,
+    "quartier": "Centre-ville",
+    "lat": 33.5897454,
+    "lng": -7.6163966
   },
   {
     "name": "S̆̈alon 𝔏a P̆̈rincesse👑",
@@ -2546,10 +2381,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 61,
+    "id": 159,
     "quartier": "Hay Hassani",
-    "lat": 33.5638807,
-    "lng": -7.671368,
-    "id": 170
+    "lat": 33.5497095,
+    "lng": -7.6648977
   },
   {
     "name": "Chez mustapha",
@@ -2561,10 +2396,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 61,
-    "quartier": "Hay Hassani",
-    "lat": 33.5571549,
-    "lng": -7.6673411,
-    "id": 171
+    "id": 160,
+    "quartier": "Derb Sultan",
+    "lat": 33.5926034,
+    "lng": -7.6092233
   },
   {
     "name": "Salon _noujoum",
@@ -2576,10 +2411,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 61,
-    "quartier": "CIL",
-    "lat": 33.5633844,
-    "lng": -7.6148762,
-    "id": 172
+    "id": 161,
+    "quartier": "Derb Sultan",
+    "lat": 33.5802941,
+    "lng": -7.6028244
   },
   {
     "name": "Glow beauty",
@@ -2591,10 +2426,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 61,
-    "quartier": "Derb Sultan",
-    "lat": 33.5802207,
-    "lng": -7.6066601,
-    "id": 173
+    "id": 162,
+    "quartier": "Oulfa",
+    "lat": 33.5534728,
+    "lng": -7.5811876
   },
   {
     "name": "BARBER SHOP FACTORY 💈",
@@ -2606,10 +2441,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 61,
-    "quartier": "Hay Hassani",
-    "lat": 33.5670582,
-    "lng": -7.6752779,
-    "id": 174
+    "id": 163,
+    "quartier": "Derb Sultan",
+    "lat": 33.5837039,
+    "lng": -7.6083693
   },
   {
     "name": "Moods Café-Restaurant",
@@ -2621,10 +2456,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.5717333,
-    "lng": -7.6566067,
-    "id": 175
+    "id": 164,
+    "quartier": "Maarif",
+    "lat": 33.5720869,
+    "lng": -7.6365452
   },
   {
     "name": "Little Mamma CIL",
@@ -2636,10 +2471,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
+    "id": 165,
     "quartier": "Anfa",
-    "lat": 33.570586,
-    "lng": -7.6658962,
-    "id": 176
+    "lat": 33.5717529,
+    "lng": -7.6510667
   },
   {
     "name": "Restaurant Dar El Kaid",
@@ -2651,10 +2486,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Racine",
-    "lat": 33.5915028,
-    "lng": -7.6272729,
-    "id": 177
+    "id": 166,
+    "quartier": "Gauthier",
+    "lat": 33.590135,
+    "lng": -7.6201507
   },
   {
     "name": "Little Mamma 2 Mars",
@@ -2666,10 +2501,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
+    "id": 167,
     "quartier": "Gauthier",
-    "lat": 33.5923388,
-    "lng": -7.6239525,
-    "id": 178
+    "lat": 33.5871555,
+    "lng": -7.6256947
   },
   {
     "name": "Stagione.pizzeria",
@@ -2681,10 +2516,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
+    "id": 168,
     "quartier": "Ain Diab",
-    "lat": 33.5860062,
-    "lng": -7.674556,
-    "id": 179
+    "lat": 33.5894933,
+    "lng": -7.6637042
   },
   {
     "name": "Asie’tte",
@@ -2696,10 +2531,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
+    "id": 169,
     "quartier": "Maarif",
-    "lat": 33.5707472,
-    "lng": -7.6351463,
-    "id": 180
+    "lat": 33.574582,
+    "lng": -7.6268705
   },
   {
     "name": "BAMBOO OULFA",
@@ -2711,10 +2546,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Ain Diab",
-    "lat": 33.5954042,
-    "lng": -7.6647432,
-    "id": 181
+    "id": 170,
+    "quartier": "2 Mars",
+    "lat": 33.5775847,
+    "lng": -7.6305768
   },
   {
     "name": "Baobao",
@@ -2726,25 +2561,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.5764978,
-    "lng": -7.6519031,
-    "id": 182
-  },
-  {
-    "name": "Le Cabestan",
-    "address": "",
-    "phone": "",
-    "rating": 0.0,
-    "reviews": 0,
-    "website": "",
-    "niche": "Restaurants",
-    "tier": 1,
-    "score": 60,
+    "id": 171,
     "quartier": "2 Mars",
-    "lat": 33.5845837,
-    "lng": -7.6304372,
-    "id": 183
+    "lat": 33.585452,
+    "lng": -7.631215
   },
   {
     "name": "Taverne du Dauphin",
@@ -2756,10 +2576,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "2 Mars",
-    "lat": 33.5771225,
-    "lng": -7.6253807,
-    "id": 184
+    "id": 172,
+    "quartier": "Ain Diab",
+    "lat": 33.5994499,
+    "lng": -7.6697609
   },
   {
     "name": "Little Mamma Bir Anzarane",
@@ -2771,10 +2591,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Ain Diab",
-    "lat": 33.600595,
-    "lng": -7.6690704,
-    "id": 185
+    "id": 173,
+    "quartier": "2 Mars",
+    "lat": 33.5776084,
+    "lng": -7.6243664
   },
   {
     "name": "La Madrina Maarif",
@@ -2786,10 +2606,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.5756486,
-    "lng": -7.6540307,
-    "id": 186
+    "id": 174,
+    "quartier": "2 Mars",
+    "lat": 33.5773937,
+    "lng": -7.6254307
   },
   {
     "name": "Mongrec",
@@ -2801,10 +2621,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Racine",
-    "lat": 33.5913777,
-    "lng": -7.6304629,
-    "id": 187
+    "id": 175,
+    "quartier": "Corniche",
+    "lat": 33.6003497,
+    "lng": -7.6692521
   },
   {
     "name": "Loliva",
@@ -2816,10 +2636,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Gauthier",
-    "lat": 33.5884457,
-    "lng": -7.6214395,
-    "id": 188
+    "id": 176,
+    "quartier": "Ain Diab",
+    "lat": 33.5943397,
+    "lng": -7.663113
   },
   {
     "name": "Kuku Chicken Gauthier",
@@ -2831,10 +2651,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Gauthier",
-    "lat": 33.588113,
-    "lng": -7.6190589,
-    "id": 189
+    "id": 177,
+    "quartier": "Maarif",
+    "lat": 33.5679662,
+    "lng": -7.6278905
   },
   {
     "name": "Relais de Paris",
@@ -2846,10 +2666,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Maarif",
-    "lat": 33.5690933,
-    "lng": -7.6339032,
-    "id": 190
+    "id": 178,
+    "quartier": "2 Mars",
+    "lat": 33.5795333,
+    "lng": -7.6263081
   },
   {
     "name": "L'Adresse Anfa",
@@ -2861,10 +2681,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Racine",
-    "lat": 33.5891453,
-    "lng": -7.6270594,
-    "id": 191
+    "id": 179,
+    "quartier": "Ain Diab",
+    "lat": 33.6016729,
+    "lng": -7.6748006
   },
   {
     "name": "Foodly bourgogne",
@@ -2876,10 +2696,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
+    "id": 180,
     "quartier": "Corniche",
-    "lat": 33.5925033,
-    "lng": -7.6663894,
-    "id": 192
+    "lat": 33.6033168,
+    "lng": -7.6610904
   },
   {
     "name": "O'BREAK",
@@ -2891,10 +2711,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Maarif",
-    "lat": 33.5737913,
-    "lng": -7.6361185,
-    "id": 193
+    "id": 181,
+    "quartier": "Corniche",
+    "lat": 33.5962576,
+    "lng": -7.6648635
   },
   {
     "name": "Counter11",
@@ -2906,10 +2726,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.57773,
-    "lng": -7.6557959,
-    "id": 194
+    "id": 182,
+    "quartier": "Ain Diab",
+    "lat": 33.5977245,
+    "lng": -7.6645934
   },
   {
     "name": "L’ITALIEN DEL CEZANNE",
@@ -2921,10 +2741,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.5664885,
-    "lng": -7.6623906,
-    "id": 195
+    "id": 183,
+    "quartier": "Maarif",
+    "lat": 33.5727795,
+    "lng": -7.6271847
   },
   {
     "name": "Capriso Glacier - Bachkou",
@@ -2936,10 +2756,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 60,
-    "quartier": "2 Mars",
-    "lat": 33.5778793,
-    "lng": -7.6248717,
-    "id": 196
+    "id": 184,
+    "quartier": "Centre-ville",
+    "lat": 33.5917089,
+    "lng": -7.6056218
   },
   {
     "name": "Oliveri Maârif",
@@ -2951,10 +2771,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 60,
+    "id": 185,
     "quartier": "Corniche",
-    "lat": 33.5918342,
-    "lng": -7.6660279,
-    "id": 197
+    "lat": 33.5966185,
+    "lng": -7.6543006
   },
   {
     "name": "Artisan Glaces - Nassim",
@@ -2966,10 +2786,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 60,
-    "quartier": "Ain Diab",
-    "lat": 33.6001513,
-    "lng": -7.6646726,
-    "id": 198
+    "id": 186,
+    "quartier": "Corniche",
+    "lat": 33.5979524,
+    "lng": -7.658666
   },
   {
     "name": "MÄYLI",
@@ -2981,10 +2801,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.5780892,
-    "lng": -7.6664922,
-    "id": 199
+    "id": 187,
+    "quartier": "Maarif",
+    "lat": 33.5730812,
+    "lng": -7.6352659
   },
   {
     "name": "Gelato Lab Maârif",
@@ -2996,10 +2816,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 60,
-    "quartier": "Anfa",
-    "lat": 33.5763077,
-    "lng": -7.6642879,
-    "id": 200
+    "id": 188,
+    "quartier": "Ain Diab",
+    "lat": 33.5936486,
+    "lng": -7.6660307
   },
   {
     "name": "Amorino Maârif",
@@ -3011,10 +2831,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 60,
-    "quartier": "2 Mars",
-    "lat": 33.5807253,
-    "lng": -7.6300517,
-    "id": 201
+    "id": 189,
+    "quartier": "Maarif",
+    "lat": 33.5733079,
+    "lng": -7.6400137
   },
   {
     "name": "Adonis Centre de Bien-être",
@@ -3026,10 +2846,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 60,
-    "quartier": "Racine",
-    "lat": 33.5934354,
-    "lng": -7.6306706,
-    "id": 202
+    "id": 190,
+    "quartier": "Ain Diab",
+    "lat": 33.5973172,
+    "lng": -7.6768762
   },
   {
     "name": "beautybycamilleofficiel",
@@ -3041,10 +2861,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 59,
-    "quartier": "Racine",
-    "lat": 33.5939443,
-    "lng": -7.6273723,
-    "id": 203
+    "id": 191,
+    "quartier": "Anfa",
+    "lat": 33.580881,
+    "lng": -7.652028
   },
   {
     "name": "Esthéticienne à domicile 🏡",
@@ -3056,10 +2876,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 59,
-    "quartier": "Racine",
-    "lat": 33.5881847,
-    "lng": -7.6350578,
-    "id": 204
+    "id": 192,
+    "quartier": "Oasis",
+    "lat": 33.5674531,
+    "lng": -7.6468572
   },
   {
     "name": "Velvet Beauty Lounge",
@@ -3071,10 +2891,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 59,
-    "quartier": "Oasis",
-    "lat": 33.566576,
-    "lng": -7.6460086,
-    "id": 205
+    "id": 193,
+    "quartier": "Gauthier",
+    "lat": 33.5881186,
+    "lng": -7.6263891
   },
   {
     "name": "Onglerie",
@@ -3086,10 +2906,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 59,
-    "quartier": "Oasis",
-    "lat": 33.5628882,
-    "lng": -7.650691,
-    "id": 206
+    "id": 194,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5521002,
+    "lng": -7.6553421
   },
   {
     "name": "Salon Moskva City",
@@ -3101,10 +2921,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 59,
-    "quartier": "Oasis",
-    "lat": 33.5611412,
-    "lng": -7.6376026,
-    "id": 207
+    "id": 195,
+    "quartier": "Bourgogne",
+    "lat": 33.5827998,
+    "lng": -7.6194859
   },
   {
     "name": "Salles de sport GO GYM",
@@ -3116,10 +2936,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 59,
+    "id": 196,
     "quartier": "Maarif",
-    "lat": 33.5720716,
-    "lng": -7.6266046,
-    "id": 208
+    "lat": 33.5787726,
+    "lng": -7.6349179
   },
   {
     "name": "Fitness Park Sidi Maarouf",
@@ -3131,10 +2951,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 59,
+    "id": 197,
     "quartier": "Sidi Maarouf",
-    "lat": 33.5329027,
-    "lng": -7.6572704,
-    "id": 209
+    "lat": 33.5337586,
+    "lng": -7.6467434
   },
   {
     "name": "Limpio Pressing",
@@ -3146,10 +2966,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 59,
-    "quartier": "Gauthier",
-    "lat": 33.5932926,
-    "lng": -7.6223987,
-    "id": 210
+    "id": 198,
+    "quartier": "Maarif",
+    "lat": 33.5669342,
+    "lng": -7.6362279
   },
   {
     "name": "Service blanchisserie",
@@ -3161,10 +2981,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 59,
+    "id": 199,
     "quartier": "Bourgogne",
-    "lat": 33.5763265,
-    "lng": -7.6185964,
-    "id": 211
+    "lat": 33.5844908,
+    "lng": -7.6157035
   },
   {
     "name": "I Ristorante Italiano",
@@ -3176,10 +2996,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Anfa",
-    "lat": 33.5699216,
-    "lng": -7.6500352,
-    "id": 212
+    "id": 200,
+    "quartier": "2 Mars",
+    "lat": 33.5798124,
+    "lng": -7.6329913
   },
   {
     "name": "découvrez la sélection restaurant Asiatique",
@@ -3191,10 +3011,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Racine",
-    "lat": 33.5926907,
-    "lng": -7.6341798,
-    "id": 213
+    "id": 201,
+    "quartier": "2 Mars",
+    "lat": 33.5873535,
+    "lng": -7.6285453
   },
   {
     "name": "Bamboo",
@@ -3206,10 +3026,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Corniche",
-    "lat": 33.6011885,
-    "lng": -7.6630791,
-    "id": 214
+    "id": 202,
+    "quartier": "Anfa",
+    "lat": 33.566837,
+    "lng": -7.6597036
   },
   {
     "name": "LILYS",
@@ -3221,10 +3041,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Racine",
-    "lat": 33.5854339,
-    "lng": -7.628423,
-    "id": 215
+    "id": 203,
+    "quartier": "Maarif",
+    "lat": 33.5679992,
+    "lng": -7.6323911
   },
   {
     "name": "Top 7 restaurants de fruits de mer sur la Corniche",
@@ -3236,10 +3056,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Gauthier",
-    "lat": 33.5859945,
-    "lng": -7.6280117,
-    "id": 216
+    "id": 204,
+    "quartier": "2 Mars",
+    "lat": 33.5781313,
+    "lng": -7.625875
   },
   {
     "name": "Restaurant Luigi Maarif",
@@ -3251,10 +3071,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
+    "id": 205,
     "quartier": "Ain Diab",
-    "lat": 33.5897798,
-    "lng": -7.6689127,
-    "id": 217
+    "lat": 33.6009502,
+    "lng": -7.6719994
   },
   {
     "name": "Braise",
@@ -3266,10 +3086,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Anfa",
-    "lat": 33.576509,
-    "lng": -7.6496344,
-    "id": 218
+    "id": 206,
+    "quartier": "2 Mars",
+    "lat": 33.5791679,
+    "lng": -7.6272679
   },
   {
     "name": "Nouveau restaurant qui a ouvert ses portes à Ain D",
@@ -3281,10 +3101,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Anfa",
-    "lat": 33.5716169,
-    "lng": -7.6636362,
-    "id": 219
+    "id": 207,
+    "quartier": "Gauthier",
+    "lat": 33.5871997,
+    "lng": -7.6292755
   },
   {
     "name": "Val d'Anfa Restaurants & Bars",
@@ -3296,10 +3116,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Corniche",
-    "lat": 33.592545,
-    "lng": -7.6630734,
-    "id": 220
+    "id": 208,
+    "quartier": "Anfa",
+    "lat": 33.5678119,
+    "lng": -7.6644107
   },
   {
     "name": "borgonesse_cafe_restaurant",
@@ -3311,10 +3131,10 @@ export const LEADS = [
     "niche": "Restaurants",
     "tier": 1,
     "score": 58,
-    "quartier": "Racine",
-    "lat": 33.5856197,
-    "lng": -7.6322058,
-    "id": 221
+    "id": 209,
+    "quartier": "2 Mars",
+    "lat": 33.577814,
+    "lng": -7.6275644
   },
   {
     "name": "LOVELY SHEEP – Naturaly Lovely",
@@ -3326,10 +3146,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 58,
-    "quartier": "2 Mars",
-    "lat": 33.5815509,
-    "lng": -7.6246024,
-    "id": 222
+    "id": 210,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5407117,
+    "lng": -7.6419039
   },
   {
     "name": "Nouvelles adresses branchées de glaces à Casablanc",
@@ -3341,10 +3161,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 58,
-    "quartier": "Corniche",
-    "lat": 33.5971104,
-    "lng": -7.6668769,
-    "id": 223
+    "id": 211,
+    "quartier": "Gauthier",
+    "lat": 33.5870287,
+    "lng": -7.6192034
   },
   {
     "name": "Capriso Glacier",
@@ -3356,10 +3176,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 58,
-    "quartier": "Anfa",
-    "lat": 33.5830908,
-    "lng": -7.6605796,
-    "id": 224
+    "id": 212,
+    "quartier": "Centre-ville",
+    "lat": 33.5889351,
+    "lng": -7.6147469
   },
   {
     "name": "GLACIER OLIVERI",
@@ -3371,10 +3191,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 58,
+    "id": 213,
     "quartier": "Ain Diab",
-    "lat": 33.5945345,
-    "lng": -7.662843,
-    "id": 225
+    "lat": 33.6021543,
+    "lng": -7.6683311
   },
   {
     "name": "Ds Glaces",
@@ -3386,10 +3206,10 @@ export const LEADS = [
     "niche": "Glaciers",
     "tier": 1,
     "score": 58,
-    "quartier": "Anfa",
-    "lat": 33.5824827,
-    "lng": -7.6591078,
-    "id": 226
+    "id": 214,
+    "quartier": "Bourgogne",
+    "lat": 33.5763265,
+    "lng": -7.6185964
   },
   {
     "name": "Le Petit Salon Coiffure et Esthétique",
@@ -3401,10 +3221,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 58,
-    "quartier": "Racine",
-    "lat": 33.5947883,
-    "lng": -7.6316754,
-    "id": 227
+    "id": 215,
+    "quartier": "Anfa",
+    "lat": 33.5699216,
+    "lng": -7.6500352
   },
   {
     "name": "Menu Natural Juice Ghandi",
@@ -3416,40 +3236,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 58,
-    "quartier": "California",
-    "lat": 33.5705768,
-    "lng": -7.6659499,
-    "id": 228
-  },
-  {
-    "name": "Meilleurs salons de coiffure à proximité à Casabla",
-    "address": "Bd Brahim Roudani (Ex Route El Jadida), Immeuble 230",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.fresha.com/lp/fr/bt/salons-de-coiffure/ma-casablanca",
-    "niche": "Coiffeurs",
-    "tier": 2,
-    "score": 58,
-    "quartier": "Maarif",
-    "lat": 33.5721353,
-    "lng": -7.6357722,
-    "id": 229
-  },
-  {
-    "name": "Manhattan Beauty Salon – Le meilleur salon de beau",
-    "address": "N 80 lot Épinal Socrate mâarif, 27000, Casablanca · Manhattan",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "http://manhattan-beauty-salon.com/",
-    "niche": "Coiffeurs",
-    "tier": 2,
-    "score": 58,
-    "quartier": "Maarif",
-    "lat": 33.579206,
-    "lng": -7.6331949,
-    "id": 230
+    "id": 216,
+    "quartier": "Anfa",
+    "lat": 33.5679407,
+    "lng": -7.6605812
   },
   {
     "name": "Salon Bourgogne",
@@ -3461,10 +3251,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 58,
-    "quartier": "Oulfa",
-    "lat": 33.5627088,
-    "lng": -7.5928253,
-    "id": 231
+    "id": 217,
+    "quartier": "Bourgogne",
+    "lat": 33.5846566,
+    "lng": -7.6162412
   },
   {
     "name": "Salon Amal",
@@ -3476,10 +3266,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 58,
+    "id": 218,
     "quartier": "Derb Sultan",
-    "lat": 33.5891309,
-    "lng": -7.6033982,
-    "id": 232
+    "lat": 33.5827685,
+    "lng": -7.6065287
   },
   {
     "name": "Salon El Houda",
@@ -3491,10 +3281,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 58,
-    "quartier": "CIL",
-    "lat": 33.5594673,
-    "lng": -7.6189228,
-    "id": 233
+    "id": 219,
+    "quartier": "Derb Sultan",
+    "lat": 33.5834175,
+    "lng": -7.609673
   },
   {
     "name": "Barber Shop",
@@ -3506,10 +3296,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 58,
-    "quartier": "2 Mars",
-    "lat": 33.5853519,
-    "lng": -7.6287382,
-    "id": 234
+    "id": 220,
+    "quartier": "Maarif",
+    "lat": 33.5767505,
+    "lng": -7.6297839
   },
   {
     "name": "Parahealth",
@@ -3521,25 +3311,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 58,
-    "quartier": "Centre-ville",
-    "lat": 33.5974035,
-    "lng": -7.6098054,
-    "id": 235
-  },
-  {
-    "name": "Meilleurs salons de beauté à proximité à Casablanc",
-    "address": "Résidence Clos d'Anfa, Rue Bab Chellah, N° 6, Casablanca, 20250, Casablanca-settat",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.fresha.com/lp/fr/bt/instituts-de-beaut%C3%A9/ma-casablanca",
-    "niche": "Esthetique",
-    "tier": 2,
-    "score": 56,
-    "quartier": "Racine",
-    "lat": 33.5936772,
-    "lng": -7.6288014,
-    "id": 236
+    "id": 221,
+    "quartier": "Gauthier",
+    "lat": 33.5861616,
+    "lng": -7.618955
   },
   {
     "name": "Epilation définitive",
@@ -3551,10 +3326,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 56,
-    "quartier": "Maarif",
-    "lat": 33.5773198,
-    "lng": -7.6262574,
-    "id": 237
+    "id": 222,
+    "quartier": "Racine",
+    "lat": 33.5856757,
+    "lng": -7.6322657
   },
   {
     "name": "Clubs et salles de sport au quartier Maarif à Casa",
@@ -3566,10 +3341,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 56,
-    "quartier": "California",
-    "lat": 33.5739131,
-    "lng": -7.6676798,
-    "id": 238
+    "id": 223,
+    "quartier": "Gauthier",
+    "lat": 33.5853037,
+    "lng": -7.6189122
   },
   {
     "name": "Salles de sport",
@@ -3581,10 +3356,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 56,
-    "quartier": "Gauthier",
-    "lat": 33.5882369,
-    "lng": -7.6282014,
-    "id": 239
+    "id": 224,
+    "quartier": "California",
+    "lat": 33.5684548,
+    "lng": -7.6658417
   },
   {
     "name": "Plein Ciel Paradise Club",
@@ -3596,10 +3371,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 56,
-    "quartier": "Gauthier",
-    "lat": 33.5884895,
-    "lng": -7.6189216,
-    "id": 240
+    "id": 225,
+    "quartier": "Anfa",
+    "lat": 33.5714905,
+    "lng": -7.6499661
   },
   {
     "name": "Cleanzy",
@@ -3611,10 +3386,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 56,
-    "quartier": "CIL",
-    "lat": 33.5690708,
-    "lng": -7.6226374,
-    "id": 241
+    "id": 226,
+    "quartier": "Bourgogne",
+    "lat": 33.5820842,
+    "lng": -7.614003
   },
   {
     "name": "Laverie LAVE LINGE SERVICE",
@@ -3626,10 +3401,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 56,
-    "quartier": "Palmier",
-    "lat": 33.5716663,
-    "lng": -7.6352299,
-    "id": 242
+    "id": 227,
+    "quartier": "Gauthier",
+    "lat": 33.586856,
+    "lng": -7.629261
   },
   {
     "name": "CAPUCINE Pressing, Maarif.",
@@ -3641,10 +3416,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 56,
+    "id": 228,
     "quartier": "Palmier",
-    "lat": 33.5734745,
-    "lng": -7.6328233,
-    "id": 243
+    "lat": 33.5631192,
+    "lng": -7.6383979
   },
   {
     "name": "BAMBOO Bourgogne",
@@ -3656,10 +3431,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 55,
-    "quartier": "Maarif",
-    "lat": 33.5771556,
-    "lng": -7.633586,
-    "id": 244
+    "id": 229,
+    "quartier": "Racine",
+    "lat": 33.5881796,
+    "lng": -7.6272534
   },
   {
     "name": "SOY CFC",
@@ -3671,10 +3446,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 55,
+    "id": 230,
     "quartier": "Anfa",
-    "lat": 33.5746177,
-    "lng": -7.6538574,
-    "id": 245
+    "lat": 33.5825904,
+    "lng": -7.6573235
   },
   {
     "name": "Sushi&Mahou",
@@ -3686,10 +3461,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 55,
+    "id": 231,
     "quartier": "Anfa",
-    "lat": 33.5768855,
-    "lng": -7.6543667,
-    "id": 246
+    "lat": 33.5787042,
+    "lng": -7.6569108
   },
   {
     "name": "Ashokai sushi bachkou",
@@ -3701,10 +3476,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 55,
-    "quartier": "Maarif",
-    "lat": 33.5674009,
-    "lng": -7.6285083,
-    "id": 247
+    "id": 232,
+    "quartier": "Anfa",
+    "lat": 33.5735005,
+    "lng": -7.6623723
   },
   {
     "name": "Wardia Tea & Coffee",
@@ -3716,10 +3491,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
-    "quartier": "Gauthier",
-    "lat": 33.5869459,
-    "lng": -7.6201797,
-    "id": 248
+    "id": 233,
+    "quartier": "Centre-ville",
+    "lat": 33.5971309,
+    "lng": -7.6102982
   },
   {
     "name": "Les Frères Gourmets",
@@ -3731,10 +3506,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
-    "quartier": "Racine",
-    "lat": 33.5880543,
-    "lng": -7.6350938,
-    "id": 249
+    "id": 234,
+    "quartier": "Anfa",
+    "lat": 33.5680841,
+    "lng": -7.6566535
   },
   {
     "name": "Sérénia",
@@ -3746,10 +3521,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
-    "quartier": "Anfa",
-    "lat": 33.5829862,
-    "lng": -7.6621382,
-    "id": 250
+    "id": 235,
+    "quartier": "Bourgogne",
+    "lat": 33.5835519,
+    "lng": -7.6196382
   },
   {
     "name": "Salon Art' Tiff",
@@ -3761,10 +3536,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
-    "quartier": "Anfa",
-    "lat": 33.5681524,
-    "lng": -7.6545185,
-    "id": 251
+    "id": 236,
+    "quartier": "Centre-ville",
+    "lat": 33.5974035,
+    "lng": -7.6098054
   },
   {
     "name": "KVITKA salon & beauty",
@@ -3776,10 +3551,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
-    "quartier": "Anfa",
-    "lat": 33.5827071,
-    "lng": -7.6629997,
-    "id": 252
+    "id": 237,
+    "quartier": "Centre-ville",
+    "lat": 33.6008363,
+    "lng": -7.6089685
   },
   {
     "name": "Coffee Gauthier",
@@ -3791,10 +3566,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
+    "id": 238,
     "quartier": "Maarif",
-    "lat": 33.5798143,
-    "lng": -7.6295593,
-    "id": 253
+    "lat": 33.5773198,
+    "lng": -7.6262574
   },
   {
     "name": "CAFE ARMAND BELVEDERE",
@@ -3806,10 +3581,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 55,
-    "quartier": "Racine",
-    "lat": 33.5852787,
-    "lng": -7.629383,
-    "id": 254
+    "id": 239,
+    "quartier": "Anfa",
+    "lat": 33.5798914,
+    "lng": -7.6550997
   },
   {
     "name": "Bacha Juice",
@@ -3821,10 +3596,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 55,
-    "quartier": "California",
-    "lat": 33.5675801,
-    "lng": -7.6774055,
-    "id": 255
+    "id": 240,
+    "quartier": "Hay Hassani",
+    "lat": 33.5608739,
+    "lng": -7.6796029
   },
   {
     "name": "Planète Des Fruits",
@@ -3836,10 +3611,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 55,
-    "quartier": "Bourgogne",
-    "lat": 33.5761153,
-    "lng": -7.6199483,
-    "id": 256
+    "id": 241,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.543379,
+    "lng": -7.6440432
   },
   {
     "name": "Natural Juice",
@@ -3851,10 +3626,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 55,
-    "quartier": "Bourgogne",
-    "lat": 33.5842641,
-    "lng": -7.6178603,
-    "id": 257
+    "id": 242,
+    "quartier": "Centre-ville",
+    "lat": 33.5990708,
+    "lng": -7.6145374
   },
   {
     "name": "Naturel Jus",
@@ -3866,10 +3641,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 55,
-    "quartier": "California",
-    "lat": 33.5677667,
-    "lng": -7.6717036,
-    "id": 258
+    "id": 243,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5493325,
+    "lng": -7.6534599
   },
   {
     "name": "Kool Smoothie Oasis",
@@ -3881,10 +3656,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 55,
-    "quartier": "Anfa",
-    "lat": 33.5839692,
-    "lng": -7.6601885,
-    "id": 259
+    "id": 244,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5529489,
+    "lng": -7.6486467
   },
   {
     "name": "Kool Smoothie Maarif",
@@ -3896,10 +3671,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 55,
-    "quartier": "Bourgogne",
-    "lat": 33.5784351,
-    "lng": -7.6199758,
-    "id": 260
+    "id": 245,
+    "quartier": "Gauthier",
+    "lat": 33.5908417,
+    "lng": -7.6244395
   },
   {
     "name": "Amine Hair Artist",
@@ -3911,10 +3686,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Oulfa",
-    "lat": 33.5584123,
-    "lng": -7.5970865,
-    "id": 261
+    "id": 246,
+    "quartier": "Bourgogne",
+    "lat": 33.5799706,
+    "lng": -7.6164145
   },
   {
     "name": "L'atelier de coiffure",
@@ -3926,10 +3701,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
+    "id": 247,
     "quartier": "Bourgogne",
-    "lat": 33.5753143,
-    "lng": -7.6179839,
-    "id": 262
+    "lat": 33.5813313,
+    "lng": -7.61672
   },
   {
     "name": "Caprices2femmes",
@@ -3941,10 +3716,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "CIL",
-    "lat": 33.567643,
-    "lng": -7.6142442,
-    "id": 263
+    "id": 248,
+    "quartier": "Maarif",
+    "lat": 33.5674009,
+    "lng": -7.6285083
   },
   {
     "name": "Salon De Coiffure La Joconde",
@@ -3956,10 +3731,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Oulfa",
-    "lat": 33.5588728,
-    "lng": -7.5990673,
-    "id": 264
+    "id": 249,
+    "quartier": "Derb Sultan",
+    "lat": 33.5858613,
+    "lng": -7.6007062
   },
   {
     "name": "CHERRAT Ets (Derb Omar)",
@@ -3971,10 +3746,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Derb Sultan",
-    "lat": 33.5840788,
-    "lng": -7.600869,
-    "id": 265
+    "id": 250,
+    "quartier": "Oulfa",
+    "lat": 33.553092,
+    "lng": -7.5808499
   },
   {
     "name": "Diamont's Hair",
@@ -3986,10 +3761,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Oulfa",
-    "lat": 33.5589166,
-    "lng": -7.5869777,
-    "id": 266
+    "id": 251,
+    "quartier": "Maarif",
+    "lat": 33.5701401,
+    "lng": -7.6393313
   },
   {
     "name": "PELO.BEAUTY",
@@ -4001,10 +3776,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Derb Sultan",
-    "lat": 33.5853379,
-    "lng": -7.6094987,
-    "id": 267
+    "id": 252,
+    "quartier": "Oulfa",
+    "lat": 33.5473315,
+    "lng": -7.5948524
   },
   {
     "name": "SALON YS BEAUTÉ COIFFURE ESTHÉTIQUE POUR FEMME",
@@ -4016,10 +3791,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Derb Sultan",
-    "lat": 33.5893998,
-    "lng": -7.6106856,
-    "id": 268
+    "id": 253,
+    "quartier": "Bourgogne",
+    "lat": 33.5760914,
+    "lng": -7.6168111
   },
   {
     "name": "Salon mechtan",
@@ -4031,10 +3806,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Derb Sultan",
-    "lat": 33.5908931,
-    "lng": -7.6025954,
-    "id": 269
+    "id": 254,
+    "quartier": "Oulfa",
+    "lat": 33.5584525,
+    "lng": -7.585311
   },
   {
     "name": "Madame L'artiste Salon de Beauté",
@@ -4046,10 +3821,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 55,
-    "quartier": "Maarif",
-    "lat": 33.5784527,
-    "lng": -7.6332146,
-    "id": 270
+    "id": 255,
+    "quartier": "Bourgogne",
+    "lat": 33.5828994,
+    "lng": -7.6176004
   },
   {
     "name": "Barber Lounge Maarif (by Anwar)",
@@ -4061,10 +3836,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.5617301,
-    "lng": -7.6733994,
-    "id": 271
+    "id": 256,
+    "quartier": "Centre-ville",
+    "lat": 33.5889303,
+    "lng": -7.6160274
   },
   {
     "name": "L'artiste Barbershop",
@@ -4076,10 +3851,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.5555028,
-    "lng": -7.6689046,
-    "id": 272
+    "id": 257,
+    "quartier": "Centre-ville",
+    "lat": 33.5896382,
+    "lng": -7.6097441
   },
   {
     "name": "Heir Barber Shop",
@@ -4091,10 +3866,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.5531501,
-    "lng": -7.6619059,
-    "id": 273
+    "id": 258,
+    "quartier": "Centre-ville",
+    "lat": 33.5925801,
+    "lng": -7.6193055
   },
   {
     "name": "RAYAN Barbershop",
@@ -4106,10 +3881,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 55,
-    "quartier": "Derb Sultan",
-    "lat": 33.5872671,
-    "lng": -7.609249,
-    "id": 274
+    "id": 259,
+    "quartier": "Hay Hassani",
+    "lat": 33.5518307,
+    "lng": -7.6720965
   },
   {
     "name": "Pharmacie Narjis",
@@ -4121,10 +3896,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
+    "id": 260,
     "quartier": "Hay Hassani",
-    "lat": 33.56489,
-    "lng": -7.6647258,
-    "id": 275
+    "lat": 33.5681282,
+    "lng": -7.6679206
   },
   {
     "name": "pharmacie attawfik",
@@ -4136,10 +3911,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Centre-ville",
-    "lat": 33.6007121,
-    "lng": -7.6064388,
-    "id": 276
+    "id": 261,
+    "quartier": "Bourgogne",
+    "lat": 33.578525,
+    "lng": -7.6201777
   },
   {
     "name": "Pharmacie & Parapharmacie Emeraude",
@@ -4151,10 +3926,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.563145,
-    "lng": -7.6798233,
-    "id": 277
+    "id": 262,
+    "quartier": "Gauthier",
+    "lat": 33.5931815,
+    "lng": -7.6247131
   },
   {
     "name": "Pharmacy Bourgogne",
@@ -4166,10 +3941,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Bourgogne",
-    "lat": 33.5757985,
-    "lng": -7.6203558,
-    "id": 278
+    "id": 263,
+    "quartier": "Hay Hassani",
+    "lat": 33.5564702,
+    "lng": -7.6721516
   },
   {
     "name": "Pharmacie Foucauld",
@@ -4181,10 +3956,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Maarif",
-    "lat": 33.5742725,
-    "lng": -7.6248863,
-    "id": 279
+    "id": 264,
+    "quartier": "Bourgogne",
+    "lat": 33.5754771,
+    "lng": -7.6213533
   },
   {
     "name": "Pharmacie Racine",
@@ -4196,10 +3971,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Maarif",
-    "lat": 33.5695774,
-    "lng": -7.6313296,
-    "id": 280
+    "id": 265,
+    "quartier": "Gauthier",
+    "lat": 33.5829143,
+    "lng": -7.6224839
   },
   {
     "name": "Pharmacie de picardie",
@@ -4211,10 +3986,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Gauthier",
-    "lat": 33.5826217,
-    "lng": -7.6233471,
-    "id": 281
+    "id": 266,
+    "quartier": "Bourgogne",
+    "lat": 33.5821822,
+    "lng": -7.6145831
   },
   {
     "name": "Grande Pharmacy Of Paris",
@@ -4226,10 +4001,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.5577157,
-    "lng": -7.6779391,
-    "id": 282
+    "id": 267,
+    "quartier": "Centre-ville",
+    "lat": 33.6006765,
+    "lng": -7.6130178
   },
   {
     "name": "Pharmacie ANFA",
@@ -4241,10 +4016,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
+    "id": 268,
     "quartier": "Centre-ville",
-    "lat": 33.5994862,
-    "lng": -7.6124597,
-    "id": 283
+    "lat": 33.5916468,
+    "lng": -7.60609
   },
   {
     "name": "AnfaPlace Pharmacy",
@@ -4256,10 +4031,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.5638438,
-    "lng": -7.6650676,
-    "id": 284
+    "id": 269,
+    "quartier": "Gauthier",
+    "lat": 33.5853455,
+    "lng": -7.6189222
   },
   {
     "name": "Val d'Anfa Pharmacy",
@@ -4271,10 +4046,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 55,
-    "quartier": "Hay Hassani",
-    "lat": 33.5486855,
-    "lng": -7.6705864,
-    "id": 285
+    "id": 270,
+    "quartier": "Bourgogne",
+    "lat": 33.5780746,
+    "lng": -7.6223724
   },
   {
     "name": "Sushiclub.ma",
@@ -4286,10 +4061,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5719172,
-    "lng": -7.6250933,
-    "id": 286
+    "id": 271,
+    "quartier": "Hay Hassani",
+    "lat": 33.5649461,
+    "lng": -7.6688389
   },
   {
     "name": "Le Sushi Bar",
@@ -4301,10 +4076,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Racine",
-    "lat": 33.586412,
-    "lng": -7.6264413,
-    "id": 287
+    "id": 272,
+    "quartier": "Anfa",
+    "lat": 33.570617,
+    "lng": -7.6491622
   },
   {
     "name": "découvrez la sélection restaurant japonais",
@@ -4316,10 +4091,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5893323,
-    "lng": -7.6266274,
-    "id": 288
+    "id": 273,
+    "quartier": "Corniche",
+    "lat": 33.6028527,
+    "lng": -7.6675106
   },
   {
     "name": "HOMU : la table japonaise à découvrir (absolument)",
@@ -4331,10 +4106,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5902717,
-    "lng": -7.6274349,
-    "id": 289
+    "id": 274,
+    "quartier": "Maarif",
+    "lat": 33.5697362,
+    "lng": -7.6373321
   },
   {
     "name": "SoyaBox Sushis & wok",
@@ -4346,10 +4121,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Racine",
-    "lat": 33.5921162,
-    "lng": -7.6341839,
-    "id": 290
+    "id": 275,
+    "quartier": "Corniche",
+    "lat": 33.6036759,
+    "lng": -7.6599885
   },
   {
     "name": "SoyaBox",
@@ -4361,10 +4136,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Racine",
-    "lat": 33.5866918,
-    "lng": -7.6271686,
-    "id": 291
+    "id": 276,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5423954,
+    "lng": -7.662762
   },
   {
     "name": "Go Sushi 🍣",
@@ -4376,10 +4151,10 @@ export const LEADS = [
     "niche": "Sushi",
     "tier": 1,
     "score": 53,
-    "quartier": "Ain Diab",
-    "lat": 33.5860514,
-    "lng": -7.6632418,
-    "id": 292
+    "id": 277,
+    "quartier": "Maarif",
+    "lat": 33.5748742,
+    "lng": -7.6262935
   },
   {
     "name": "Modern Studio Maarif",
@@ -4391,10 +4166,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
+    "id": 278,
     "quartier": "Anfa",
-    "lat": 33.5805709,
-    "lng": -7.6586762,
-    "id": 293
+    "lat": 33.5671023,
+    "lng": -7.6547644
   },
   {
     "name": "Beauté Gauthier",
@@ -4406,10 +4181,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
+    "id": 279,
     "quartier": "Gauthier",
-    "lat": 33.5883526,
-    "lng": -7.6180687,
-    "id": 294
+    "lat": 33.5926199,
+    "lng": -7.622516
   },
   {
     "name": "Salon de coiffure pour hommes Gauthier Frères Bros",
@@ -4421,10 +4196,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5706907,
-    "lng": -7.6269238,
-    "id": 295
+    "id": 280,
+    "quartier": "Racine",
+    "lat": 33.5883757,
+    "lng": -7.6345797
   },
   {
     "name": "sarl rg (robin gauthier votre salon de coiffure)",
@@ -4436,10 +4211,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5840193,
-    "lng": -7.6201122,
-    "id": 296
+    "id": 281,
+    "quartier": "Maarif",
+    "lat": 33.5698527,
+    "lng": -7.6333062
   },
   {
     "name": "Beauté Gauthier on Instagram: \" Bienvenue chez Beauté ...",
@@ -4451,10 +4226,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
-    "quartier": "Anfa",
-    "lat": 33.5713503,
-    "lng": -7.6578928,
-    "id": 297
+    "id": 282,
+    "quartier": "Gauthier",
+    "lat": 33.5851581,
+    "lng": -7.6227472
   },
   {
     "name": "Mint",
@@ -4466,10 +4241,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
-    "quartier": "Racine",
-    "lat": 33.59316,
-    "lng": -7.635126,
-    "id": 298
+    "id": 283,
+    "quartier": "Bourgogne",
+    "lat": 33.5750217,
+    "lng": -7.6188471
   },
   {
     "name": "Les Soeurettes",
@@ -4481,10 +4256,10 @@ export const LEADS = [
     "niche": "Salons de the",
     "tier": 1,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5924605,
-    "lng": -7.6200268,
-    "id": 299
+    "id": 284,
+    "quartier": "Hay Hassani",
+    "lat": 33.5577157,
+    "lng": -7.6779391
   },
   {
     "name": "Lemon",
@@ -4496,10 +4271,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5721562,
-    "lng": -7.6375967,
-    "id": 300
+    "id": 285,
+    "quartier": "Centre-ville",
+    "lat": 33.5994862,
+    "lng": -7.6124597
   },
   {
     "name": "Archives des Jus de Fruits",
@@ -4511,10 +4286,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Anfa",
-    "lat": 33.5829906,
-    "lng": -7.6539395,
-    "id": 301
+    "id": 286,
+    "quartier": "Hay Hassani",
+    "lat": 33.5638438,
+    "lng": -7.6650676
   },
   {
     "name": "🍋 Jus citron au goût authentique ✨ À partir de 20 DHS ...",
@@ -4526,10 +4301,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "California",
-    "lat": 33.5664061,
-    "lng": -7.6642221,
-    "id": 302
+    "id": 287,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5306855,
+    "lng": -7.6535864
   },
   {
     "name": "Juice Fit",
@@ -4541,10 +4316,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5775453,
-    "lng": -7.6381778,
-    "id": 303
+    "id": 288,
+    "quartier": "Gauthier",
+    "lat": 33.5869129,
+    "lng": -7.61807
   },
   {
     "name": "Koolsmoothie",
@@ -4556,10 +4331,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.577486,
-    "lng": -7.6163517,
-    "id": 304
+    "id": 289,
+    "quartier": "Corniche",
+    "lat": 33.5941493,
+    "lng": -7.6559218
   },
   {
     "name": "Archives des Smoothies",
@@ -4571,10 +4346,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "2 Mars",
-    "lat": 33.5835176,
-    "lng": -7.6295684,
-    "id": 305
+    "id": 290,
+    "quartier": "Anfa",
+    "lat": 33.5775539,
+    "lng": -7.663379
   },
   {
     "name": "Kool Smoothie : Le premier café inauguré",
@@ -4586,10 +4361,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5737468,
-    "lng": -7.6254618,
-    "id": 306
+    "id": 291,
+    "quartier": "Anfa",
+    "lat": 33.5791195,
+    "lng": -7.6647248
   },
   {
     "name": "Dragon Juice",
@@ -4601,10 +4376,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "California",
-    "lat": 33.5770286,
-    "lng": -7.6701137,
-    "id": 307
+    "id": 292,
+    "quartier": "Centre-ville",
+    "lat": 33.598755,
+    "lng": -7.6161451
   },
   {
     "name": "Découverte des délices de Natural Juice à Casablan",
@@ -4616,10 +4391,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "2 Mars",
-    "lat": 33.5872646,
-    "lng": -7.628721,
-    "id": 308
+    "id": 293,
+    "quartier": "Centre-ville",
+    "lat": 33.5915224,
+    "lng": -7.6067915
   },
   {
     "name": "Paradise Fresh Juice",
@@ -4631,10 +4406,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5667121,
-    "lng": -7.6298401,
-    "id": 309
+    "id": 294,
+    "quartier": "Hay Hassani",
+    "lat": 33.5516617,
+    "lng": -7.6618901
   },
   {
     "name": "Paradise juice",
@@ -4646,10 +4421,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5800292,
-    "lng": -7.63014,
-    "id": 310
+    "id": 295,
+    "quartier": "Racine",
+    "lat": 33.5926426,
+    "lng": -7.6314057
   },
   {
     "name": "Natural Juice, en face de Lydec, boulevard Ghandi ...",
@@ -4661,10 +4436,10 @@ export const LEADS = [
     "niche": "Juice bars",
     "tier": 1,
     "score": 53,
-    "quartier": "California",
-    "lat": 33.5664808,
-    "lng": -7.6656614,
-    "id": 311
+    "id": 296,
+    "quartier": "Corniche",
+    "lat": 33.5987368,
+    "lng": -7.6548917
   },
   {
     "name": "LA JOCONDE",
@@ -4676,10 +4451,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.5756059,
-    "lng": -7.6198113,
-    "id": 312
+    "id": 297,
+    "quartier": "Maarif",
+    "lat": 33.5706907,
+    "lng": -7.6269238
   },
   {
     "name": "The Trendy Lounge",
@@ -4691,10 +4466,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.5813958,
-    "lng": -7.6167254,
-    "id": 313
+    "id": 298,
+    "quartier": "Derb Sultan",
+    "lat": 33.5819591,
+    "lng": -7.6006162
   },
   {
     "name": "Les salons de coiffure incontournables à Casablanc",
@@ -4706,10 +4481,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Derb Sultan",
-    "lat": 33.5837123,
-    "lng": -7.6080761,
-    "id": 314
+    "id": 299,
+    "quartier": "Oulfa",
+    "lat": 33.5623342,
+    "lng": -7.5908882
   },
   {
     "name": "Mood Coiffure",
@@ -4721,10 +4496,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Hay Hassani",
-    "lat": 33.5653584,
-    "lng": -7.6632582,
-    "id": 315
+    "id": 300,
+    "quartier": "Maarif",
+    "lat": 33.5786242,
+    "lng": -7.6265886
   },
   {
     "name": "Au Premier",
@@ -4736,10 +4511,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
+    "id": 301,
     "quartier": "CIL",
-    "lat": 33.5585208,
-    "lng": -7.6183178,
-    "id": 316
+    "lat": 33.5701467,
+    "lng": -7.6255014
   },
   {
     "name": "Coiffure Anfa",
@@ -4751,25 +4526,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
+    "id": 302,
     "quartier": "Derb Sultan",
-    "lat": 33.5924829,
-    "lng": -7.6089202,
-    "id": 317
-  },
-  {
-    "name": "Meilleurs coiffeurs 2026",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.meilleurcoiffeur.com/meilleur-coiffeur/grand-casablanca-d293.html",
-    "niche": "Coiffeurs",
-    "tier": 2,
-    "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.5854315,
-    "lng": -7.6162814,
-    "id": 318
+    "lat": 33.593214,
+    "lng": -7.6005025
   },
   {
     "name": "Salon de Coiffure lartiste barbershop",
@@ -4781,10 +4541,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Hay Hassani",
-    "lat": 33.5564154,
-    "lng": -7.6587648,
-    "id": 319
+    "id": 303,
+    "quartier": "Maarif",
+    "lat": 33.5721562,
+    "lng": -7.6375967
   },
   {
     "name": "L'artiste Bourgogne",
@@ -4796,10 +4556,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
+    "id": 304,
     "quartier": "Oulfa",
-    "lat": 33.5549943,
-    "lng": -7.5807222,
-    "id": 320
+    "lat": 33.5590181,
+    "lng": -7.5907676
   },
   {
     "name": "Découvrez votre vraie beauté chez ...",
@@ -4811,10 +4571,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.58579,
-    "lng": -7.618922,
-    "id": 321
+    "id": 305,
+    "quartier": "CIL",
+    "lat": 33.5614061,
+    "lng": -7.6142221
   },
   {
     "name": "Beauty Mirror",
@@ -4826,10 +4586,10 @@ export const LEADS = [
     "niche": "Coiffeurs",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5736037,
-    "lng": -7.6259479,
-    "id": 322
+    "id": 306,
+    "quartier": "Oulfa",
+    "lat": 33.5605064,
+    "lng": -7.5869586
   },
   {
     "name": "BARBER SHOP GENTLEMEN CLUB",
@@ -4841,10 +4601,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 53,
+    "id": 307,
     "quartier": "Hay Hassani",
-    "lat": 33.5570869,
-    "lng": -7.6601745,
-    "id": 323
+    "lat": 33.554572,
+    "lng": -7.6649033
   },
   {
     "name": "Le Salon barbier",
@@ -4856,10 +4616,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5796931,
-    "lng": -7.6331196,
-    "id": 324
+    "id": 308,
+    "quartier": "Derb Sultan",
+    "lat": 33.5890235,
+    "lng": -7.6070912
   },
   {
     "name": "The Premium Barbershop",
@@ -4871,10 +4631,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 53,
-    "quartier": "Centre-ville",
-    "lat": 33.6024888,
-    "lng": -7.6115186,
-    "id": 325
+    "id": 309,
+    "quartier": "Maarif",
+    "lat": 33.5737468,
+    "lng": -7.6254618
   },
   {
     "name": "Black Home",
@@ -4886,10 +4646,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5790442,
-    "lng": -7.6359401,
-    "id": 326
+    "id": 310,
+    "quartier": "Centre-ville",
+    "lat": 33.6020286,
+    "lng": -7.6120137
   },
   {
     "name": "Lartiste barber",
@@ -4901,10 +4661,10 @@ export const LEADS = [
     "niche": "Barbershops",
     "tier": 2,
     "score": 53,
-    "quartier": "Centre-ville",
-    "lat": 33.5957139,
-    "lng": -7.6162755,
-    "id": 327
+    "id": 311,
+    "quartier": "Derb Sultan",
+    "lat": 33.5940195,
+    "lng": -7.6059614
   },
   {
     "name": "Le Comptoir de Paris",
@@ -4916,10 +4676,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5884046,
-    "lng": -7.6203349,
-    "id": 328
+    "id": 312,
+    "quartier": "Maarif",
+    "lat": 33.5667121,
+    "lng": -7.6298401
   },
   {
     "name": "Casa beauty lab",
@@ -4931,10 +4691,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5855235,
-    "lng": -7.6280665,
-    "id": 329
+    "id": 313,
+    "quartier": "Maarif",
+    "lat": 33.5800292,
+    "lng": -7.63014
   },
   {
     "name": "Bar à visage",
@@ -4946,10 +4706,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Anfa",
-    "lat": 33.5683826,
-    "lng": -7.6648932,
-    "id": 330
+    "id": 314,
+    "quartier": "Gauthier",
+    "lat": 33.5851606,
+    "lng": -7.6201461
   },
   {
     "name": "Kderma",
@@ -4961,10 +4721,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5710596,
-    "lng": -7.6269438,
-    "id": 331
+    "id": 315,
+    "quartier": "Anfa",
+    "lat": 33.5673432,
+    "lng": -7.6595188
   },
   {
     "name": "Soin by Hasnaa – Experte soins du visage",
@@ -4976,10 +4736,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Oasis",
-    "lat": 33.5595308,
-    "lng": -7.6421943,
-    "id": 332
+    "id": 316,
+    "quartier": "Anfa",
+    "lat": 33.5769929,
+    "lng": -7.6543757
   },
   {
     "name": "Skinfinity Esthétique Avancée",
@@ -4991,10 +4751,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5858851,
-    "lng": -7.61974,
-    "id": 333
+    "id": 317,
+    "quartier": "Racine",
+    "lat": 33.5868342,
+    "lng": -7.6333071
   },
   {
     "name": "Tout Est Grâce x Nairy Beauty - Institut de Beauté Maarif",
@@ -5006,10 +4766,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Anfa",
-    "lat": 33.5801617,
-    "lng": -7.6523517,
-    "id": 334
+    "id": 318,
+    "quartier": "Oasis",
+    "lat": 33.5655723,
+    "lng": -7.6405054
   },
   {
     "name": "Medharmonie beauty salon",
@@ -5021,10 +4781,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
+    "id": 319,
     "quartier": "Gauthier",
-    "lat": 33.5821462,
-    "lng": -7.6245099,
-    "id": 335
+    "lat": 33.5829406,
+    "lng": -7.6221383
   },
   {
     "name": "Meraki Studio - Institut de Beauté & Coiffure Maarif",
@@ -5036,10 +4796,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Anfa",
-    "lat": 33.5745982,
-    "lng": -7.6488315,
-    "id": 336
+    "id": 320,
+    "quartier": "Racine",
+    "lat": 33.5934122,
+    "lng": -7.6339402
   },
   {
     "name": "Beauty Success",
@@ -5051,10 +4811,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Racine",
-    "lat": 33.5928521,
-    "lng": -7.6317383,
-    "id": 337
+    "id": 321,
+    "quartier": "Anfa",
+    "lat": 33.5837191,
+    "lng": -7.6536356
   },
   {
     "name": "HAZEL CONCEPT",
@@ -5066,10 +4826,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.589248,
-    "lng": -7.6274838,
-    "id": 338
+    "id": 322,
+    "quartier": "Oasis",
+    "lat": 33.5596102,
+    "lng": -7.6375099
   },
   {
     "name": "ÉPilPro",
@@ -5081,10 +4841,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.578093,
-    "lng": -7.6261057,
-    "id": 339
+    "id": 323,
+    "quartier": "Gauthier",
+    "lat": 33.5842747,
+    "lng": -7.6224198
   },
   {
     "name": "SAGE ATELIER",
@@ -5096,10 +4856,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.5855321,
-    "lng": -7.6200123,
-    "id": 340
+    "id": 324,
+    "quartier": "Corniche",
+    "lat": 33.6001413,
+    "lng": -7.664821
   },
   {
     "name": "Studio 88 Nail Bar",
@@ -5111,10 +4871,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5912135,
-    "lng": -7.6212246,
-    "id": 341
+    "id": 325,
+    "quartier": "Corniche",
+    "lat": 33.5923453,
+    "lng": -7.6647448
   },
   {
     "name": "Cat Nails Studio",
@@ -5126,10 +4886,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5836306,
-    "lng": -7.6243753,
-    "id": 342
+    "id": 326,
+    "quartier": "Anfa",
+    "lat": 33.5841161,
+    "lng": -7.6567353
   },
   {
     "name": "anfa style",
@@ -5141,10 +4901,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 53,
-    "quartier": "Racine",
-    "lat": 33.5845585,
-    "lng": -7.6337865,
-    "id": 343
+    "id": 327,
+    "quartier": "Gauthier",
+    "lat": 33.5870824,
+    "lng": -7.6187717
   },
   {
     "name": "THE GYM FACTORY",
@@ -5156,10 +4916,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
-    "quartier": "California",
-    "lat": 33.5734638,
-    "lng": -7.6671946,
-    "id": 344
+    "id": 328,
+    "quartier": "Maarif",
+    "lat": 33.5790442,
+    "lng": -7.6359401
   },
   {
     "name": "Unique Fitness Club Californie",
@@ -5171,10 +4931,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5674042,
-    "lng": -7.6375183,
-    "id": 345
+    "id": 329,
+    "quartier": "California",
+    "lat": 33.5707139,
+    "lng": -7.6743755
   },
   {
     "name": "NABDA CLUB",
@@ -5186,10 +4946,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
+    "id": 330,
     "quartier": "California",
-    "lat": 33.5737703,
-    "lng": -7.6722216,
-    "id": 346
+    "lat": 33.5708061,
+    "lng": -7.6659132
   },
   {
     "name": "Miami Fitness Club",
@@ -5201,10 +4961,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5693039,
-    "lng": -7.636528,
-    "id": 347
+    "id": 331,
+    "quartier": "California",
+    "lat": 33.5669647,
+    "lng": -7.6762219
   },
   {
     "name": "Passage Fitness - Anfa Place",
@@ -5216,10 +4976,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
-    "quartier": "California",
-    "lat": 33.5678569,
-    "lng": -7.6729202,
-    "id": 348
+    "id": 332,
+    "quartier": "Anfa",
+    "lat": 33.5683826,
+    "lng": -7.6648932
   },
   {
     "name": "El Otmani Fitness",
@@ -5231,10 +4991,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
+    "id": 333,
     "quartier": "Maarif",
-    "lat": 33.5777158,
-    "lng": -7.6338206,
-    "id": 349
+    "lat": 33.5710596,
+    "lng": -7.6269438
   },
   {
     "name": "CrossFit Casa Anfa",
@@ -5246,10 +5006,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 53,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.5469911,
-    "lng": -7.6485369,
-    "id": 350
+    "id": 334,
+    "quartier": "Gauthier",
+    "lat": 33.5859481,
+    "lng": -7.6212957
   },
   {
     "name": "Pharmacies de garde Ville Bourgogne Maarif Casabla",
@@ -5261,10 +5021,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 53,
-    "quartier": "Hay Hassani",
-    "lat": 33.5656309,
-    "lng": -7.6635591,
-    "id": 351
+    "id": 335,
+    "quartier": "Bourgogne",
+    "lat": 33.5782851,
+    "lng": -7.61524
   },
   {
     "name": "Pharmacie du Maârif",
@@ -5276,10 +5036,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 53,
-    "quartier": "Hay Hassani",
-    "lat": 33.5508122,
-    "lng": -7.6648831,
-    "id": 352
+    "id": 336,
+    "quartier": "Gauthier",
+    "lat": 33.590897,
+    "lng": -7.620011
   },
   {
     "name": "Grande Pharmacie Commerciale",
@@ -5291,10 +5051,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5915455,
-    "lng": -7.6266849,
-    "id": 353
+    "id": 337,
+    "quartier": "Bourgogne",
+    "lat": 33.5745462,
+    "lng": -7.6200099
   },
   {
     "name": "Pharmacie d'Anfa",
@@ -5306,10 +5066,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 53,
-    "quartier": "Centre-ville",
-    "lat": 33.5891871,
-    "lng": -7.6170672,
-    "id": 354
+    "id": 338,
+    "quartier": "Gauthier",
+    "lat": 33.5875589,
+    "lng": -7.6178989
   },
   {
     "name": "PHARMACIE ANFAPLACE",
@@ -5321,10 +5081,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 53,
-    "quartier": "Bourgogne",
-    "lat": 33.5840672,
-    "lng": -7.6180937,
-    "id": 355
+    "id": 339,
+    "quartier": "Centre-ville",
+    "lat": 33.5997361,
+    "lng": -7.6128844
   },
   {
     "name": "La Pharmacie d'Anfaplace Mall vous accueille tous",
@@ -5336,10 +5096,10 @@ export const LEADS = [
     "niche": "Pharmacies",
     "tier": 2,
     "score": 53,
-    "quartier": "Centre-ville",
-    "lat": 33.5907951,
-    "lng": -7.6103771,
-    "id": 356
+    "id": 340,
+    "quartier": "Bourgogne",
+    "lat": 33.581648,
+    "lng": -7.6229838
   },
   {
     "name": "Clean Lab",
@@ -5351,10 +5111,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 53,
-    "quartier": "Gauthier",
-    "lat": 33.5919227,
-    "lng": -7.6204302,
-    "id": 357
+    "id": 341,
+    "quartier": "Maarif",
+    "lat": 33.578093,
+    "lng": -7.6261057
   },
   {
     "name": "Allo Clean Pressing",
@@ -5366,10 +5126,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 53,
-    "quartier": "Palmier",
-    "lat": 33.5720346,
-    "lng": -7.6378661,
-    "id": 358
+    "id": 342,
+    "quartier": "CIL",
+    "lat": 33.5721095,
+    "lng": -7.621483
   },
   {
     "name": "I lave U",
@@ -5381,10 +5141,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5697607,
-    "lng": -7.6297137,
-    "id": 359
+    "id": 343,
+    "quartier": "Gauthier",
+    "lat": 33.5912135,
+    "lng": -7.6212246
   },
   {
     "name": "Laverie libre service mado",
@@ -5396,10 +5156,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5800664,
-    "lng": -7.6345115,
-    "id": 360
+    "id": 344,
+    "quartier": "Gauthier",
+    "lat": 33.5836306,
+    "lng": -7.6243753
   },
   {
     "name": "Laverie libre service",
@@ -5411,10 +5171,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 53,
-    "quartier": "Maarif",
-    "lat": 33.5696688,
-    "lng": -7.6378204,
-    "id": 361
+    "id": 345,
+    "quartier": "Gauthier",
+    "lat": 33.5830585,
+    "lng": -7.6261865
   },
   {
     "name": "ECOCLAIR Pressing Gauthier",
@@ -5426,10 +5186,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 53,
-    "quartier": "Palmier",
-    "lat": 33.5702512,
-    "lng": -7.6354134,
-    "id": 362
+    "id": 346,
+    "quartier": "Gauthier",
+    "lat": 33.5903979,
+    "lng": -7.621296
   },
   {
     "name": "Meal Prep Delivery",
@@ -5441,10 +5201,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 51,
-    "quartier": "California",
-    "lat": 33.5701493,
-    "lng": -7.666308,
-    "id": 363
+    "id": 347,
+    "quartier": "Maarif",
+    "lat": 33.5674042,
+    "lng": -7.6375183
   },
   {
     "name": "Garden Brunch",
@@ -5456,10 +5216,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 51,
-    "quartier": "Racine",
-    "lat": 33.5908336,
-    "lng": -7.6256958,
-    "id": 364
+    "id": 348,
+    "quartier": "Ain Diab",
+    "lat": 33.5977129,
+    "lng": -7.672777
   },
   {
     "name": "French institut",
@@ -5471,10 +5231,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5631543,
-    "lng": -7.6408159,
-    "id": 365
+    "id": 349,
+    "quartier": "Maarif",
+    "lat": 33.5693039,
+    "lng": -7.636528
   },
   {
     "name": "SOIN de visage",
@@ -5486,10 +5246,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Anfa",
-    "lat": 33.5727139,
-    "lng": -7.653751,
-    "id": 366
+    "id": 350,
+    "quartier": "Gauthier",
+    "lat": 33.5861927,
+    "lng": -7.6255902
   },
   {
     "name": "SOINS VISAGE",
@@ -5501,10 +5261,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5694717,
-    "lng": -7.6448669,
-    "id": 367
+    "id": 351,
+    "quartier": "Maarif",
+    "lat": 33.5777158,
+    "lng": -7.6338206
   },
   {
     "name": "soins du visage 100% naturels",
@@ -5516,10 +5276,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Anfa",
-    "lat": 33.5826328,
-    "lng": -7.6585994,
-    "id": 368
+    "id": 352,
+    "quartier": "Racine",
+    "lat": 33.5917955,
+    "lng": -7.6287685
   },
   {
     "name": "Soin Visage",
@@ -5531,10 +5291,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Anfa",
-    "lat": 33.58223,
-    "lng": -7.6520244,
-    "id": 369
+    "id": 353,
+    "quartier": "Oasis",
+    "lat": 33.5657539,
+    "lng": -7.640706
   },
   {
     "name": "Magic First Lady",
@@ -5546,10 +5306,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Anfa",
-    "lat": 33.5839663,
-    "lng": -7.6571604,
-    "id": 370
+    "id": 354,
+    "quartier": "Oasis",
+    "lat": 33.5558748,
+    "lng": -7.6415887
   },
   {
     "name": "Centre de beauté à Maarif",
@@ -5561,10 +5321,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
+    "id": 355,
     "quartier": "Anfa",
-    "lat": 33.5721337,
-    "lng": -7.6597902,
-    "id": 371
+    "lat": 33.5812426,
+    "lng": -7.6634748
   },
   {
     "name": "KARPPES Center – Institution de Beauté & Spa",
@@ -5576,25 +5336,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5927743,
-    "lng": -7.6217005,
-    "id": 372
-  },
-  {
-    "name": "Top 5 meilleurs centres de beauté à Maarif, Casabl",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://moroccocloser.com/fr/meilleur-centre-de-beaute-casablanca/?srsltid=AfmBOorZofxFCRMEMYgpZ5Xo7en5up7iuUEOMcHf2vBM4Vk4ropjDptu",
-    "niche": "Esthetique",
-    "tier": 2,
-    "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.564397,
-    "lng": -7.6429227,
-    "id": 373
+    "id": 356,
+    "quartier": "Racine",
+    "lat": 33.5849404,
+    "lng": -7.6348754
   },
   {
     "name": "BEAUTÉ",
@@ -5606,10 +5351,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Racine",
-    "lat": 33.5900877,
-    "lng": -7.6354281,
-    "id": 374
+    "id": 357,
+    "quartier": "Gauthier",
+    "lat": 33.5916672,
+    "lng": -7.6225937
   },
   {
     "name": "Beauty Success s'installe au prestigieux Boulevard",
@@ -5621,10 +5366,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5689202,
-    "lng": -7.6308999,
-    "id": 375
+    "id": 358,
+    "quartier": "Racine",
+    "lat": 33.5861464,
+    "lng": -7.6298578
   },
   {
     "name": "ÉPILATIONS",
@@ -5636,25 +5381,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5689125,
-    "lng": -7.6430685,
-    "id": 376
-  },
-  {
-    "name": "Meilleurs salons d'épilation à proximité à Casabla",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.fresha.com/lp/fr/bt/centres-d'%C3%A9pilation/ma-casablanca",
-    "niche": "Esthetique",
-    "tier": 2,
-    "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5598988,
-    "lng": -7.6387517,
-    "id": 377
+    "id": 359,
+    "quartier": "Gauthier",
+    "lat": 33.5919227,
+    "lng": -7.6204302
   },
   {
     "name": "Épilation définitive soins du corps et du visage a",
@@ -5666,10 +5396,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5785094,
-    "lng": -7.6300257,
-    "id": 378
+    "id": 360,
+    "quartier": "Oasis",
+    "lat": 33.5673794,
+    "lng": -7.6488215
   },
   {
     "name": "Principe de l'épilation laser",
@@ -5681,10 +5411,10 @@ export const LEADS = [
     "niche": "Esthetique",
     "tier": 2,
     "score": 51,
-    "quartier": "Racine",
-    "lat": 33.5869166,
-    "lng": -7.6298095,
-    "id": 379
+    "id": 361,
+    "quartier": "Maarif",
+    "lat": 33.5697607,
+    "lng": -7.6297137
   },
   {
     "name": "Coco Beauty Bar",
@@ -5696,10 +5426,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 51,
-    "quartier": "Bourgogne",
-    "lat": 33.5824324,
-    "lng": -7.6177891,
-    "id": 380
+    "id": 362,
+    "quartier": "Gauthier",
+    "lat": 33.5930248,
+    "lng": -7.6251336
   },
   {
     "name": "So Chic Nails Bar",
@@ -5711,10 +5441,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5642043,
-    "lng": -7.6420319,
-    "id": 381
+    "id": 363,
+    "quartier": "Gauthier",
+    "lat": 33.5852266,
+    "lng": -7.6276153
   },
   {
     "name": "I'Nail beauty bar 💈🎀",
@@ -5726,40 +5456,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5578686,
-    "lng": -7.6495735,
-    "id": 382
-  },
-  {
-    "name": "Meilleures manucures russes à proximité à Casablan",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.fresha.com/lp/fr/tt/manucures-russes/ma-casablanca",
-    "niche": "Ongleries",
-    "tier": 2,
-    "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5842888,
-    "lng": -7.6201401,
-    "id": 383
-  },
-  {
-    "name": "Meilleurs Nail Art et dessins sur ongles à proximi",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.fresha.com/lp/fr/tt/nail-art/ma-casablanca",
-    "niche": "Ongleries",
-    "tier": 2,
-    "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.583184,
-    "lng": -7.6220184,
-    "id": 384
+    "id": 364,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5465024,
+    "lng": -7.6538269
   },
   {
     "name": "sokolova.beauty.bar - ongles",
@@ -5771,25 +5471,10 @@ export const LEADS = [
     "niche": "Ongleries",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5740641,
-    "lng": -7.6356729,
-    "id": 385
-  },
-  {
-    "name": "3 adresses cool et pas chères pour une manucure pa",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.plurielle.ma/non-classe/nos-adresses-pour-des-ongles-parfaits/",
-    "niche": "Ongleries",
-    "tier": 2,
-    "score": 51,
-    "quartier": "Oasis",
-    "lat": 33.5612103,
-    "lng": -7.6492617,
-    "id": 386
+    "id": 365,
+    "quartier": "Ain Diab",
+    "lat": 33.5931866,
+    "lng": -7.665385
   },
   {
     "name": "Le A SPA",
@@ -5801,10 +5486,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5909459,
-    "lng": -7.6260667,
-    "id": 387
+    "id": 366,
+    "quartier": "Corniche",
+    "lat": 33.6000448,
+    "lng": -7.6549278
   },
   {
     "name": "Hôtel spa haut de gamme",
@@ -5816,10 +5501,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5836022,
-    "lng": -7.6202987,
-    "id": 388
+    "id": 367,
+    "quartier": "Corniche",
+    "lat": 33.5991543,
+    "lng": -7.6578159
   },
   {
     "name": "Topkapi Hammams & SPA",
@@ -5831,10 +5516,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 51,
-    "quartier": "Racine",
-    "lat": 33.5848067,
-    "lng": -7.6287729,
-    "id": 389
+    "id": 368,
+    "quartier": "Ain Diab",
+    "lat": 33.5907139,
+    "lng": -7.665751
   },
   {
     "name": "WSPA",
@@ -5846,10 +5531,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 51,
-    "quartier": "Racine",
-    "lat": 33.59417,
-    "lng": -7.6324617,
-    "id": 390
+    "id": 369,
+    "quartier": "Corniche",
+    "lat": 33.6054717,
+    "lng": -7.6618669
   },
   {
     "name": "Spacil Casa",
@@ -5861,10 +5546,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5928427,
-    "lng": -7.6211371,
-    "id": 391
+    "id": 370,
+    "quartier": "Ain Diab",
+    "lat": 33.6006328,
+    "lng": -7.6705994
   },
   {
     "name": "LE JARDIN D'EVE SPA 🧿",
@@ -5876,10 +5561,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 51,
-    "quartier": "Anfa",
-    "lat": 33.567016,
-    "lng": -7.6543574,
-    "id": 392
+    "id": 371,
+    "quartier": "Ain Diab",
+    "lat": 33.60023,
+    "lng": -7.6640244
   },
   {
     "name": "Privilege Luxury Fitness Club",
@@ -5891,10 +5576,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "California",
-    "lat": 33.5723465,
-    "lng": -7.6757394,
-    "id": 393
+    "id": 372,
+    "quartier": "Anfa",
+    "lat": 33.5839663,
+    "lng": -7.6571604
   },
   {
     "name": "Smart Fit",
@@ -5906,10 +5591,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5922966,
-    "lng": -7.6246567,
-    "id": 394
+    "id": 373,
+    "quartier": "Anfa",
+    "lat": 33.5721337,
+    "lng": -7.6597902
   },
   {
     "name": "salle de sport Club De Gym Box cross",
@@ -5921,10 +5606,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5667207,
-    "lng": -7.6281969,
-    "id": 395
+    "id": 374,
+    "quartier": "California",
+    "lat": 33.5766323,
+    "lng": -7.6677339
   },
   {
     "name": "Punch",
@@ -5936,10 +5621,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.5490178,
-    "lng": -7.6606551,
-    "id": 396
+    "id": 375,
+    "quartier": "Gauthier",
+    "lat": 33.5895977,
+    "lng": -7.621842
   },
   {
     "name": "Notre activité Musculation",
@@ -5951,10 +5636,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "California",
-    "lat": 33.565831,
-    "lng": -7.6730454,
-    "id": 397
+    "id": 376,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5435753,
+    "lng": -7.6618563
   },
   {
     "name": "RISE Athletic Club",
@@ -5966,10 +5651,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5848683,
-    "lng": -7.6235366,
-    "id": 398
+    "id": 377,
+    "quartier": "Maarif",
+    "lat": 33.5689202,
+    "lng": -7.6308999
   },
   {
     "name": "Go Fitness",
@@ -5981,10 +5666,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.542859,
-    "lng": -7.6477381,
-    "id": 399
+    "id": 378,
+    "quartier": "Gauthier",
+    "lat": 33.5929844,
+    "lng": -7.6219514
   },
   {
     "name": "REBL SPORTS CLUB",
@@ -5996,10 +5681,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
+    "id": 379,
     "quartier": "Gauthier",
-    "lat": 33.5842177,
-    "lng": -7.6194661,
-    "id": 400
+    "lat": 33.5862241,
+    "lng": -7.6187138
   },
   {
     "name": "Clubs et salles de sport au quartier Ain Diab à Ca",
@@ -6011,10 +5696,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5884244,
-    "lng": -7.6192632,
-    "id": 401
+    "id": 380,
+    "quartier": "Maarif",
+    "lat": 33.5785094,
+    "lng": -7.6300257
   },
   {
     "name": "CrossFit Ain Diab",
@@ -6026,10 +5711,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5932179,
-    "lng": -7.6242739,
-    "id": 402
+    "id": 381,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5372332,
+    "lng": -7.650619
   },
   {
     "name": "Salle de sport Sidi Maarouf",
@@ -6041,10 +5726,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5856876,
-    "lng": -7.6275444,
-    "id": 403
+    "id": 382,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5464647,
+    "lng": -7.6507782
   },
   {
     "name": "Clubs et salles de sport au quartier Sidi Maarouf",
@@ -6056,10 +5741,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
+    "id": 383,
     "quartier": "Gauthier",
-    "lat": 33.5927814,
-    "lng": -7.6257792,
-    "id": 404
+    "lat": 33.5894532,
+    "lng": -7.6211739
   },
   {
     "name": "Espace Fitness Sidi Maarouf",
@@ -6071,10 +5756,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "California",
-    "lat": 33.5746277,
-    "lng": -7.6691487,
-    "id": 405
+    "id": 384,
+    "quartier": "Gauthier",
+    "lat": 33.5847015,
+    "lng": -7.6268301
   },
   {
     "name": "Sidi Maarouf devient le point de rencontre de ceux",
@@ -6086,10 +5771,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
+    "id": 385,
     "quartier": "California",
-    "lat": 33.574545,
-    "lng": -7.6724417,
-    "id": 406
+    "lat": 33.5653184,
+    "lng": -7.6656535
   },
   {
     "name": "Casa CrossFit",
@@ -6101,10 +5786,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Anfa",
-    "lat": 33.5803402,
-    "lng": -7.6636966,
-    "id": 407
+    "id": 386,
+    "quartier": "California",
+    "lat": 33.5638454,
+    "lng": -7.6681579
   },
   {
     "name": "Casa CrossFit Anfa",
@@ -6116,10 +5801,10 @@ export const LEADS = [
     "niche": "Fitness",
     "tier": 2,
     "score": 51,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.55152,
-    "lng": -7.6485505,
-    "id": 408
+    "id": 387,
+    "quartier": "Maarif",
+    "lat": 33.5740641,
+    "lng": -7.6356729
   },
   {
     "name": "Sequoia pressing",
@@ -6131,10 +5816,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5781965,
-    "lng": -7.6288862,
-    "id": 409
+    "id": 388,
+    "quartier": "Palmier",
+    "lat": 33.5674077,
+    "lng": -7.6381962
   },
   {
     "name": "Cycle Laverie Libre Service",
@@ -6146,25 +5831,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
+    "id": 389,
     "quartier": "CIL",
-    "lat": 33.5605312,
-    "lng": -7.6175371,
-    "id": 410
-  },
-  {
-    "name": "Découvrez la Meilleure Laverie Automatique à Casab",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://cyclelaverie.com/decouvrez-la-meilleure-laverie-automatique-a-casablanca/",
-    "niche": "Pressing",
-    "tier": 2,
-    "score": 51,
-    "quartier": "Gauthier",
-    "lat": 33.5863813,
-    "lng": -7.6199219,
-    "id": 411
+    "lat": 33.5691945,
+    "lng": -7.6235556
   },
   {
     "name": "Laverie Express",
@@ -6176,10 +5846,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Palmier",
-    "lat": 33.5633299,
-    "lng": -7.6382266,
-    "id": 412
+    "id": 390,
+    "quartier": "CIL",
+    "lat": 33.559403,
+    "lng": -7.6158649
   },
   {
     "name": "VET NET",
@@ -6191,10 +5861,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Bourgogne",
-    "lat": 33.5828705,
-    "lng": -7.6148396,
-    "id": 413
+    "id": 391,
+    "quartier": "Gauthier",
+    "lat": 33.5833067,
+    "lng": -7.6211729
   },
   {
     "name": "Nettoyage à sec à domicile et au bureau",
@@ -6206,25 +5876,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5721763,
-    "lng": -7.6255913,
-    "id": 414
-  },
-  {
-    "name": "Tarifs",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://ilaveu.ma/tarifs",
-    "niche": "Pressing",
-    "tier": 2,
-    "score": 51,
-    "quartier": "CIL",
-    "lat": 33.560698,
-    "lng": -7.6234278,
-    "id": 415
+    "id": 392,
+    "quartier": "Gauthier",
+    "lat": 33.59267,
+    "lng": -7.6248617
   },
   {
     "name": "PRESSING DES LILAS, Maarif.",
@@ -6236,10 +5891,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Bourgogne",
-    "lat": 33.5802838,
-    "lng": -7.6215983,
-    "id": 416
+    "id": 393,
+    "quartier": "CIL",
+    "lat": 33.5717236,
+    "lng": -7.6169828
   },
   {
     "name": "World pressing",
@@ -6251,10 +5906,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "CIL",
-    "lat": 33.5701713,
-    "lng": -7.615673,
-    "id": 417
+    "id": 394,
+    "quartier": "Maarif",
+    "lat": 33.5667128,
+    "lng": -7.6292859
   },
   {
     "name": "Blanchisserie",
@@ -6266,10 +5921,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Palmier",
-    "lat": 33.5629962,
-    "lng": -7.6345787,
-    "id": 418
+    "id": 395,
+    "quartier": "Gauthier",
+    "lat": 33.5895599,
+    "lng": -7.6277046
   },
   {
     "name": "BlancBrillant",
@@ -6281,10 +5936,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
-    "quartier": "Maarif",
-    "lat": 33.5745631,
-    "lng": -7.6243921,
-    "id": 419
+    "id": 396,
+    "quartier": "Palmier",
+    "lat": 33.5724966,
+    "lng": -7.6362567
   },
   {
     "name": "LND Laundry",
@@ -6296,10 +5951,10 @@ export const LEADS = [
     "niche": "Pressing",
     "tier": 2,
     "score": 51,
+    "id": 397,
     "quartier": "Maarif",
-    "lat": 33.5779689,
-    "lng": -7.6319647,
-    "id": 420
+    "lat": 33.5667207,
+    "lng": -7.6281969
   },
   {
     "name": "Crêppa Naim",
@@ -6311,10 +5966,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 50,
-    "quartier": "2 Mars",
-    "lat": 33.5825794,
-    "lng": -7.6332937,
-    "id": 421
+    "id": 398,
+    "quartier": "Corniche",
+    "lat": 33.6026785,
+    "lng": -7.6671034
   },
   {
     "name": "Poke Bowl",
@@ -6326,10 +5981,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 48,
+    "id": 399,
     "quartier": "California",
-    "lat": 33.5687667,
-    "lng": -7.6676926,
-    "id": 422
+    "lat": 33.565831,
+    "lng": -7.6730454
   },
   {
     "name": "Lfrima Bio rest",
@@ -6341,10 +5996,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 48,
-    "quartier": "Gauthier",
-    "lat": 33.5895958,
-    "lng": -7.6198372,
-    "id": 423
+    "id": 400,
+    "quartier": "Racine",
+    "lat": 33.5863683,
+    "lng": -7.6311366
   },
   {
     "name": "meal prep",
@@ -6356,10 +6011,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 48,
-    "quartier": "Anfa",
-    "lat": 33.5657804,
-    "lng": -7.6580152,
-    "id": 424
+    "id": 401,
+    "quartier": "Gauthier",
+    "lat": 33.5882295,
+    "lng": -7.6207691
   },
   {
     "name": "Mr&Mrs Brownie",
@@ -6371,25 +6026,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 48,
-    "quartier": "Anfa",
-    "lat": 33.5834141,
-    "lng": -7.6539058,
-    "id": 425
-  },
-  {
-    "name": "Meilleurs Restaurant Breakfast and",
-    "address": "Restaurant Breakfast and-brunch à Casablanca el-maarif; chez Aly tu y trouveras tou",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.aly.ma/search/casablanca/restaurant?neigh=casablanca-el-maarif&subCat=breakfast-and-brunch",
-    "niche": "Brunch",
-    "tier": 2,
-    "score": 48,
-    "quartier": "Maarif",
-    "lat": 33.5678201,
-    "lng": -7.629963,
-    "id": 426
+    "id": 402,
+    "quartier": "Hay Hassani",
+    "lat": 33.5528354,
+    "lng": -7.6621322
   },
   {
     "name": "Spa & bien etre",
@@ -6401,10 +6041,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 48,
-    "quartier": "Anfa",
-    "lat": 33.5800916,
-    "lng": -7.6639912,
-    "id": 427
+    "id": 403,
+    "quartier": "Corniche",
+    "lat": 33.5988325,
+    "lng": -7.6564842
   },
   {
     "name": "Master Traiteur: Traiteur Casa – Pack Mariage & Év",
@@ -6416,10 +6056,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 46,
-    "quartier": "Bourgogne",
-    "lat": 33.579158,
-    "lng": -7.6229059,
-    "id": 428
+    "id": 404,
+    "quartier": "Maarif",
+    "lat": 33.5679454,
+    "lng": -7.6364097
   },
   {
     "name": "Excellence® officiel",
@@ -6431,25 +6071,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 46,
-    "quartier": "Maarif",
-    "lat": 33.5665839,
-    "lng": -7.6277736,
-    "id": 429
-  },
-  {
-    "name": "Cabinet vétérinaire IMRANI – LE MEILLEUR AMI DE VO",
-    "address": "Rue Clément Marot، Casablanca",
-    "phone": "0522985040",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://veterinaireimrani.ma/",
-    "niche": "Animaleries",
-    "tier": 3,
-    "score": 46,
-    "quartier": "Bourgogne",
-    "lat": 33.5817404,
-    "lng": -7.6235102,
-    "id": 430
+    "id": 405,
+    "quartier": "Gauthier",
+    "lat": 33.5912708,
+    "lng": -7.6227615
   },
   {
     "name": "Yummy and Healthy (Delivery Only)",
@@ -6461,10 +6086,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 45,
+    "id": 406,
     "quartier": "California",
-    "lat": 33.5763104,
-    "lng": -7.6660986,
-    "id": 431
+    "lat": 33.574545,
+    "lng": -7.6724417
   },
   {
     "name": "Mana Bowl",
@@ -6476,10 +6101,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 45,
+    "id": 407,
     "quartier": "Anfa",
-    "lat": 33.5687613,
-    "lng": -7.6553317,
-    "id": 432
+    "lat": 33.5803402,
+    "lng": -7.6636966
   },
   {
     "name": "AliYaya - Salade Verte",
@@ -6491,10 +6116,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 45,
-    "quartier": "Maarif",
-    "lat": 33.5691927,
-    "lng": -7.6291992,
-    "id": 433
+    "id": 408,
+    "quartier": "Gauthier",
+    "lat": 33.59256,
+    "lng": -7.6211752
   },
   {
     "name": "KHOS",
@@ -6506,10 +6131,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 45,
-    "quartier": "California",
-    "lat": 33.5712723,
-    "lng": -7.6629531,
-    "id": 434
+    "id": 409,
+    "quartier": "Maarif",
+    "lat": 33.5781965,
+    "lng": -7.6288862
   },
   {
     "name": "PROTEINBAR - Val Fleuri",
@@ -6521,10 +6146,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 45,
-    "quartier": "Maarif",
-    "lat": 33.5695067,
-    "lng": -7.632437,
-    "id": 435
+    "id": 410,
+    "quartier": "Gauthier",
+    "lat": 33.5844484,
+    "lng": -7.6215529
   },
   {
     "name": "EATClean - Healthy Kitchen",
@@ -6536,10 +6161,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 45,
-    "quartier": "Racine",
-    "lat": 33.591151,
-    "lng": -7.6259677,
-    "id": 436
+    "id": 411,
+    "quartier": "California",
+    "lat": 33.5681085,
+    "lng": -7.6653625
   },
   {
     "name": "Brunch House",
@@ -6551,10 +6176,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 45,
-    "quartier": "Gauthier",
-    "lat": 33.5870224,
-    "lng": -7.6288341,
-    "id": 437
+    "id": 412,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5326598,
+    "lng": -7.6594531
   },
   {
     "name": "Milk + Honey",
@@ -6566,10 +6191,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 45,
-    "quartier": "Anfa",
-    "lat": 33.5754149,
-    "lng": -7.6532033,
-    "id": 438
+    "id": 413,
+    "quartier": "Bourgogne",
+    "lat": 33.5828705,
+    "lng": -7.6148396
   },
   {
     "name": "Next Chapter Brunch Coffee & More",
@@ -6581,10 +6206,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 45,
-    "quartier": "Anfa",
-    "lat": 33.5772537,
-    "lng": -7.6536781,
-    "id": 439
+    "id": 414,
+    "quartier": "Gauthier",
+    "lat": 33.5871072,
+    "lng": -7.6184435
   },
   {
     "name": "Spa les Bulles Bleues",
@@ -6596,10 +6221,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 45,
-    "quartier": "Anfa",
-    "lat": 33.5789418,
-    "lng": -7.6499988,
-    "id": 440
+    "id": 415,
+    "quartier": "Gauthier",
+    "lat": 33.5845735,
+    "lng": -7.6259708
   },
   {
     "name": "Efferv O Sens SPA (Spa pour femmes uniquement)",
@@ -6611,10 +6236,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 45,
-    "quartier": "Gauthier",
-    "lat": 33.5832434,
-    "lng": -7.62235,
-    "id": 441
+    "id": 416,
+    "quartier": "Ain Diab",
+    "lat": 33.5931397,
+    "lng": -7.6744971
   },
   {
     "name": "Le Healthy Store: Accueil",
@@ -6626,10 +6251,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Racine",
-    "lat": 33.5838043,
-    "lng": -7.6291725,
-    "id": 442
+    "id": 417,
+    "quartier": "Gauthier",
+    "lat": 33.5916785,
+    "lng": -7.6201547
   },
   {
     "name": "Archives des DIET FOOD",
@@ -6641,10 +6266,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
+    "id": 418,
     "quartier": "Racine",
-    "lat": 33.5855857,
-    "lng": -7.6356656,
-    "id": 443
+    "lat": 33.5842962,
+    "lng": -7.6305787
   },
   {
     "name": "Fit Food 💪🏻🥇🥬🥦🍗🥩",
@@ -6656,10 +6281,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "California",
-    "lat": 33.5742894,
-    "lng": -7.6749121,
-    "id": 444
+    "id": 419,
+    "quartier": "Maarif",
+    "lat": 33.5745631,
+    "lng": -7.6243921
   },
   {
     "name": "Qui sommes nous",
@@ -6671,10 +6296,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Anfa",
-    "lat": 33.5682862,
-    "lng": -7.6553302,
-    "id": 445
+    "id": 420,
+    "quartier": "Maarif",
+    "lat": 33.5779689,
+    "lng": -7.6319647
   },
   {
     "name": "Poké Bowl : L'histoire d'une pause déjeuner hawaïenne ...",
@@ -6686,10 +6311,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "California",
-    "lat": 33.5718257,
-    "lng": -7.6760936,
-    "id": 446
+    "id": 421,
+    "quartier": "Anfa",
+    "lat": 33.5759656,
+    "lng": -7.6668228
   },
   {
     "name": "Poké Bar",
@@ -6701,10 +6326,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
+    "id": 422,
     "quartier": "California",
-    "lat": 33.5650778,
-    "lng": -7.6702271,
-    "id": 447
+    "lat": 33.5687667,
+    "lng": -7.6676926
   },
   {
     "name": "POKÉ BOWL",
@@ -6716,10 +6341,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
+    "id": 423,
     "quartier": "Gauthier",
-    "lat": 33.5916334,
-    "lng": -7.6224769,
-    "id": 448
+    "lat": 33.5895958,
+    "lng": -7.6198372
   },
   {
     "name": "Garden Bar à salades",
@@ -6731,10 +6356,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "California",
-    "lat": 33.576641,
-    "lng": -7.6665247,
-    "id": 449
+    "id": 424,
+    "quartier": "Anfa",
+    "lat": 33.5657804,
+    "lng": -7.6580152
   },
   {
     "name": "Salade Bar",
@@ -6746,25 +6371,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Maarif",
-    "lat": 33.5686242,
-    "lng": -7.6361464,
-    "id": 450
-  },
-  {
-    "name": "Hot spots: où manger une bonne salade à Casa ?",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.plurielle.ma/style-de-vie/adresses/hot-spots-ou-manger-une-bonne-salade-a-casa/",
-    "niche": "Healthy",
-    "tier": 2,
-    "score": 43,
-    "quartier": "Gauthier",
-    "lat": 33.5826575,
-    "lng": -7.626241,
-    "id": 451
+    "id": 425,
+    "quartier": "California",
+    "lat": 33.5767312,
+    "lng": -7.6667246
   },
   {
     "name": "Healthy Restaurant: Made In Healthy",
@@ -6776,10 +6386,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
+    "id": 426,
     "quartier": "Maarif",
-    "lat": 33.566177,
-    "lng": -7.6299378,
-    "id": 452
+    "lat": 33.5678201,
+    "lng": -7.629963
   },
   {
     "name": "Sainpleat: accueil",
@@ -6791,10 +6401,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Anfa",
-    "lat": 33.571843,
-    "lng": -7.6514548,
-    "id": 453
+    "id": 427,
+    "quartier": "Maarif",
+    "lat": 33.5771733,
+    "lng": -7.6369929
   },
   {
     "name": "NIYA",
@@ -6806,10 +6416,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Anfa",
-    "lat": 33.5818603,
-    "lng": -7.6598665,
-    "id": 454
+    "id": 428,
+    "quartier": "Racine",
+    "lat": 33.5852296,
+    "lng": -7.6282121
   },
   {
     "name": "Restaurant Bio",
@@ -6821,10 +6431,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
+    "id": 429,
     "quartier": "California",
-    "lat": 33.5733347,
-    "lng": -7.6703706,
-    "id": 455
+    "lat": 33.5720661,
+    "lng": -7.6681745
   },
   {
     "name": "Menu",
@@ -6836,25 +6446,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Anfa",
-    "lat": 33.5833258,
-    "lng": -7.6559101,
-    "id": 456
-  },
-  {
-    "name": "5 adresses où manger healthy à Casa",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://familleactuelle.ma/5-adresses-ou-manger-healthy-a-casa/",
-    "niche": "Healthy",
-    "tier": 2,
-    "score": 43,
-    "quartier": "Gauthier",
-    "lat": 33.5830222,
-    "lng": -7.6241281,
-    "id": 457
+    "id": 430,
+    "quartier": "California",
+    "lat": 33.5736813,
+    "lng": -7.663113
   },
   {
     "name": "Archives des Vegan",
@@ -6866,10 +6461,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "California",
-    "lat": 33.5666772,
-    "lng": -7.6665863,
-    "id": 458
+    "id": 431,
+    "quartier": "Gauthier",
+    "lat": 33.5906484,
+    "lng": -7.6284286
   },
   {
     "name": "Nous Sommes M'DOZE Le nouveau Concept Du Meal",
@@ -6881,10 +6476,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Gauthier",
-    "lat": 33.5885746,
-    "lng": -7.6283996,
-    "id": 459
+    "id": 432,
+    "quartier": "Maarif",
+    "lat": 33.5698406,
+    "lng": -7.630831
   },
   {
     "name": "FiterChef",
@@ -6896,10 +6491,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Maarif",
-    "lat": 33.5747126,
-    "lng": -7.6386097,
-    "id": 460
+    "id": 433,
+    "quartier": "Gauthier",
+    "lat": 33.5839529,
+    "lng": -7.6258034
   },
   {
     "name": "B'Healthy",
@@ -6911,10 +6506,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Maarif",
-    "lat": 33.5701199,
-    "lng": -7.6267541,
-    "id": 461
+    "id": 434,
+    "quartier": "Gauthier",
+    "lat": 33.5914196,
+    "lng": -7.6272291
   },
   {
     "name": "ClicFood by Mariam Barakat",
@@ -6926,10 +6521,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
-    "quartier": "Gauthier",
-    "lat": 33.5866927,
-    "lng": -7.6183184,
-    "id": 462
+    "id": 435,
+    "quartier": "Anfa",
+    "lat": 33.5725006,
+    "lng": -7.6536543
   },
   {
     "name": "The Food Box",
@@ -6941,10 +6536,10 @@ export const LEADS = [
     "niche": "Healthy",
     "tier": 2,
     "score": 43,
+    "id": 436,
     "quartier": "Racine",
-    "lat": 33.5919542,
-    "lng": -7.6337122,
-    "id": 463
+    "lat": 33.5862466,
+    "lng": -7.6343865
   },
   {
     "name": "Holy Brunch",
@@ -6956,10 +6551,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 43,
+    "id": 437,
     "quartier": "Racine",
-    "lat": 33.5863192,
-    "lng": -7.6359414,
-    "id": 464
+    "lat": 33.5925072,
+    "lng": -7.6331526
   },
   {
     "name": "https://holybrunch.ma/",
@@ -6971,10 +6566,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 43,
-    "quartier": "Gauthier",
-    "lat": 33.5928165,
-    "lng": -7.6244324,
-    "id": 465
+    "id": 438,
+    "quartier": "Bourgogne",
+    "lat": 33.5804489,
+    "lng": -7.616022
   },
   {
     "name": "Le Duo Café & Restaurant",
@@ -6986,10 +6581,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 43,
-    "quartier": "California",
-    "lat": 33.5747373,
-    "lng": -7.6650214,
-    "id": 466
+    "id": 439,
+    "quartier": "Racine",
+    "lat": 33.5906522,
+    "lng": -7.6284068
   },
   {
     "name": "La Sqala",
@@ -7001,10 +6596,10 @@ export const LEADS = [
     "niche": "Brunch",
     "tier": 2,
     "score": 43,
-    "quartier": "Maarif",
-    "lat": 33.5711617,
-    "lng": -7.6272665,
-    "id": 467
+    "id": 440,
+    "quartier": "Gauthier",
+    "lat": 33.5901651,
+    "lng": -7.6185993
   },
   {
     "name": "Pancakes and Wafflez",
@@ -7016,10 +6611,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 43,
-    "quartier": "Corniche",
-    "lat": 33.6005937,
-    "lng": -7.6681864,
-    "id": 468
+    "id": 441,
+    "quartier": "Centre-ville",
+    "lat": 33.5889246,
+    "lng": -7.6105
   },
   {
     "name": "Jasmin' Spa",
@@ -7031,10 +6626,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
+    "id": 442,
     "quartier": "Corniche",
-    "lat": 33.6035857,
-    "lng": -7.6582828,
-    "id": 469
+    "lat": 33.5906724,
+    "lng": -7.6595633
   },
   {
     "name": "Hammam Ziani",
@@ -7046,10 +6641,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
+    "id": 443,
     "quartier": "Corniche",
-    "lat": 33.5946244,
-    "lng": -7.6580137,
-    "id": 470
+    "lat": 33.5930477,
+    "lng": -7.6682208
   },
   {
     "name": "Cinq Spas pur luxe où se ressourcer après la quara",
@@ -7061,10 +6656,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
-    "quartier": "Ain Diab",
-    "lat": 33.5990859,
-    "lng": -7.6719281,
-    "id": 471
+    "id": 444,
+    "quartier": "Racine",
+    "lat": 33.5925171,
+    "lng": -7.6346841
   },
   {
     "name": "Le Spa",
@@ -7076,10 +6671,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
-    "quartier": "Gauthier",
-    "lat": 33.5899383,
-    "lng": -7.617794,
-    "id": 472
+    "id": 445,
+    "quartier": "Ain Diab",
+    "lat": 33.5862862,
+    "lng": -7.6673302
   },
   {
     "name": "Idou Anfa Hotel & Spa",
@@ -7091,10 +6686,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
-    "quartier": "Ain Diab",
-    "lat": 33.6012047,
-    "lng": -7.6656779,
-    "id": 473
+    "id": 446,
+    "quartier": "Racine",
+    "lat": 33.5906693,
+    "lng": -7.6355702
   },
   {
     "name": "Idou Anfa Hôtel & Spa",
@@ -7106,10 +6701,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
-    "quartier": "Anfa",
-    "lat": 33.5673552,
-    "lng": -7.6583697,
-    "id": 474
+    "id": 447,
+    "quartier": "Racine",
+    "lat": 33.5856084,
+    "lng": -7.6311703
   },
   {
     "name": "The Cliff Beauty Bar & Spa",
@@ -7121,10 +6716,10 @@ export const LEADS = [
     "niche": "Spas",
     "tier": 2,
     "score": 43,
-    "quartier": "Corniche",
-    "lat": 33.6029369,
-    "lng": -7.6608066,
-    "id": 475
+    "id": 448,
+    "quartier": "Gauthier",
+    "lat": 33.5916334,
+    "lng": -7.6224769
   },
   {
     "name": "KooKie",
@@ -7136,10 +6731,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 41,
-    "quartier": "2 Mars",
-    "lat": 33.5795983,
-    "lng": -7.6296822,
-    "id": 476
+    "id": 449,
+    "quartier": "Anfa",
+    "lat": 33.5833013,
+    "lng": -7.6536559
   },
   {
     "name": "crêpe'n'more",
@@ -7151,10 +6746,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 41,
-    "quartier": "2 Mars",
-    "lat": 33.5846151,
-    "lng": -7.6326631,
-    "id": 477
+    "id": 450,
+    "quartier": "Gauthier",
+    "lat": 33.5844431,
+    "lng": -7.6263598
   },
   {
     "name": "La Crêperie du CIL",
@@ -7166,10 +6761,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 41,
-    "quartier": "2 Mars",
-    "lat": 33.5815967,
-    "lng": -7.630203,
-    "id": 478
+    "id": 451,
+    "quartier": "Centre-ville",
+    "lat": 33.5881433,
+    "lng": -7.615688
   },
   {
     "name": "waffle house maarif",
@@ -7181,10 +6776,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 41,
-    "quartier": "Corniche",
-    "lat": 33.5959998,
-    "lng": -7.6660101,
-    "id": 479
+    "id": 452,
+    "quartier": "Maarif",
+    "lat": 33.566177,
+    "lng": -7.6299378
   },
   {
     "name": "LA CASA DES GAUFRES",
@@ -7196,10 +6791,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 41,
-    "quartier": "Bourgogne",
-    "lat": 33.5761371,
-    "lng": -7.6222868,
-    "id": 480
+    "id": 453,
+    "quartier": "Racine",
+    "lat": 33.5874058,
+    "lng": -7.6270729
   },
   {
     "name": "‎SNACK ROMA سناك روما‎",
@@ -7211,10 +6806,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 41,
-    "quartier": "Oulfa",
-    "lat": 33.5555634,
-    "lng": -7.5844136,
-    "id": 481
+    "id": 454,
+    "quartier": "Bourgogne",
+    "lat": 33.5843162,
+    "lng": -7.6200199
   },
   {
     "name": "Moullmssamen",
@@ -7226,10 +6821,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 41,
-    "quartier": "Oulfa",
-    "lat": 33.5593151,
-    "lng": -7.5929734,
-    "id": 482
+    "id": 455,
+    "quartier": "Ain Diab",
+    "lat": 33.5971683,
+    "lng": -7.6704632
   },
   {
     "name": "océan maarif",
@@ -7241,10 +6836,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 41,
-    "quartier": "Mers Sultan",
-    "lat": 33.5942874,
-    "lng": -7.6104205,
-    "id": 483
+    "id": 456,
+    "quartier": "Bourgogne",
+    "lat": 33.5851955,
+    "lng": -7.617646
   },
   {
     "name": "DÔME MAÎTRE CHOCOLATIER",
@@ -7256,10 +6851,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 41,
-    "quartier": "Anfa",
-    "lat": 33.5763068,
-    "lng": -7.6653181,
-    "id": 484
+    "id": 457,
+    "quartier": "Racine",
+    "lat": 33.5845222,
+    "lng": -7.6317281
   },
   {
     "name": "L'Atelier M ✨",
@@ -7271,10 +6866,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 41,
-    "quartier": "Bourgogne",
-    "lat": 33.5855607,
-    "lng": -7.6200535,
-    "id": 485
+    "id": 458,
+    "quartier": "Anfa",
+    "lat": 33.5708465,
+    "lng": -7.6537328
   },
   {
     "name": "Traiteur Loubna casa",
@@ -7286,10 +6881,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 41,
-    "quartier": "Gauthier",
-    "lat": 33.5894059,
-    "lng": -7.6250467,
-    "id": 486
+    "id": 459,
+    "quartier": "Bourgogne",
+    "lat": 33.5809746,
+    "lng": -7.6238996
   },
   {
     "name": "Catering Privé",
@@ -7301,10 +6896,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 41,
-    "quartier": "Bourgogne",
-    "lat": 33.5834656,
-    "lng": -7.622202,
-    "id": 487
+    "id": 460,
+    "quartier": "Maarif",
+    "lat": 33.5747126,
+    "lng": -7.6386097
   },
   {
     "name": "BODYPILATES",
@@ -7316,10 +6911,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 41,
+    "id": 461,
     "quartier": "Maarif",
-    "lat": 33.5716567,
-    "lng": -7.6380338,
-    "id": 488
+    "lat": 33.5701199,
+    "lng": -7.6267541
   },
   {
     "name": "High Studio",
@@ -7331,10 +6926,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 41,
-    "quartier": "Maarif",
-    "lat": 33.5715493,
-    "lng": -7.6252753,
-    "id": 489
+    "id": 462,
+    "quartier": "Gauthier",
+    "lat": 33.5866927,
+    "lng": -7.6183184
   },
   {
     "name": "Mon Bouquet",
@@ -7346,10 +6941,10 @@ export const LEADS = [
     "niche": "Fleuristes",
     "tier": 3,
     "score": 41,
-    "quartier": "Anfa",
-    "lat": 33.5678801,
-    "lng": -7.6556529,
-    "id": 490
+    "id": 463,
+    "quartier": "Gauthier",
+    "lat": 33.5854286,
+    "lng": -7.6192943
   },
   {
     "name": "Chic-Chic Concept store",
@@ -7361,10 +6956,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 41,
-    "quartier": "2 Mars",
-    "lat": 33.5868242,
-    "lng": -7.6248651,
-    "id": 491
+    "id": 464,
+    "quartier": "Gauthier",
+    "lat": 33.5910007,
+    "lng": -7.6252458
   },
   {
     "name": "Magasin vêtements et accessoires",
@@ -7376,10 +6971,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 41,
+    "id": 465,
     "quartier": "2 Mars",
-    "lat": 33.5863486,
-    "lng": -7.6318518,
-    "id": 492
+    "lat": 33.585553,
+    "lng": -7.624266
   },
   {
     "name": "Skyzo",
@@ -7391,10 +6986,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 41,
-    "quartier": "2 Mars",
-    "lat": 33.5862098,
-    "lng": -7.6265363,
-    "id": 493
+    "id": 466,
+    "quartier": "Maarif",
+    "lat": 33.5711617,
+    "lng": -7.6272665
   },
   {
     "name": "Divine",
@@ -7406,10 +7001,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 41,
-    "quartier": "Gauthier",
-    "lat": 33.5859136,
-    "lng": -7.6217613,
-    "id": 494
+    "id": 467,
+    "quartier": "Anfa",
+    "lat": 33.5782422,
+    "lng": -7.665733
   },
   {
     "name": "Freedom Optic",
@@ -7421,10 +7016,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 41,
-    "quartier": "Gauthier",
-    "lat": 33.5935193,
-    "lng": -7.6223763,
-    "id": 495
+    "id": 468,
+    "quartier": "Maarif",
+    "lat": 33.5697275,
+    "lng": -7.6366062
   },
   {
     "name": "Visiblement Optique",
@@ -7436,10 +7031,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 41,
+    "id": 469,
     "quartier": "Bourgogne",
-    "lat": 33.5809298,
-    "lng": -7.6216433,
-    "id": 496
+    "lat": 33.5838646,
+    "lng": -7.6184784
   },
   {
     "name": "l' opticien",
@@ -7451,10 +7046,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 41,
-    "quartier": "Bourgogne",
-    "lat": 33.5839756,
-    "lng": -7.6210569,
-    "id": 497
+    "id": 470,
+    "quartier": "Gauthier",
+    "lat": 33.5848945,
+    "lng": -7.6189299
   },
   {
     "name": "Orenza Haute Joaillerie Casa",
@@ -7466,10 +7061,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 41,
+    "id": 471,
     "quartier": "Centre-ville",
-    "lat": 33.595321,
-    "lng": -7.6176722,
-    "id": 498
+    "lat": 33.5955558,
+    "lng": -7.6081564
   },
   {
     "name": "Pet's Boutique",
@@ -7481,10 +7076,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 41,
+    "id": 472,
     "quartier": "Maarif",
-    "lat": 33.5753725,
-    "lng": -7.6337266,
-    "id": 499
+    "lat": 33.5710578,
+    "lng": -7.6252989
   },
   {
     "name": "Petspace Store",
@@ -7496,10 +7091,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 41,
-    "quartier": "Bourgogne",
-    "lat": 33.5825529,
-    "lng": -7.6228806,
-    "id": 500
+    "id": 473,
+    "quartier": "Maarif",
+    "lat": 33.5691363,
+    "lng": -7.6386164
   },
   {
     "name": "CLINIQUE VÉTÉRINAIRE CASA-ANFA ...",
@@ -7511,10 +7106,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 41,
-    "quartier": "CIL",
-    "lat": 33.5686719,
-    "lng": -7.6169159,
-    "id": 501
+    "id": 474,
+    "quartier": "Bourgogne",
+    "lat": 33.5777983,
+    "lng": -7.6205822
   },
   {
     "name": "WANTED WASH Auto detailing",
@@ -7526,10 +7121,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 41,
-    "quartier": "Oulfa",
-    "lat": 33.5590438,
-    "lng": -7.5861132,
-    "id": 502
+    "id": 475,
+    "quartier": "Hay Hassani",
+    "lat": 33.5652303,
+    "lng": -7.6793262
   },
   {
     "name": "matcha",
@@ -7541,10 +7136,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 38,
-    "quartier": "Gauthier",
-    "lat": 33.5929156,
-    "lng": -7.6212695,
-    "id": 503
+    "id": 476,
+    "quartier": "Bourgogne",
+    "lat": 33.5797967,
+    "lng": -7.621103
   },
   {
     "name": "Matcha Latte 2en1 N°123",
@@ -7556,10 +7151,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 38,
-    "quartier": "Gauthier",
-    "lat": 33.5861312,
-    "lng": -7.6245609,
-    "id": 504
+    "id": 477,
+    "quartier": "Ain Diab",
+    "lat": 33.5904998,
+    "lng": -7.6750126
   },
   {
     "name": "Fondants Matcha",
@@ -7571,10 +7166,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 38,
-    "quartier": "Anfa",
-    "lat": 33.5738184,
-    "lng": -7.6639007,
-    "id": 505
+    "id": 478,
+    "quartier": "Centre-ville",
+    "lat": 33.5895828,
+    "lng": -7.6164157
   },
   {
     "name": "POPULAR COOKIES",
@@ -7586,10 +7181,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 38,
-    "quartier": "Maarif",
-    "lat": 33.5697204,
-    "lng": -7.6351723,
-    "id": 506
+    "id": 479,
+    "quartier": "Centre-ville",
+    "lat": 33.5954507,
+    "lng": -7.6074309
   },
   {
     "name": "Restaurant H24",
@@ -7601,10 +7196,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 38,
-    "quartier": "Oulfa",
-    "lat": 33.558214,
-    "lng": -7.5822663,
-    "id": 507
+    "id": 480,
+    "quartier": "Centre-ville",
+    "lat": 33.5984521,
+    "lng": -7.6142787
   },
   {
     "name": "Moul m'semen",
@@ -7616,10 +7211,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 38,
-    "quartier": "Mers Sultan",
-    "lat": 33.5923764,
-    "lng": -7.6103817,
-    "id": 508
+    "id": 481,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5505748,
+    "lng": -7.653841
   },
   {
     "name": "BLOOM Maître Chocolatier",
@@ -7631,10 +7226,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 38,
-    "quartier": "Maarif",
-    "lat": 33.5686312,
-    "lng": -7.6285245,
-    "id": 509
+    "id": 482,
+    "quartier": "Anfa",
+    "lat": 33.5763068,
+    "lng": -7.6653181
   },
   {
     "name": "Chocodiva",
@@ -7646,10 +7241,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 38,
+    "id": 483,
     "quartier": "Racine",
-    "lat": 33.5927134,
-    "lng": -7.6314086,
-    "id": 510
+    "lat": 33.5946607,
+    "lng": -7.6321535
   },
   {
     "name": "ACCUEIL",
@@ -7661,10 +7256,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 38,
-    "quartier": "Maarif",
-    "lat": 33.5711006,
-    "lng": -7.6296912,
-    "id": 511
+    "id": 484,
+    "quartier": "Gauthier",
+    "lat": 33.5894059,
+    "lng": -7.6250467
   },
   {
     "name": "Casa Maarif: vêtements de créateurs français à 30",
@@ -7676,10 +7271,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 38,
-    "quartier": "Gauthier",
-    "lat": 33.5872764,
-    "lng": -7.6282664,
-    "id": 512
+    "id": 485,
+    "quartier": "2 Mars",
+    "lat": 33.5852656,
+    "lng": -7.631302
   },
   {
     "name": "Animalkom",
@@ -7691,10 +7286,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 38,
-    "quartier": "Hay Hassani",
-    "lat": 33.5651828,
-    "lng": -7.6642384,
-    "id": 513
+    "id": 486,
+    "quartier": "Maarif",
+    "lat": 33.5716567,
+    "lng": -7.6380338
   },
   {
     "name": "Clinique vétérinaire de père en fils depuis 1962",
@@ -7706,10 +7301,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 38,
-    "quartier": "Hay Hassani",
-    "lat": 33.5623663,
-    "lng": -7.6756118,
-    "id": 514
+    "id": 487,
+    "quartier": "Maarif",
+    "lat": 33.5715493,
+    "lng": -7.6252753
   },
   {
     "name": "Maison Matcha",
@@ -7721,10 +7316,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.5921392,
-    "lng": -7.6239255,
-    "id": 515
+    "id": 488,
+    "quartier": "Anfa",
+    "lat": 33.5678801,
+    "lng": -7.6556529
   },
   {
     "name": "Tea Premium",
@@ -7736,10 +7331,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 35,
-    "quartier": "Anfa",
-    "lat": 33.5764922,
-    "lng": -7.6616677,
-    "id": 516
+    "id": 489,
+    "quartier": "Corniche",
+    "lat": 33.6044323,
+    "lng": -7.6578201
   },
   {
     "name": "Boteaque",
@@ -7751,10 +7346,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.5832975,
-    "lng": -7.618167,
-    "id": 517
+    "id": 490,
+    "quartier": "Centre-ville",
+    "lat": 33.6007982,
+    "lng": -7.6170358
   },
   {
     "name": "Bubble King Bourgogne",
@@ -7766,10 +7361,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 35,
-    "quartier": "2 Mars",
-    "lat": 33.5848013,
-    "lng": -7.630445,
-    "id": 518
+    "id": 491,
+    "quartier": "Corniche",
+    "lat": 33.6036131,
+    "lng": -7.6600483
   },
   {
     "name": "GoodMe 古茗",
@@ -7781,10 +7376,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 35,
-    "quartier": "Centre-ville",
-    "lat": 33.5870764,
-    "lng": -7.6126683,
-    "id": 519
+    "id": 492,
+    "quartier": "Racine",
+    "lat": 33.5874136,
+    "lng": -7.6293613
   },
   {
     "name": "POPULAR - Cookies & MORE",
@@ -7796,10 +7391,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.5800898,
-    "lng": -7.613609,
-    "id": 520
+    "id": 493,
+    "quartier": "Racine",
+    "lat": 33.5950193,
+    "lng": -7.6299763
   },
   {
     "name": "Biscuit & Milk",
@@ -7811,10 +7406,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 35,
-    "quartier": "2 Mars",
-    "lat": 33.5807368,
-    "lng": -7.6225285,
-    "id": 521
+    "id": 494,
+    "quartier": "Ain Diab",
+    "lat": 33.5942163,
+    "lng": -7.6745722
   },
   {
     "name": "Oakberry Acai Marrakech",
@@ -7826,10 +7421,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5764597,
-    "lng": -7.6359725,
-    "id": 522
+    "id": 495,
+    "quartier": "Anfa",
+    "lat": 33.5812927,
+    "lng": -7.6615948
   },
   {
     "name": "BOL Superfood Bar Gauthier",
@@ -7841,10 +7436,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5748141,
-    "lng": -7.6375507,
-    "id": 523
+    "id": 496,
+    "quartier": "Bourgogne",
+    "lat": 33.5804407,
+    "lng": -7.6232291
   },
   {
     "name": "Crème Coffee & Cake",
@@ -7856,10 +7451,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.57996,
-    "lng": -7.6246034,
-    "id": 524
+    "id": 497,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.546964,
+    "lng": -7.6528362
   },
   {
     "name": "Waffle Factory",
@@ -7871,10 +7466,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.5785511,
-    "lng": -7.6162667,
-    "id": 525
+    "id": 498,
+    "quartier": "Anfa",
+    "lat": 33.5760371,
+    "lng": -7.6532691
   },
   {
     "name": "Wesh Gaufre",
@@ -7886,10 +7481,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.5765527,
-    "lng": -7.6148839,
-    "id": 526
+    "id": 499,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.536714,
+    "lng": -7.6539318
   },
   {
     "name": "Street food sidi maarouf",
@@ -7901,10 +7496,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 35,
-    "quartier": "Hay Hassani",
-    "lat": 33.5632922,
-    "lng": -7.679889,
-    "id": 527
+    "id": 500,
+    "quartier": "Anfa",
+    "lat": 33.5753552,
+    "lng": -7.6534349
   },
   {
     "name": "Street Food Maarif",
@@ -7916,10 +7511,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 35,
-    "quartier": "Centre-ville",
-    "lat": 33.5877645,
-    "lng": -7.6085289,
-    "id": 528
+    "id": 501,
+    "quartier": "Racine",
+    "lat": 33.5845577,
+    "lng": -7.6283861
   },
   {
     "name": "Chef anass Maarif",
@@ -7931,10 +7526,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 35,
-    "quartier": "Derb Sultan",
-    "lat": 33.5822121,
-    "lng": -7.6064065,
-    "id": 529
+    "id": 502,
+    "quartier": "Centre-ville",
+    "lat": 33.6018208,
+    "lng": -7.6090593
   },
   {
     "name": "Snack UP - Maarif",
@@ -7946,10 +7541,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 35,
+    "id": 503,
     "quartier": "Centre-ville",
-    "lat": 33.5927238,
-    "lng": -7.6076283,
-    "id": 530
+    "lat": 33.592775,
+    "lng": -7.6134479
   },
   {
     "name": "L'AromAntique Chocolate",
@@ -7961,10 +7556,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 35,
-    "quartier": "Racine",
-    "lat": 33.5859656,
-    "lng": -7.6335075,
-    "id": 531
+    "id": 504,
+    "quartier": "Gauthier",
+    "lat": 33.587091,
+    "lng": -7.6269404
   },
   {
     "name": "PRALINOR Artisan Chocolatier - Gauthier",
@@ -7976,10 +7571,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 35,
-    "quartier": "Racine",
-    "lat": 33.5879718,
-    "lng": -7.6292088,
-    "id": 532
+    "id": 505,
+    "quartier": "Maarif",
+    "lat": 33.5697204,
+    "lng": -7.6351723
   },
   {
     "name": "Bloom Chocolaterie",
@@ -7991,10 +7586,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 35,
-    "quartier": "Anfa",
-    "lat": 33.5697372,
-    "lng": -7.6626311,
-    "id": 533
+    "id": 506,
+    "quartier": "Racine",
+    "lat": 33.5912284,
+    "lng": -7.6263598
   },
   {
     "name": "Divinshkachocolaterierusse",
@@ -8006,10 +7601,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5789501,
-    "lng": -7.6292173,
-    "id": 534
+    "id": 507,
+    "quartier": "Anfa",
+    "lat": 33.5818982,
+    "lng": -7.654876
   },
   {
     "name": "Traiteur Sadak",
@@ -8021,10 +7616,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 35,
-    "quartier": "Anfa",
-    "lat": 33.5662269,
-    "lng": -7.658723,
-    "id": 535
+    "id": 508,
+    "quartier": "Maarif",
+    "lat": 33.5686312,
+    "lng": -7.6285245
   },
   {
     "name": "Traiteur SEBTI",
@@ -8036,10 +7631,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.5905428,
-    "lng": -7.6242384,
-    "id": 536
+    "id": 509,
+    "quartier": "Bourgogne",
+    "lat": 33.5836134,
+    "lng": -7.6193086
   },
   {
     "name": "TAMGHRA TRAITEUR",
@@ -8051,10 +7646,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.5825466,
-    "lng": -7.6183786,
-    "id": 537
+    "id": 510,
+    "quartier": "Maarif",
+    "lat": 33.5711006,
+    "lng": -7.6296912
   },
   {
     "name": "Traiteur Maison Cherif Ouazzani",
@@ -8066,10 +7661,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 35,
-    "quartier": "Anfa",
-    "lat": 33.5686712,
-    "lng": -7.650557,
-    "id": 538
+    "id": 511,
+    "quartier": "Gauthier",
+    "lat": 33.5872764,
+    "lng": -7.6282664
   },
   {
     "name": "Om Yoga",
@@ -8081,10 +7676,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5677718,
-    "lng": -7.6363381,
-    "id": 539
+    "id": 512,
+    "quartier": "California",
+    "lat": 33.5734552,
+    "lng": -7.6661589
   },
   {
     "name": "Alkemy - Bar Pilates & Yoga Studio",
@@ -8096,10 +7691,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 35,
+    "id": 513,
     "quartier": "California",
-    "lat": 33.5650774,
-    "lng": -7.6648891,
-    "id": 540
+    "lat": 33.5715775,
+    "lng": -7.6737412
   },
   {
     "name": "Le Céladon Fleuriste",
@@ -8111,25 +7706,10 @@ export const LEADS = [
     "niche": "Fleuristes",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.5838078,
-    "lng": -7.6241475,
-    "id": 541
-  },
-  {
-    "name": "Rinad Bouquet ( Fleuriste - Bouquet de Fleur - Box de fleurs - Flowers - بوكيه - بوكيهات ورد - بائع ورد طبيعي",
-    "address": "",
-    "phone": "",
-    "rating": 0.0,
-    "reviews": 0,
-    "website": "",
-    "niche": "Fleuristes",
-    "tier": 3,
-    "score": 35,
-    "quartier": "Anfa",
-    "lat": 33.575011,
-    "lng": -7.6535044,
-    "id": 542
+    "id": 514,
+    "quartier": "Racine",
+    "lat": 33.5936392,
+    "lng": -7.6315255
   },
   {
     "name": "Fleuritel Beauséjour",
@@ -8141,10 +7721,10 @@ export const LEADS = [
     "niche": "Fleuristes",
     "tier": 3,
     "score": 35,
+    "id": 515,
     "quartier": "Gauthier",
-    "lat": 33.5837828,
-    "lng": -7.6233759,
-    "id": 543
+    "lat": 33.5886953,
+    "lng": -7.6256006
   },
   {
     "name": "Rêves de fleurs",
@@ -8156,10 +7736,10 @@ export const LEADS = [
     "niche": "Fleuristes",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5727581,
-    "lng": -7.6275874,
-    "id": 544
+    "id": 516,
+    "quartier": "Racine",
+    "lat": 33.5923975,
+    "lng": -7.630267
   },
   {
     "name": "YOUMNI Boutique",
@@ -8171,10 +7751,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "2 Mars",
-    "lat": 33.5830685,
-    "lng": -7.6232795,
-    "id": 545
+    "id": 517,
+    "quartier": "Gauthier",
+    "lat": 33.5906013,
+    "lng": -7.625845
   },
   {
     "name": "Zakaria Boutique Bab Marrakesh",
@@ -8186,10 +7766,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "2 Mars",
-    "lat": 33.5828709,
-    "lng": -7.6253094,
-    "id": 546
+    "id": 518,
+    "quartier": "Anfa",
+    "lat": 33.5650955,
+    "lng": -7.6589603
   },
   {
     "name": "Casazaz",
@@ -8201,10 +7781,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5658171,
-    "lng": -7.6299366,
-    "id": 547
+    "id": 519,
+    "quartier": "Centre-ville",
+    "lat": 33.5921236,
+    "lng": -7.6114147
   },
   {
     "name": "Parlons Mode",
@@ -8216,10 +7796,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "2 Mars",
-    "lat": 33.5874637,
-    "lng": -7.628094,
-    "id": 548
+    "id": 520,
+    "quartier": "Gauthier",
+    "lat": 33.5865368,
+    "lng": -7.6179285
   },
   {
     "name": "MODA BLANCA",
@@ -8231,10 +7811,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Anfa",
-    "lat": 33.5707579,
-    "lng": -7.6654742,
-    "id": 549
+    "id": 521,
+    "quartier": "Maarif",
+    "lat": 33.5764597,
+    "lng": -7.6359725
   },
   {
     "name": "BORZANI MAARIF",
@@ -8246,10 +7826,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Centre-ville",
-    "lat": 33.5876665,
-    "lng": -7.61389,
-    "id": 550
+    "id": 522,
+    "quartier": "Maarif",
+    "lat": 33.5748141,
+    "lng": -7.6375507
   },
   {
     "name": "Sochic Maarif",
@@ -8261,10 +7841,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.5864214,
-    "lng": -7.6290343,
-    "id": 551
+    "id": 523,
+    "quartier": "2 Mars",
+    "lat": 33.58176,
+    "lng": -7.6337034
   },
   {
     "name": "Washma Prêt à Porter pour Femme",
@@ -8276,10 +7856,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.589015,
-    "lng": -7.6277136,
-    "id": 552
+    "id": 524,
+    "quartier": "2 Mars",
+    "lat": 33.5803511,
+    "lng": -7.6253667
   },
   {
     "name": "Skyzo Pret A Porter Femmes",
@@ -8291,10 +7871,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5802812,
-    "lng": -7.6328728,
-    "id": 553
+    "id": 525,
+    "quartier": "2 Mars",
+    "lat": 33.5783527,
+    "lng": -7.6239839
   },
   {
     "name": "BELLE DAME ( Prêt à porter )",
@@ -8306,10 +7886,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.5883295,
-    "lng": -7.6254424,
-    "id": 554
+    "id": 526,
+    "quartier": "Anfa",
+    "lat": 33.5777435,
+    "lng": -7.6662408
   },
   {
     "name": "Niswa",
@@ -8321,10 +7901,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 35,
-    "quartier": "Centre-ville",
-    "lat": 33.5898125,
-    "lng": -7.6144323,
-    "id": 555
+    "id": 527,
+    "quartier": "Maarif",
+    "lat": 33.5658645,
+    "lng": -7.6288289
   },
   {
     "name": "Master optic Maarif",
@@ -8336,10 +7916,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 35,
+    "id": 528,
     "quartier": "Gauthier",
-    "lat": 33.5858716,
-    "lng": -7.6250355,
-    "id": 556
+    "lat": 33.5842091,
+    "lng": -7.6244549
   },
   {
     "name": "ALTINE bijouterie",
@@ -8351,10 +7931,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.5836451,
-    "lng": -7.6203072,
-    "id": 557
+    "id": 529,
+    "quartier": "Maarif",
+    "lat": 33.5708238,
+    "lng": -7.6279283
   },
   {
     "name": "Bijouterie SADOUQ",
@@ -8366,10 +7946,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 35,
+    "id": 530,
     "quartier": "Anfa",
-    "lat": 33.5662149,
-    "lng": -7.6594308,
-    "id": 558
+    "lat": 33.5694426,
+    "lng": -7.6621792
   },
   {
     "name": "Groupe Lahlou Anfa",
@@ -8381,10 +7961,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5766042,
-    "lng": -7.6286813,
-    "id": 559
+    "id": 531,
+    "quartier": "Anfa",
+    "lat": 33.5727864,
+    "lng": -7.6550147
   },
   {
     "name": "Bijouterie Chakiri",
@@ -8396,10 +7976,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5666799,
-    "lng": -7.6301128,
-    "id": 560
+    "id": 532,
+    "quartier": "Gauthier",
+    "lat": 33.5846423,
+    "lng": -7.6261787
   },
   {
     "name": "Bijouterie Lalami",
@@ -8411,10 +7991,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 35,
-    "quartier": "Gauthier",
-    "lat": 33.59162,
-    "lng": -7.6194164,
-    "id": 561
+    "id": 533,
+    "quartier": "Maarif",
+    "lat": 33.5789501,
+    "lng": -7.6292173
   },
   {
     "name": "AZOR ®",
@@ -8426,10 +8006,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 35,
-    "quartier": "Centre-ville",
-    "lat": 33.5954147,
-    "lng": -7.615596,
-    "id": 562
+    "id": 534,
+    "quartier": "Gauthier",
+    "lat": 33.5825361,
+    "lng": -7.6238338
   },
   {
     "name": "Animal Expert Anfal",
@@ -8441,10 +8021,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5760462,
-    "lng": -7.63745,
-    "id": 563
+    "id": 535,
+    "quartier": "Bourgogne",
+    "lat": 33.5829428,
+    "lng": -7.6197384
   },
   {
     "name": "La passion canine val fleuri",
@@ -8456,10 +8036,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 35,
-    "quartier": "Hay Hassani",
-    "lat": 33.5638306,
-    "lng": -7.6635546,
-    "id": 564
+    "id": 536,
+    "quartier": "CIL",
+    "lat": 33.5681288,
+    "lng": -7.6193048
   },
   {
     "name": "Animalkom Maarif",
@@ -8471,10 +8051,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 35,
-    "quartier": "Bourgogne",
-    "lat": 33.5768874,
-    "lng": -7.6140925,
-    "id": 565
+    "id": 537,
+    "quartier": "Hay Hassani",
+    "lat": 33.5524055,
+    "lng": -7.6610683
   },
   {
     "name": "Animalerie - Pets Boutique",
@@ -8486,10 +8066,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 35,
-    "quartier": "Hay Hassani",
-    "lat": 33.5638816,
-    "lng": -7.6756402,
-    "id": 566
+    "id": 538,
+    "quartier": "Maarif",
+    "lat": 33.5677718,
+    "lng": -7.6363381
   },
   {
     "name": "Cabinet vétérinaire L’Hermitage - Urgences 24h/7",
@@ -8501,10 +8081,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 35,
+    "id": 539,
     "quartier": "Hay Hassani",
-    "lat": 33.5651736,
-    "lng": -7.6648154,
-    "id": 567
+    "lat": 33.5526161,
+    "lng": -7.6623336
   },
   {
     "name": "Clinique vétérinaire Soleil",
@@ -8516,10 +8096,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 35,
-    "quartier": "Maarif",
-    "lat": 33.5690864,
-    "lng": -7.6322649,
-    "id": 568
+    "id": 540,
+    "quartier": "Bourgogne",
+    "lat": 33.5762078,
+    "lng": -7.6196475
   },
   {
     "name": "Naqiago - Lavage auto à domicile sans eau",
@@ -8531,25 +8111,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 35,
-    "quartier": "Ain Diab",
-    "lat": 33.5977135,
-    "lng": -7.6631393,
-    "id": 569
-  },
-  {
-    "name": "Waterless services lavage auto de voiture à domicile professionnel écologique et silencieux sans eau mobile.",
-    "address": "",
-    "phone": "",
-    "rating": 0.0,
-    "reviews": 0,
-    "website": "",
-    "niche": "Lavage auto",
-    "tier": 3,
-    "score": 35,
-    "quartier": "Ain Diab",
-    "lat": 33.5879509,
-    "lng": -7.6617744,
-    "id": 570
+    "id": 541,
+    "quartier": "Oulfa",
+    "lat": 33.555011,
+    "lng": -7.5855044
   },
   {
     "name": "Clean Express Car Wash and Home Cleaning",
@@ -8561,10 +8126,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 35,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.5439359,
-    "lng": -7.6567854,
-    "id": 571
+    "id": 542,
+    "quartier": "Hay Hassani",
+    "lat": 33.5519656,
+    "lng": -7.6699517
   },
   {
     "name": "Az Detailing - Centre d'esthétique automobile et moto",
@@ -8576,10 +8141,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 35,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.5521384,
-    "lng": -7.6563968,
-    "id": 572
+    "id": 543,
+    "quartier": "Ain Diab",
+    "lat": 33.5995951,
+    "lng": -7.6639791
   },
   {
     "name": "Dr DETAILOR",
@@ -8591,10 +8156,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 35,
-    "quartier": "Oulfa",
-    "lat": 33.549826,
-    "lng": -7.5972288,
-    "id": 573
+    "id": 544,
+    "quartier": "California",
+    "lat": 33.5714247,
+    "lng": -7.663706
   },
   {
     "name": "Maison Matcha corner has finally landed in the heart of ...",
@@ -8606,10 +8171,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 33,
-    "quartier": "Gauthier",
-    "lat": 33.5862224,
-    "lng": -7.6248465,
-    "id": 574
+    "id": 545,
+    "quartier": "Centre-ville",
+    "lat": 33.5961612,
+    "lng": -7.6083126
   },
   {
     "name": "Clearspring Poudre de Thé Vert Japonais Matcha",
@@ -8621,10 +8186,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5669355,
-    "lng": -7.673796,
-    "id": 575
+    "id": 546,
+    "quartier": "Gauthier",
+    "lat": 33.5823378,
+    "lng": -7.6217024
   },
   {
     "name": "Thé vert Matcha en poudre BIO",
@@ -8636,25 +8201,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5778517,
-    "lng": -7.6659698,
-    "id": 576
-  },
-  {
-    "name": "Où puis",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://www.reddit.com/r/Morocco/comments/1fladej/where_can_i_buy_matcha/?tl=fr",
-    "niche": "Matcha",
-    "tier": 3,
-    "score": 33,
-    "quartier": "California",
-    "lat": 33.5635,
-    "lng": -7.6680469,
-    "id": 577
+    "id": 547,
+    "quartier": "Centre-ville",
+    "lat": 33.6022849,
+    "lng": -7.6120253
   },
   {
     "name": "After",
@@ -8666,10 +8216,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5682007,
-    "lng": -7.6552885,
-    "id": 578
+    "id": 548,
+    "quartier": "Ain Diab",
+    "lat": 33.5887579,
+    "lng": -7.6774742
   },
   {
     "name": "Terrasana Matcha Latte 120G",
@@ -8681,10 +8231,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5724293,
-    "lng": -7.65396,
-    "id": 579
+    "id": 549,
+    "quartier": "Hay Hassani",
+    "lat": 33.5489997,
+    "lng": -7.6729849
   },
   {
     "name": "Matcha Latte Fraise, 250ml",
@@ -8696,10 +8246,10 @@ export const LEADS = [
     "niche": "Matcha",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5692584,
-    "lng": -7.6774452,
-    "id": 580
+    "id": 550,
+    "quartier": "Bourgogne",
+    "lat": 33.5788214,
+    "lng": -7.6245343
   },
   {
     "name": "Gum Gum Bubble",
@@ -8711,10 +8261,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
+    "id": 551,
     "quartier": "Bourgogne",
-    "lat": 33.5828903,
-    "lng": -7.6160073,
-    "id": 581
+    "lat": 33.581415,
+    "lng": -7.6232136
   },
   {
     "name": "Bubble, Tea & Flavors 🧋",
@@ -8726,10 +8276,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5706732,
-    "lng": -7.6269675,
-    "id": 582
+    "id": 552,
+    "quartier": "Gauthier",
+    "lat": 33.5931859,
+    "lng": -7.6239046
   },
   {
     "name": "Gong cha Bubble Tea Anfa",
@@ -8741,10 +8291,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
-    "quartier": "Centre-ville",
-    "lat": 33.5913797,
-    "lng": -7.6107135,
-    "id": 583
+    "id": 553,
+    "quartier": "Racine",
+    "lat": 33.5898295,
+    "lng": -7.6330424
   },
   {
     "name": "bobaland",
@@ -8756,10 +8306,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5717648,
-    "lng": -7.6270285,
-    "id": 584
+    "id": 554,
+    "quartier": "Hay Hassani",
+    "lat": 33.5522188,
+    "lng": -7.6737985
   },
   {
     "name": "Bubble Tea Marrakech: Pop and Top",
@@ -8771,10 +8321,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5802611,
-    "lng": -7.6132757,
-    "id": 585
+    "id": 555,
+    "quartier": "Hay Hassani",
+    "lat": 33.5677868,
+    "lng": -7.6617317
   },
   {
     "name": "Paopao",
@@ -8786,10 +8336,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5842596,
-    "lng": -7.6333617,
-    "id": 586
+    "id": 556,
+    "quartier": "Gauthier",
+    "lat": 33.5856165,
+    "lng": -7.6178126
   },
   {
     "name": "Livraison Bubble King à Rabat",
@@ -8801,10 +8351,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
+    "id": 557,
     "quartier": "Centre-ville",
-    "lat": 33.5964568,
-    "lng": -7.6082318,
-    "id": 587
+    "lat": 33.5879719,
+    "lng": -7.6130446
   },
   {
     "name": "Bubble tea pearl",
@@ -8816,10 +8366,10 @@ export const LEADS = [
     "niche": "Bubble tea",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5765127,
-    "lng": -7.6188713,
-    "id": 588
+    "id": 558,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5526003,
+    "lng": -7.6477033
   },
   {
     "name": "cookies & MORE 🍪",
@@ -8831,10 +8381,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5776499,
-    "lng": -7.6293106,
-    "id": 589
+    "id": 559,
+    "quartier": "Gauthier",
+    "lat": 33.5829849,
+    "lng": -7.6218346
   },
   {
     "name": "Cookies",
@@ -8846,10 +8396,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5833803,
-    "lng": -7.6195756,
-    "id": 590
+    "id": 560,
+    "quartier": "Ain Diab",
+    "lat": 33.5993667,
+    "lng": -7.6633607
   },
   {
     "name": "Cake Design & Chocolat",
@@ -8861,10 +8411,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5806676,
-    "lng": -7.6562112,
-    "id": 591
+    "id": 561,
+    "quartier": "Hay Hassani",
+    "lat": 33.5560654,
+    "lng": -7.6747436
   },
   {
     "name": "Cookies & Muffins",
@@ -8876,10 +8426,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
+    "id": 562,
     "quartier": "Bourgogne",
-    "lat": 33.5797621,
-    "lng": -7.6169834,
-    "id": 592
+    "lat": 33.5749541,
+    "lng": -7.6165361
   },
   {
     "name": "Brownie au chocolat",
@@ -8891,10 +8441,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
+    "id": 563,
     "quartier": "Maarif",
-    "lat": 33.5662363,
-    "lng": -7.6290189,
-    "id": 593
+    "lat": 33.5760462,
+    "lng": -7.63745
   },
   {
     "name": "Brownie",
@@ -8906,10 +8456,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
+    "id": 564,
     "quartier": "Anfa",
-    "lat": 33.5755698,
-    "lng": -7.6645276,
-    "id": 594
+    "lat": 33.5781922,
+    "lng": -7.6526288
   },
   {
     "name": "Homemade brownies",
@@ -8921,10 +8471,10 @@ export const LEADS = [
     "niche": "Cookies",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5846302,
-    "lng": -7.6174248,
-    "id": 595
+    "id": 565,
+    "quartier": "Racine",
+    "lat": 33.5859874,
+    "lng": -7.6261925
   },
   {
     "name": "Purasana Poudre de Baies d'Açai 100G",
@@ -8936,10 +8486,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5669195,
-    "lng": -7.6710704,
-    "id": 596
+    "id": 566,
+    "quartier": "Anfa",
+    "lat": 33.5782347,
+    "lng": -7.6627001
   },
   {
     "name": "BOWL AÇAI – Restaurant Luigi Maarif",
@@ -8951,10 +8501,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 33,
-    "quartier": "Corniche",
-    "lat": 33.5984288,
-    "lng": -7.6667253,
-    "id": 597
+    "id": 567,
+    "quartier": "Hay Hassani",
+    "lat": 33.5585053,
+    "lng": -7.6603476
   },
   {
     "name": "Baies d'Acaï en Poudre توت الأساي مطحون",
@@ -8966,25 +8516,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5754894,
-    "lng": -7.629698,
-    "id": 598
-  },
-  {
-    "name": "Top 5 des restaurants avec bols d'açaï à Casablanc",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://fr.restaurantguru.com/acai-bowls-Casablanca-m8135",
-    "niche": "Acai",
-    "tier": 3,
-    "score": 33,
-    "quartier": "California",
-    "lat": 33.5714175,
-    "lng": -7.674891,
-    "id": 599
+    "id": 568,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5332784,
+    "lng": -7.6548621
   },
   {
     "name": "Le smoothie bowl des gourmand - #cezanne #restaurant ...",
@@ -8996,10 +8531,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5701318,
-    "lng": -7.6742247,
-    "id": 600
+    "id": 569,
+    "quartier": "Bourgogne",
+    "lat": 33.5762318,
+    "lng": -7.621482
   },
   {
     "name": "Boissons – Restaurant Luigi Maarif",
@@ -9011,10 +8546,10 @@ export const LEADS = [
     "niche": "Acai",
     "tier": 3,
     "score": 33,
-    "quartier": "Corniche",
-    "lat": 33.5949984,
-    "lng": -7.6620015,
-    "id": 601
+    "id": 570,
+    "quartier": "Bourgogne",
+    "lat": 33.5773836,
+    "lng": -7.6232608
   },
   {
     "name": "Crêperie Bretonne",
@@ -9026,10 +8561,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5807652,
-    "lng": -7.6333032,
-    "id": 602
+    "id": 571,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.535941,
+    "lng": -7.6431293
   },
   {
     "name": "Livraison Crêperie Suzette",
@@ -9041,10 +8576,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "CIL",
-    "lat": 33.5588052,
-    "lng": -7.6182839,
-    "id": 603
+    "id": 572,
+    "quartier": "Maarif",
+    "lat": 33.5743906,
+    "lng": -7.6347236
   },
   {
     "name": "crêpe'n'more on Instagram: \"Un large choix de crêpes ...",
@@ -9056,10 +8591,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "CIL",
-    "lat": 33.5699476,
-    "lng": -7.6140361,
-    "id": 604
+    "id": 573,
+    "quartier": "Maarif",
+    "lat": 33.5798589,
+    "lng": -7.6344645
   },
   {
     "name": "crepes & gaufres sucrees",
@@ -9071,10 +8606,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "Corniche",
-    "lat": 33.6021622,
-    "lng": -7.6552077,
-    "id": 605
+    "id": 574,
+    "quartier": "Anfa",
+    "lat": 33.569826,
+    "lng": -7.6652288
   },
   {
     "name": "Merry Gaufre",
@@ -9086,10 +8621,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
+    "id": 575,
     "quartier": "Corniche",
-    "lat": 33.593037,
-    "lng": -7.6653151,
-    "id": 606
+    "lat": 33.5958966,
+    "lng": -7.6639287
   },
   {
     "name": "Gaufres, churros, brioches",
@@ -9101,10 +8636,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "CIL",
-    "lat": 33.5582695,
-    "lng": -7.6213868,
-    "id": 607
+    "id": 576,
+    "quartier": "Hay Hassani",
+    "lat": 33.557098,
+    "lng": -7.6586
   },
   {
     "name": "Gaufre",
@@ -9116,10 +8651,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "Corniche",
-    "lat": 33.5953211,
-    "lng": -7.6615738,
-    "id": 608
+    "id": 577,
+    "quartier": "Centre-ville",
+    "lat": 33.595234,
+    "lng": -7.6046303
   },
   {
     "name": "Pancakes & Wafflez",
@@ -9131,10 +8666,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
+    "id": 578,
     "quartier": "Corniche",
-    "lat": 33.5943482,
-    "lng": -7.6690361,
-    "id": 609
+    "lat": 33.5970438,
+    "lng": -7.6588873
   },
   {
     "name": "Fuwa Fuwa",
@@ -9146,10 +8681,10 @@ export const LEADS = [
     "niche": "Creperies",
     "tier": 3,
     "score": 33,
-    "quartier": "CIL",
-    "lat": 33.5622961,
-    "lng": -7.6128685,
-    "id": 610
+    "id": 579,
+    "quartier": "Maarif",
+    "lat": 33.5761073,
+    "lng": -7.6275852
   },
   {
     "name": "Snack Café",
@@ -9161,10 +8696,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 33,
+    "id": 580,
     "quartier": "Centre-ville",
-    "lat": 33.5911794,
-    "lng": -7.6145641,
-    "id": 611
+    "lat": 33.5968318,
+    "lng": -7.6057365
   },
   {
     "name": "STREET FOOD",
@@ -9176,10 +8711,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 33,
-    "quartier": "Mers Sultan",
-    "lat": 33.5854121,
-    "lng": -7.6124341,
-    "id": 612
+    "id": 581,
+    "quartier": "Ain Diab",
+    "lat": 33.5970119,
+    "lng": -7.6747585
   },
   {
     "name": "moullmsamen",
@@ -9191,10 +8726,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 33,
-    "quartier": "Mers Sultan",
-    "lat": 33.5854971,
-    "lng": -7.609444,
-    "id": 613
+    "id": 582,
+    "quartier": "Ain Diab",
+    "lat": 33.59761,
+    "lng": -7.670719
   },
   {
     "name": "Msemen",
@@ -9206,10 +8741,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 33,
-    "quartier": "Mers Sultan",
-    "lat": 33.5906144,
-    "lng": -7.6139422,
-    "id": 614
+    "id": 583,
+    "quartier": "Ain Diab",
+    "lat": 33.5885973,
+    "lng": -7.6704156
   },
   {
     "name": "Mssemen nature individuel",
@@ -9221,25 +8756,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 33,
-    "quartier": "Derb Sultan",
-    "lat": 33.5946581,
-    "lng": -7.6034607,
-    "id": 615
-  },
-  {
-    "name": "Le top 5 restaurants fast",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://fr.restaurantguru.com/fast-food-Maarif-t11",
-    "niche": "Snacks",
-    "tier": 3,
-    "score": 33,
-    "quartier": "Centre-ville",
-    "lat": 33.5970502,
-    "lng": -7.6066464,
-    "id": 616
+    "id": 584,
+    "quartier": "Racine",
+    "lat": 33.5858751,
+    "lng": -7.6302677
   },
   {
     "name": "CHEF ANASS",
@@ -9251,10 +8771,10 @@ export const LEADS = [
     "niche": "Snacks",
     "tier": 3,
     "score": 33,
-    "quartier": "Oulfa",
-    "lat": 33.5599305,
-    "lng": -7.5830837,
-    "id": 617
+    "id": 585,
+    "quartier": "Racine",
+    "lat": 33.5907493,
+    "lng": -7.6292283
   },
   {
     "name": "Caroussel chocolatier: Chocolat belge, buffets et",
@@ -9266,10 +8786,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
+    "id": 586,
     "quartier": "Racine",
-    "lat": 33.5844617,
-    "lng": -7.6310553,
-    "id": 618
+    "lat": 33.5920221,
+    "lng": -7.6341205
   },
   {
     "name": "Coffrets cadeaux",
@@ -9281,25 +8801,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
-    "quartier": "Racine",
-    "lat": 33.592953,
-    "lng": -7.6347546,
-    "id": 619
-  },
-  {
-    "name": "LE TOP 5",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://lepetitjournal.com/casablanca/a-voir-a-faire/le-top-5-des-meilleures-chocolateries-de-casablanca-73090",
-    "niche": "Chocolatiers",
-    "tier": 3,
-    "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5714478,
-    "lng": -7.6379919,
-    "id": 620
+    "id": 587,
+    "quartier": "Gauthier",
+    "lat": 33.5900596,
+    "lng": -7.6287617
   },
   {
     "name": "𝐿𝑎 𝐵𝑜𝑢𝑟𝑔𝑒𝑜𝑖𝑠𝑒 ® Chocolaterie ...",
@@ -9311,10 +8816,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
+    "id": 588,
     "quartier": "Anfa",
-    "lat": 33.5822833,
-    "lng": -7.6580859,
-    "id": 621
+    "lat": 33.576821,
+    "lng": -7.6534147
   },
   {
     "name": "Pavé Chocolats",
@@ -9326,10 +8831,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
+    "id": 589,
     "quartier": "Racine",
-    "lat": 33.5881165,
-    "lng": -7.6282053,
-    "id": 622
+    "lat": 33.5856127,
+    "lng": -7.6309713
   },
   {
     "name": "Monde Du Chocolat",
@@ -9341,10 +8846,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5669373,
-    "lng": -7.6604126,
-    "id": 623
+    "id": 590,
+    "quartier": "Maarif",
+    "lat": 33.5776499,
+    "lng": -7.6293106
   },
   {
     "name": "DÔME: Accueil",
@@ -9356,10 +8861,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5709754,
-    "lng": -7.6613327,
-    "id": 624
+    "id": 591,
+    "quartier": "Racine",
+    "lat": 33.5924803,
+    "lng": -7.6316756
   },
   {
     "name": "Chocolate Factory",
@@ -9371,10 +8876,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
-    "quartier": "Gauthier",
-    "lat": 33.5871397,
-    "lng": -7.6198173,
-    "id": 625
+    "id": 592,
+    "quartier": "Anfa",
+    "lat": 33.5806676,
+    "lng": -7.6562112
   },
   {
     "name": "CHOCOLATE GALLERY",
@@ -9386,10 +8891,10 @@ export const LEADS = [
     "niche": "Chocolatiers",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5761368,
-    "lng": -7.666494,
-    "id": 626
+    "id": 593,
+    "quartier": "Racine",
+    "lat": 33.5888621,
+    "lng": -7.6290834
   },
   {
     "name": "Tam Traiteur",
@@ -9401,10 +8906,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5786216,
-    "lng": -7.6153772,
-    "id": 627
+    "id": 594,
+    "quartier": "Maarif",
+    "lat": 33.5662363,
+    "lng": -7.6290189
   },
   {
     "name": "Moments Catering",
@@ -9416,10 +8921,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 33,
+    "id": 595,
     "quartier": "Anfa",
-    "lat": 33.5731537,
-    "lng": -7.6503708,
-    "id": 628
+    "lat": 33.5755698,
+    "lng": -7.6645276
   },
   {
     "name": "Lamrini Traiteur on Instagram: \"Créer des instants ...",
@@ -9431,10 +8936,10 @@ export const LEADS = [
     "niche": "Traiteurs",
     "tier": 3,
     "score": 33,
+    "id": 596,
     "quartier": "Bourgogne",
-    "lat": 33.58341,
-    "lng": -7.6213655,
-    "id": 629
+    "lat": 33.5846302,
+    "lng": -7.6174248
   },
   {
     "name": "Om Yoga Studios",
@@ -9446,10 +8951,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 33,
+    "id": 597,
     "quartier": "California",
-    "lat": 33.5769693,
-    "lng": -7.6720433,
-    "id": 630
+    "lat": 33.5669195,
+    "lng": -7.6710704
   },
   {
     "name": "Shanti Espace Yoga",
@@ -9461,10 +8966,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5775653,
-    "lng": -7.6679525,
-    "id": 631
+    "id": 598,
+    "quartier": "Gauthier",
+    "lat": 33.5881216,
+    "lng": -7.6269439
   },
   {
     "name": "AYUN Collective",
@@ -9476,10 +8981,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 33,
+    "id": 599,
     "quartier": "Maarif",
-    "lat": 33.5698864,
-    "lng": -7.6275574,
-    "id": 632
+    "lat": 33.5754894,
+    "lng": -7.629698
   },
   {
     "name": "Yoga & méditation",
@@ -9491,10 +8996,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 33,
+    "id": 600,
     "quartier": "California",
-    "lat": 33.5699276,
-    "lng": -7.6743267,
-    "id": 633
+    "lat": 33.5714175,
+    "lng": -7.674891
   },
   {
     "name": "High Pilates Studio & more on Instagram: \"Le studio qui ...",
@@ -9506,10 +9011,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 33,
+    "id": 601,
     "quartier": "California",
-    "lat": 33.5762241,
-    "lng": -7.6727857,
-    "id": 634
+    "lat": 33.5701318,
+    "lng": -7.6742247
   },
   {
     "name": "RoofYoga",
@@ -9521,10 +9026,10 @@ export const LEADS = [
     "niche": "Yoga & Pilates",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5817742,
-    "lng": -7.6524511,
-    "id": 635
+    "id": 602,
+    "quartier": "Gauthier",
+    "lat": 33.5855488,
+    "lng": -7.6234011
   },
   {
     "name": "Fleuriste",
@@ -9536,10 +9041,10 @@ export const LEADS = [
     "niche": "Fleuristes",
     "tier": 3,
     "score": 33,
+    "id": 603,
     "quartier": "Gauthier",
-    "lat": 33.5880383,
-    "lng": -7.6183755,
-    "id": 636
+    "lat": 33.5865652,
+    "lng": -7.6287032
   },
   {
     "name": "Studio14",
@@ -9551,10 +9056,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
+    "id": 604,
     "quartier": "Centre-ville",
-    "lat": 33.5956777,
-    "lng": -7.6075009,
-    "id": 637
+    "lat": 33.5888052,
+    "lng": -7.6101839
   },
   {
     "name": "LINDA fashion",
@@ -9566,10 +9071,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5671919,
-    "lng": -7.6286203,
-    "id": 638
+    "id": 605,
+    "quartier": "Centre-ville",
+    "lat": 33.5999476,
+    "lng": -7.6059361
   },
   {
     "name": "MAARIF",
@@ -9581,10 +9086,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5715146,
-    "lng": -7.6356358,
-    "id": 639
+    "id": 606,
+    "quartier": "Anfa",
+    "lat": 33.5802028,
+    "lng": -7.6495096
   },
   {
     "name": "Boutique Maarif",
@@ -9596,10 +9101,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "Centre-ville",
-    "lat": 33.5988988,
-    "lng": -7.6124446,
-    "id": 640
+    "id": 607,
+    "quartier": "Anfa",
+    "lat": 33.5687962,
+    "lng": -7.6621438
   },
   {
     "name": "JAMCAM2 PRET A PORTER FEMMES.",
@@ -9611,10 +9116,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5788597,
-    "lng": -7.627552,
-    "id": 641
+    "id": 608,
+    "quartier": "Centre-ville",
+    "lat": 33.5882695,
+    "lng": -7.6132868
   },
   {
     "name": "Casa prêt à porter",
@@ -9626,10 +9131,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
+    "id": 609,
     "quartier": "Anfa",
-    "lat": 33.5714309,
-    "lng": -7.6505574,
-    "id": 642
+    "lat": 33.5716513,
+    "lng": -7.6574673
   },
   {
     "name": "Régalez vous chez Lilanis Store votre magasin de prêt à ...",
@@ -9641,10 +9146,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5705383,
-    "lng": -7.6358351,
-    "id": 643
+    "id": 610,
+    "quartier": "Anfa",
+    "lat": 33.5704353,
+    "lng": -7.6667951
   },
   {
     "name": "ARWA SHOP",
@@ -9656,10 +9161,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5765714,
-    "lng": -7.6343055,
-    "id": 644
+    "id": 611,
+    "quartier": "Centre-ville",
+    "lat": 33.5922961,
+    "lng": -7.6047685
   },
   {
     "name": "Mode femme, boutique de vêtements en ligne",
@@ -9671,10 +9176,10 @@ export const LEADS = [
     "niche": "Boutiques mode",
     "tier": 3,
     "score": 33,
-    "quartier": "Gauthier",
-    "lat": 33.5898,
-    "lng": -7.6242816,
-    "id": 645
+    "id": 612,
+    "quartier": "Maarif",
+    "lat": 33.5692794,
+    "lng": -7.6348641
   },
   {
     "name": "Opticien ALAIN AFFLELOU C.C. O VILLAGE Avenue Abou",
@@ -9686,10 +9191,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5827334,
-    "lng": -7.6310164,
-    "id": 646
+    "id": 613,
+    "quartier": "Gauthier",
+    "lat": 33.5869521,
+    "lng": -7.6280677
   },
   {
     "name": "Contacter nous",
@@ -9701,10 +9206,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5816117,
-    "lng": -7.6202811,
-    "id": 647
+    "id": 614,
+    "quartier": "Gauthier",
+    "lat": 33.5826672,
+    "lng": -7.6241876
   },
   {
     "name": "Lunettes de soleil de créateur pour homme",
@@ -9716,10 +9221,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5776657,
-    "lng": -7.6344029,
-    "id": 648
+    "id": 615,
+    "quartier": "2 Mars",
+    "lat": 33.5850342,
+    "lng": -7.6239442
   },
   {
     "name": "RAYZ Eyewear: Lunettes optiques et solaires au Mar",
@@ -9731,10 +9236,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5865939,
-    "lng": -7.6283151,
-    "id": 649
+    "id": 616,
+    "quartier": "Maarif",
+    "lat": 33.5669612,
+    "lng": -7.6352107
   },
   {
     "name": "Drlunettes: Lunettes de vue et de soleil hommes et",
@@ -9746,10 +9251,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5841639,
-    "lng": -7.6298071,
-    "id": 650
+    "id": 617,
+    "quartier": "Gauthier",
+    "lat": 33.5914837,
+    "lng": -7.6229596
   },
   {
     "name": "LNKO",
@@ -9761,10 +9266,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "2 Mars",
-    "lat": 33.5812193,
-    "lng": -7.6225967,
-    "id": 651
+    "id": 618,
+    "quartier": "Gauthier",
+    "lat": 33.5850713,
+    "lng": -7.6217387
   },
   {
     "name": "Epoptique: Lunettes de vue et Lunettes de soleil a",
@@ -9776,10 +9281,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5824456,
-    "lng": -7.6152358,
-    "id": 652
+    "id": 619,
+    "quartier": "2 Mars",
+    "lat": 33.585653,
+    "lng": -7.6317546
   },
   {
     "name": "Centre Optique Maarif",
@@ -9791,10 +9296,10 @@ export const LEADS = [
     "niche": "Opticiens",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5798052,
-    "lng": -7.620875,
-    "id": 653
+    "id": 620,
+    "quartier": "Maarif",
+    "lat": 33.5714478,
+    "lng": -7.6379919
   },
   {
     "name": "Bijoux de créateur pour homme",
@@ -9806,10 +9311,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
+    "id": 621,
     "quartier": "Gauthier",
-    "lat": 33.5889883,
-    "lng": -7.627937,
-    "id": 654
+    "lat": 33.59217,
+    "lng": -7.6234515
   },
   {
     "name": "Minimoon Store",
@@ -9821,10 +9326,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Centre-ville",
-    "lat": 33.598368,
-    "lng": -7.6052389,
-    "id": 655
+    "id": 622,
+    "quartier": "Anfa",
+    "lat": 33.5730276,
+    "lng": -7.6533421
   },
   {
     "name": "Rafinity fashion store",
@@ -9836,10 +9341,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Anfa",
-    "lat": 33.5784921,
-    "lng": -7.6646468,
-    "id": 656
+    "id": 623,
+    "quartier": "Gauthier",
+    "lat": 33.5829624,
+    "lng": -7.6248475
   },
   {
     "name": "Maison Ayla",
@@ -9851,10 +9356,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5702993,
-    "lng": -7.6301875,
-    "id": 657
+    "id": 624,
+    "quartier": "Gauthier",
+    "lat": 33.5853853,
+    "lng": -7.6253996
   },
   {
     "name": "Maison Azuelos",
@@ -9866,10 +9371,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
+    "id": 625,
     "quartier": "Centre-ville",
-    "lat": 33.5873123,
-    "lng": -7.6108036,
-    "id": 658
+    "lat": 33.5941196,
+    "lng": -7.6071231
   },
   {
     "name": "Rafinity.co.ma",
@@ -9881,10 +9386,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5727974,
-    "lng": -7.6277419,
-    "id": 659
+    "id": 626,
+    "quartier": "Gauthier",
+    "lat": 33.5884821,
+    "lng": -7.6284964
   },
   {
     "name": "Passion",
@@ -9896,10 +9401,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Gauthier",
-    "lat": 33.5913068,
-    "lng": -7.6244419,
-    "id": 660
+    "id": 627,
+    "quartier": "Anfa",
+    "lat": 33.5723694,
+    "lng": -7.6521287
   },
   {
     "name": "Merveilleuse Bijouterie",
@@ -9911,10 +9416,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Maarif",
-    "lat": 33.5727224,
-    "lng": -7.627007,
-    "id": 661
+    "id": 628,
+    "quartier": "Gauthier",
+    "lat": 33.5866922,
+    "lng": -7.6188225
   },
   {
     "name": "JOAILLERIE",
@@ -9926,10 +9431,10 @@ export const LEADS = [
     "niche": "Bijouteries",
     "tier": 3,
     "score": 33,
-    "quartier": "Centre-ville",
-    "lat": 33.5983611,
-    "lng": -7.6105171,
-    "id": 662
+    "id": 629,
+    "quartier": "Anfa",
+    "lat": 33.58035,
+    "lng": -7.6621091
   },
   {
     "name": "Animarok",
@@ -9941,10 +9446,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 33,
+    "id": 630,
     "quartier": "Hay Hassani",
-    "lat": 33.5654616,
-    "lng": -7.6614276,
-    "id": 663
+    "lat": 33.5704539,
+    "lng": -7.673065
   },
   {
     "name": "Pet Me !",
@@ -9956,10 +9461,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 33,
+    "id": 631,
     "quartier": "Hay Hassani",
-    "lat": 33.5563878,
-    "lng": -7.6791722,
-    "id": 664
+    "lat": 33.571348,
+    "lng": -7.6669287
   },
   {
     "name": "Service d'Urgence Animal",
@@ -9971,10 +9476,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 33,
-    "quartier": "Hay Hassani",
-    "lat": 33.5555843,
-    "lng": -7.6651499,
-    "id": 665
+    "id": 632,
+    "quartier": "Maarif",
+    "lat": 33.5698864,
+    "lng": -7.6275574
   },
   {
     "name": "veterinaire",
@@ -9986,10 +9491,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 33,
-    "quartier": "Bourgogne",
-    "lat": 33.5759575,
-    "lng": -7.6183147,
-    "id": 666
+    "id": 633,
+    "quartier": "Hay Hassani",
+    "lat": 33.5598915,
+    "lng": -7.6764901
   },
   {
     "name": "Clinique Vétérinaire Elkohen",
@@ -10001,10 +9506,10 @@ export const LEADS = [
     "niche": "Animaleries",
     "tier": 3,
     "score": 33,
+    "id": 634,
     "quartier": "Hay Hassani",
-    "lat": 33.5520124,
-    "lng": -7.6653332,
-    "id": 667
+    "lat": 33.5693362,
+    "lng": -7.6741785
   },
   {
     "name": "Wash : Votre véhicule propre en moins de 10 minute",
@@ -10016,25 +9521,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5703348,
-    "lng": -7.6772445,
-    "id": 668
-  },
-  {
-    "name": "lavage auto à domicile tarif",
-    "address": "",
-    "phone": "",
-    "rating": 0,
-    "reviews": 0,
-    "website": "https://oblama.ma/lavage-auto-a-domicile-tarif/",
-    "niche": "Lavage auto",
-    "tier": 3,
-    "score": 33,
+    "id": 635,
     "quartier": "Hay Hassani",
-    "lat": 33.560754,
-    "lng": -7.6800997,
-    "id": 669
+    "lat": 33.5681291,
+    "lng": -7.6633413
   },
   {
     "name": "Naqiago",
@@ -10046,10 +9536,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "Ain Diab",
-    "lat": 33.5959122,
-    "lng": -7.6729812,
-    "id": 670
+    "id": 636,
+    "quartier": "Hay Hassani",
+    "lat": 33.5604766,
+    "lng": -7.659951
   },
   {
     "name": "Alkhairy Shine",
@@ -10061,10 +9551,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5648625,
-    "lng": -7.670919,
-    "id": 671
+    "id": 637,
+    "quartier": "Ain Diab",
+    "lat": 33.5938472,
+    "lng": -7.6645011
   },
   {
     "name": "TEAM CARWASH",
@@ -10076,10 +9566,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "Ain Diab",
-    "lat": 33.6000046,
-    "lng": -7.6640397,
-    "id": 672
+    "id": 638,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5331379,
+    "lng": -7.6476305
   },
   {
     "name": "Nettoyo",
@@ -10091,10 +9581,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "Ain Diab",
-    "lat": 33.5952608,
-    "lng": -7.662707,
-    "id": 673
+    "id": 639,
+    "quartier": "Sidi Maarouf",
+    "lat": 33.5396219,
+    "lng": -7.6581537
   },
   {
     "name": "LAVAGE ET ESTHÉTIQUE AUTO",
@@ -10106,10 +9596,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "Hay Hassani",
-    "lat": 33.555736,
-    "lng": -7.6620216,
-    "id": 674
+    "id": 640,
+    "quartier": "Ain Diab",
+    "lat": 33.5978735,
+    "lng": -7.6706808
   },
   {
     "name": "Platinum Wash",
@@ -10121,10 +9611,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "Sidi Maarouf",
-    "lat": 33.5376067,
-    "lng": -7.6623814,
-    "id": 675
+    "id": 641,
+    "quartier": "California",
+    "lat": 33.5658129,
+    "lng": -7.6694027
   },
   {
     "name": "AZ Detailing",
@@ -10136,10 +9626,10 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
-    "quartier": "California",
-    "lat": 33.5750327,
-    "lng": -7.6667643,
-    "id": 676
+    "id": 642,
+    "quartier": "Oulfa",
+    "lat": 33.5514309,
+    "lng": -7.5825574
   },
   {
     "name": "Nettoy'art Detailing",
@@ -10151,9 +9641,9 @@ export const LEADS = [
     "niche": "Lavage auto",
     "tier": 3,
     "score": 33,
+    "id": 643,
     "quartier": "Sidi Maarouf",
-    "lat": 33.5333869,
-    "lng": -7.6504054,
-    "id": 677
+    "lat": 33.5381575,
+    "lng": -7.6584526
   }
 ];

@@ -21,6 +21,28 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- LOGIN SCREEN -->
+  <div class="login-overlay" id="loginOverlay">
+    <div class="login-card">
+      <div class="login-logo">PUSH</div>
+      <p class="login-subtitle">Closer Map — Casablanca</p>
+      <div class="login-closers" id="loginClosers">
+        <button class="closer-btn" data-id="anes"><span>🔴</span> Anes</button>
+        <button class="closer-btn" data-id="zack"><span>🟣</span> Zack</button>
+        <button class="closer-btn" data-id="hajj"><span>🟠</span> Hajj</button>
+        <button class="closer-btn" data-id="yacine"><span>🟢</span> Yacine</button>
+        <button class="closer-btn closer-admin" data-id="sonny">Sonny</button>
+      </div>
+      <div class="login-form" id="loginForm" style="display:none">
+        <p id="loginName" style="font-weight:700;font-size:1.1rem;margin-bottom:12px;"></p>
+        <input type="password" id="loginPassword" class="login-input" placeholder="Mot de passe" autocomplete="off">
+        <button class="login-submit" id="loginSubmit">Entrer</button>
+        <button class="login-back" id="loginBack">← Retour</button>
+        <p class="login-error" id="loginError" style="display:none">Mot de passe incorrect</p>
+      </div>
+    </div>
+  </div>
+
   <!-- Header -->
   <header class="header">
     <div class="header-left">
@@ -35,7 +57,7 @@
       <div class="search-results" id="searchResults"></div>
     </div>
     <div class="header-right">
-      <span class="lead-count" id="leadCount">643</span>
+      <span class="lead-count" id="leadCount">247</span>
       <button class="btn-icon" id="btnStats" aria-label="Stats">
         <span class="material-symbols-outlined">bar_chart</span>
       </button>

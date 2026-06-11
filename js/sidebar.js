@@ -70,6 +70,16 @@ export function openSheet(lead) {
           <span class="material-symbols-outlined">language</span>
           <a href="${lead.website}" target="_blank">${domain}</a>
         </div>` : ''}
+        ${lead.instagram ? `
+        <div class="biz-row">
+          <span class="material-symbols-outlined">photo_camera</span>
+          <span style="color:#E1306C;font-weight:600">${lead.instagram}</span>
+        </div>` : ''}
+        ${lead.tiktok ? `
+        <div class="biz-row">
+          <span class="material-symbols-outlined">music_note</span>
+          <span style="color:#000;font-weight:600">${lead.tiktok}</span>
+        </div>` : ''}
       </div>
     </div>
 

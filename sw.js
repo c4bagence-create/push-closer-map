@@ -1,15 +1,17 @@
-const CACHE_NAME = 'push-closer-map-v4';
+const CACHE_NAME = 'push-closer-map-v5';
 const ASSETS = [
   '/',
   '/index.html',
   '/css/styles.css',
   '/js/app.js',
+  '/js/closers.js',
   '/js/niches.js',
   '/js/zones.js',
   '/js/data.js',
   '/js/sidebar.js',
   '/js/filters.js',
   '/js/store.js',
+  '/js/supabase.js',
   '/manifest.json'
 ];
 

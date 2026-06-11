@@ -659,3 +659,84 @@ body {
   }
   .modal-overlay { align-items: center; }
 }
+
+/* ===== LOGIN SCREEN ===== */
+.login-overlay {
+  position: fixed; inset: 0; z-index: 9999;
+  background: linear-gradient(135deg, #FF3B7F 0%, #7C5CFF 100%);
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity 0.4s; padding: 20px;
+}
+.login-overlay.hidden { opacity: 0; pointer-events: none; }
+.login-card {
+  background: white; border-radius: 24px; padding: 40px 32px; width: 100%; max-width: 380px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2); text-align: center;
+}
+.login-logo {
+  font-size: 3rem; font-weight: 900; letter-spacing: -1px;
+  background: linear-gradient(135deg, #FF3B7F, #7C5CFF);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 4px;
+}
+.login-subtitle { color: #888; font-size: 0.9rem; margin-bottom: 28px; }
+.login-closers { display: flex; flex-direction: column; gap: 10px; }
+.closer-btn {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 20px; border-radius: 14px; border: 2px solid #eee;
+  background: white; font-size: 1rem; font-weight: 600; cursor: pointer;
+  transition: all 0.2s; font-family: inherit;
+}
+.closer-btn:hover { border-color: #FF3B7F; background: #fff5f8; transform: translateY(-1px); }
+.closer-btn span { font-size: 1.3rem; }
+.closer-admin { border-color: #FFD700; background: #fffdf0; }
+.closer-admin:hover { border-color: #FFD700; background: #fff8d0; }
+.login-input {
+  width: 100%; padding: 14px 18px; border-radius: 12px; border: 2px solid #eee;
+  font-size: 1rem; font-family: inherit; margin-bottom: 12px;
+  transition: border-color 0.2s;
+}
+.login-input:focus { outline: none; border-color: #7C5CFF; }
+.login-submit {
+  width: 100%; padding: 14px; border: none; border-radius: 12px;
+  background: linear-gradient(135deg, #FF3B7F, #7C5CFF); color: white;
+  font-size: 1rem; font-weight: 700; cursor: pointer; font-family: inherit;
+  transition: transform 0.2s;
+}
+.login-submit:hover { transform: translateY(-1px); }
+.login-back {
+  background: none; border: none; color: #888; margin-top: 12px;
+  cursor: pointer; font-size: 0.9rem; font-family: inherit;
+}
+.login-error { color: #FF3B7F; font-size: 0.85rem; margin-top: 8px; font-weight: 600; }
+
+/* ===== CLOSER INDICATOR (header) ===== */
+.closer-indicator {
+  display: flex; align-items: center; gap: 8px;
+  padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600;
+  cursor: pointer;
+}
+.closer-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+/* ===== FERRARI CAR MARKERS (Snap Map style) ===== */
+.car-marker {
+  transition: transform 0.5s ease-out;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+}
+.car-marker .car-icon {
+  font-size: 28px; line-height: 1;
+  transition: transform 0.3s;
+}
+.car-marker .car-label {
+  position: absolute; top: -18px; left: 50%; transform: translateX(-50%);
+  background: white; padding: 2px 8px; border-radius: 8px;
+  font-size: 10px; font-weight: 700; white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* ===== ZONE BADGE (closer view) ===== */
+.zone-banner {
+  position: fixed; bottom: calc(16px + var(--safe-bottom)); left: 50%; transform: translateX(-50%);
+  z-index: 500; padding: 8px 20px; border-radius: 20px;
+  background: rgba(0,0,0,0.8); color: white; font-size: 0.85rem; font-weight: 600;
+  backdrop-filter: blur(8px); pointer-events: none;
+}

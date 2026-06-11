@@ -1,4 +1,4 @@
-const CACHE_NAME = 'push-closer-map-v5';
+const CACHE_NAME = 'push-closer-map-v6';
 const ASSETS = [
   '/',
   '/index.html',

@@ -709,6 +709,26 @@ body {
 }
 .login-error { color: #FF3B7F; font-size: 0.85rem; margin-top: 8px; font-weight: 600; }
 
+/* ===== WHY SECTION (potentiel de closing) ===== */
+.why-section {
+  margin: 16px 0; padding: 16px; border-radius: 14px;
+  background: linear-gradient(135deg, #fff5f8, #f5f0ff);
+  border: 1px solid rgba(255, 59, 127, 0.12);
+}
+.why-title {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.9rem; font-weight: 700; margin-bottom: 12px;
+  color: var(--on-surface);
+}
+.why-list { display: flex; flex-direction: column; gap: 10px; }
+.why-item {
+  display: flex; gap: 10px; align-items: flex-start;
+  padding: 10px 12px; border-radius: 10px; background: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.why-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+.why-text { font-size: 0.82rem; color: #333; line-height: 1.45; }
+
 /* ===== CLOSER INDICATOR (header) ===== */
 .closer-indicator {
   display: flex; align-items: center; gap: 8px;

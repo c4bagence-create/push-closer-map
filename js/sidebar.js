@@ -9,6 +9,72 @@ const content = document.getElementById('sheetContent');
 let currentLead = null;
 let crmOpen = false;
 
+function buildWhyReasons(lead, niche) {
+  const reasons = [];
+
+  // Instagram/TikTok = invests in visibility
+  if (lead.instagram) {
+    reasons.push({ icon: '📸', text: `Actif sur Instagram (${lead.instagram}) — il investit deja dans sa visibilite, Push est la suite logique` });
+  }
+  if (lead.tiktok) {
+    reasons.push({ icon: '🎵', text: `Present sur TikTok — il cherche a attirer des clients via le digital, Push les fidelise` });
+  }
+
+  // Google reviews = traffic
+  if (lead.reviews >= 500) {
+    reasons.push({ icon: '🔥', text: `${lead.reviews} avis Google — gros volume de clients qui passent, enorme potentiel de fidelisation` });
+  } else if (lead.reviews >= 100) {
+    reasons.push({ icon: '💬', text: `${lead.reviews} avis Google — bonne frequentation, ces clients peuvent etre fidelises avec Push` });
+  }
+
+  // High rating = good business
+  if (lead.rating >= 4.5) {
+    reasons.push({ icon: '⭐', text: `Note ${lead.rating}/5 — commerce de qualite, les clients aiment deja, il faut juste les faire revenir` });
+  } else if (lead.rating >= 4.0) {
+    reasons.push({ icon: '⭐', text: `Note ${lead.rating}/5 — les clients apprecient, Push transforme cette satisfaction en fidelite` });
+  }
+
+  // Has website = already digital
+  if (lead.website && !lead.instagram) {
+    reasons.push({ icon: '🌐', text: `A un site web — deja dans une demarche digitale, Push complete son ecosysteme` });
+  }
+
+  // No website = needs digital help
+  if (!lead.website && !lead.instagram) {
+    reasons.push({ icon: '📱', text: `Aucune presence digitale — Push serait son PREMIER outil digital, argument fort` });
+  }
+
+  // Phone available = easy contact
+  if (lead.phone) {
+    reasons.push({ icon: '📞', text: `Telephone dispo — tu peux appeler avant de passer pour confirmer le RDV` });
+  }
+
+  // Niche-specific reasons
+  const tier = lead.tier || 3;
+  if (tier === 1) {
+    reasons.push({ icon: '🔄', text: `${lead.niche} = clients qui reviennent TOUS LES JOURS — la fidelite est naturelle, Push la capture` });
+  } else if (tier === 2) {
+    reasons.push({ icon: '📅', text: `${lead.niche} = visites recurrentes (1-4x/mois) — le programme fidelite les empeche d'aller chez le concurrent` });
+  }
+
+  // Niche frequency
+  if (niche?.frequency) {
+    reasons.push({ icon: '⏱️', text: `Frequence client : ${niche.frequency}` });
+  }
+
+  // Address = you know where to go
+  if (lead.address) {
+    reasons.push({ icon: '📍', text: `Adresse connue — va directement sur place, pas de temps perdu` });
+  }
+
+  // If very few reasons, add a generic motivational one
+  if (reasons.length < 3) {
+    reasons.push({ icon: '💡', text: `PennyMood (boutique mode femme) a ete close a Casa — preuve que meme les niches inattendues marchent` });
+  }
+
+  return reasons.slice(0, 5); // Max 5 reasons
+}
+
 function scoreLabel(score) {
   if (score >= 70) return { text: 'Chaud', icon: 'trending_up' };
   if (score >= 50) return { text: 'Bon potentiel', icon: 'trending_up' };
@@ -124,6 +190,22 @@ export function openSheet(lead) {
           <span class="material-symbols-outlined">${sl.icon}</span>
           ${sl.text}
         </span>
+      </div>
+    </div>
+
+    <!-- POURQUOI CE COMMERCE -->
+    <div class="why-section">
+      <div class="why-title">
+        <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;color:#FF3B7F">local_fire_department</span>
+        Pourquoi ce commerce a du potentiel
+      </div>
+      <div class="why-list">
+        ${buildWhyReasons(lead, niche).map(r => `
+          <div class="why-item">
+            <span class="why-icon">${r.icon}</span>
+            <div class="why-text">${r.text}</div>
+          </div>
+        `).join('')}
       </div>
     </div>
 
